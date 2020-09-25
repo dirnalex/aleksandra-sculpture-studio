@@ -1,25 +1,55 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import {HashRouter as Router, Route, Switch} from 'react-router-dom';
+import {createGlobalStyle} from 'styled-components';
+
+import LanguageSelectPage from './pages/LanguageSelectPage';
+import Internationalize from './components/Internationalize';
+
+import InternationalizedApp from './InternationalizedApp';
+
+const AppStyle = createGlobalStyle`
+  body {
+    background: #E5E5E5;
+    color: black;
+    font-size: 16px;
+    line-height: 125%;
+    letter-spacing: 0.055em;
+    text-transform: uppercase;
+  }
+  
+  a {
+    color: inherit;
+    text-decoration: inherit;
+  }
+
+  ul, ol {
+    list-style: none;
+  }
+  
+  ul, ol {
+    padding: 0;
+  }
+  
+  body, h1, h2, h3, h4, p, ul, ol, li, figure, figcaption, blockquote, dl, dd {
+    margin: 0;
+  }
+`;
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <AppStyle/>
+      <Switch>
+        <Route exact path="/">
+          <LanguageSelectPage/>
+        </Route>
+        <Route path="/:locale">
+          <Internationalize>
+            <InternationalizedApp/>
+          </Internationalize>
+        </Route>
+      </Switch>
+    </Router>
   );
 }
 
