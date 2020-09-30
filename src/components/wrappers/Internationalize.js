@@ -1,7 +1,7 @@
 import React from 'react';
 import {useRouteMatch} from 'react-router-dom';
 
-import messages from '../translations';
+import messages from '../../translations';
 import {IntlProvider} from 'react-intl';
 
 const Internationalize = ({children}) => {

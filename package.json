@@ -7,6 +7,7 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "react": "^16.13.1",
+    "react-cursor-follow": "^2.0.0",
     "react-dom": "^16.13.1",
     "react-intl": "^5.8.2",
     "react-router-dom": "^5.2.0",
