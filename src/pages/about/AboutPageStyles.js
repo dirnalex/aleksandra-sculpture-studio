@@ -1,7 +1,7 @@
 import styled from 'styled-components';
-import Carousel from '../../components/Carousel';
+import HorizontalScroll from '../../components/HorizontalScroll';
 
-export const StyledCarousel = styled(Carousel)`
+export const StyledHorizontalScroll = styled(HorizontalScroll)`
   width: 100vw;
   height: 100vh;
 `;

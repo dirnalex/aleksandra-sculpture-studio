@@ -2,20 +2,15 @@ import React from 'react';
 
 import AboutFirstPage from './AboutFirstPage';
 import AboutSecondPage from './AboutSecondPage';
-import ConnectParamToLastPartOfRoute from '../../components/wrappers/ConnectParamToLastPartOfRoute';
 
-import {StyledCarousel} from './AboutPageStyles';
+import {StyledHorizontalScroll} from './AboutPageStyles';
 
-const AboutPage = props => {
+const AboutPage = () => {
   return (
-    <ConnectParamToLastPartOfRoute defaultParam="0">
-      {(param, changeRouteParam) => (
-        <StyledCarousel initialPage={param} onPageChange={changeRouteParam}>
-          <AboutFirstPage/>
-          <AboutSecondPage/>
-        </StyledCarousel>
-      )}
-    </ConnectParamToLastPartOfRoute>
+    <StyledHorizontalScroll>
+      <AboutFirstPage/>
+      <AboutSecondPage/>
+    </StyledHorizontalScroll>
   );
 };
 

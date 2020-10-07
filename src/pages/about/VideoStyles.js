@@ -4,14 +4,16 @@ export const StyledWrapper = styled.div`
   width: 100%;
   height: 100%;
   box-sizing: border-box;
-  padding: 50px 210px 50px 240px;
   display: flex;
   justify-content: center;
   align-items: center;
+  position:relative;
 `;
+
 export const StyledVideo = styled.video` 
   cursor: pointer;
 `;
+
 export const StyledTitle = styled.div`
   position: absolute;
   left: 50%;

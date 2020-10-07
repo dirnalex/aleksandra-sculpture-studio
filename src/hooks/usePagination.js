@@ -1,48 +1,62 @@
-import {useState} from 'react';
+import {useEffect, useState} from 'react';
+import usePrevious from './usePrevious';
 
 const getSafePage = (page, size) => {
-  const numericPage = parseInt(page);
+  const numericPage = Number(page);
   let safePage = 0;
-  let feltBack = true;
   if (Number.isInteger(numericPage) && numericPage >= 0 && numericPage < size) {
     safePage = numericPage;
-    feltBack = false;
   }
-  return {safePage, feltBack};
+  return safePage;
 };
 
-export default (initialPage, size, onPageChange) => {
-  console.log(`Init with initialPage = ${initialPage}, size = ${size}, onPageChange = ${onPageChange}`);
-  const {safePage: safeInitialPage, feltBack} = getSafePage(initialPage, size);
-  if (feltBack) {
-    console.log("Init fallback");
-    onPageChange(safeInitialPage);
-  }
-  const [page, setPage] = useState(safeInitialPage);
+const noop = () => {
+};
 
-  const safeSetPage = (page) => {
-    const {safePage: pageToGo} = getSafePage(page, size);
-    setPage(pageToGo);
-    console.log("Set page");
-    onPageChange(pageToGo);
+export default (pageFromOutside = 0, size = 0, onPageChange = noop) => {
+  const [page, setPage] = useState(getSafePage(pageFromOutside, size));
+  const prevPage = usePrevious(page);
+
+  useEffect(() => {
+    console.debug(`Page from outside (${pageFromOutside}) or size (${size}) changed`);
+    const safePageFromOutside = getSafePage(pageFromOutside, size);
+    console.debug(`Safe page from outside is ${safePageFromOutside}`);
+    if (safePageFromOutside !== page) {
+      console.debug(`Safe page from outside (${safePageFromOutside}) differs from current. Changing page.`);
+      setPage(safePageFromOutside);
+    }
+  }, [pageFromOutside, size]);
+
+  useEffect(() => {
+    console.debug(`Page changed to ${page}`);
+    onPageChange(page, prevPage);
+  }, [page]);
+
+  const safeSetPage = (pageToSet) => {
+    console.debug(`Safe setting the page ${pageToSet}`);
+    const safePageToSet = getSafePage(pageToSet, size);
+    console.debug(`Safe page is ${safePageToSet}`);
+    setPage(safePageToSet);
   };
 
   const incrementPage = () => {
-    console.log("Increment");
+    console.debug(`Trying to increment page ${page}`);
     if (page < size - 1) {
-      safeSetPage(page + 1);
+      console.debug(`Incrementing page ${page}`);
+      setPage(page + 1);
     }
   };
 
   const decrementPage = () => {
-    console.log("Decrement");
+    console.debug(`Trying to decrement page ${page}`);
     if (page > 0) {
-      safeSetPage(page - 1);
+      console.debug(`Decrementing page ${page}`);
+      setPage(page - 1);
     }
   };
 
   const isFirstPage = page === 0;
   const isLastPage = page === size - 1;
 
-  return {page, setPage: safeSetPage, incrementPage, decrementPage, isFirstPage, isLastPage}
+  return {page, prevPage, setPage: safeSetPage, incrementPage, decrementPage, isFirstPage, isLastPage}
 }
