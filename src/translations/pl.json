@@ -1,8 +1,10 @@
 {
-  "menu.home": "głowna",
+  "less": "mniej",
+  "more": "więcej",
+  "menu.start": "głowna",
   "menu.about": "o mnie",
   "menu.work": "prace",
   "menu.contact": "kontakt",
-  "about.0.text": "Aleksandra Józefów to współczesna rzeźbiarka mieszkająca i tworząca w Gdańsku. W swojej sztuce wykorzystuje mocne, brutalne, wytrzymałe materiały - beton, metal, drewno czy szkło, a także klasyczny marmur czy granit. Tak czy inaczej - są interpretowane w innowacyjny i nowoczesny, a jednocześnie wnikliwy, wrażliwy i przemyślany sposób.",
-  "about.1.video.title": "volumen"
+  "works.prev": "poprzedni projekt",
+  "works.next": "następny projekt"
 }

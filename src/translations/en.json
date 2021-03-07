@@ -1,8 +1,10 @@
 {
-  "menu.home": "home",
+  "less": "less",
+  "more": "more",
+  "menu.start": "start",
   "menu.about": "about",
   "menu.work": "work",
   "menu.contact": "contact",
-  "about.0.text": "Aleksandra Józefów is a modern sculpture artist who lives and creates in Gdańsk. In her art she uses strong, brutal, resistant materials- like concrete, metal, wood or glass, as well as cllasic marble or granite. Either way- they‘re interpreted in innovative and modern yet at the same time perspicacious, sensitive and thoughtful way.",
-  "about.1.video.title": "volumen"
+  "works.prev": "prev project",
+  "works.next": "next project"
 }

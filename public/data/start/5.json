@@ -1,0 +1,16 @@
+{
+  "WorkVideoPage": {
+    "link": "/video/video.mp4",
+    "title": {
+      "pl": "Volumen",
+      "en": "Volumen"
+    },
+    "workLink": {
+      "text": {
+        "pl": "Więcej o ”Volumen”",
+        "en": "More about ”Volumen”"
+      },
+      "link": ""
+    }
+  }
+}

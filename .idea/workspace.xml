@@ -2,23 +2,113 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09cedebb-8053-44cd-bdf6-6a50c19777b3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/HorizontalScroll.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/HorizontalScrollStyles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Video.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hooks/useNoScrollOnWheel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hooks/usePrevious.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hooks/useScroll.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/array.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/android-chrome-192x192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/android-chrome-512x512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/apple-touch-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/data/about/1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/data/about/2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/data/about/3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/data/contact/1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/data/start/1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/data/start/2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/data/start/3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/data/start/4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/data/start/5.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/data/work/0054/1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/data/work/0054/2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/data/work/0054/3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/data/work/0054/4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/data/work/0054/5.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/data/work/0054/6.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/data/work/0055/1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/data/work/0055/2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/data/work/0055/3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/data/work/0055/4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/data/work/0055/5.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/data/work/0055/6.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/data/work/0056/1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/data/work/list.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/favicon-16x16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/favicon-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/NeueMontreal-Light.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/NeueMontreal-Regular.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/NeueMontreal-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/NeueMontreal-Regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/luna.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/ola-blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/ola-sits-on-puff.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/test-img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/works/0054/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/works/0054/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/works/0054/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/works/0054/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/works/0054/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/works/0055/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/works/0055/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/works/0056/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/works/0056/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/works/0056/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/video/video.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AnimationStyles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ReuseStyles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/PageSlider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Vertical Scroll.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/work/WorkDescription.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hooks/useExtendedRouteMatch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hooks/useIsMini.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hooks/usePageDescriptions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hooks/useWorkList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/start/StartPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/templates/ContactPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/templates/FullscreenImagePage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/templates/ImagePage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/templates/ListPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/templates/TextWithMore.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/templates/VideoPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/templates/WorkVideoPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/templates/pageTemplateIndex.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/work/WorkPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/work/WorkSelectPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routers/AppRouter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routers/InternalizeRouter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routers/WorkRouter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/pageDescription.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/random.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Carousel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CarouselStyles.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hooks/usePagination.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/usePagination.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/play-cursor.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppStyles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppStyles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InternationalizedApp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/InternationalizedApp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HorizontalScroll.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HorizontalScroll.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HorizontalScrollStyles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HorizontalScrollStyles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Menu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MenuStyles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MenuStyles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Video.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Video.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/wrappers/ConnectParamToLastPartOfRoute.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/wrappers/ConnectParamToLastPartOfRoute.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/wrappers/Internationalize.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/wrappers/Internationalize.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/useNoScrollOnWheel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/useNoScrollOnWheel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/useResize.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/useResize.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ContactPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/contact/ContactPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/HomePage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/LanguageSelectPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/LanguageSelectPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/WorkPage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/about/AboutFirstPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/templates/TextPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/about/AboutPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/about/AboutPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/about/AboutPageStyles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/about/AboutPageStyles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/about/AboutSecondPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/about/AboutSecondPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/about/AboutSecondPageStyles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/about/VideoStyles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/about/AboutSecondPage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/about/VideoStyles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/VideoStyles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/serviceWorker.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/serviceWorker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/setupTests.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/translations/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/translations/en.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/translations/pl.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/translations/pl.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
@@ -40,6 +130,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -64,7 +155,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/hooks" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -72,26 +164,30 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/components" />
-      <recent name="$PROJECT_DIR$/src/components/icons" />
-      <recent name="$PROJECT_DIR$/src/pages" />
+      <recent name="$PROJECT_DIR$/src/hooks" />
+      <recent name="$PROJECT_DIR$/public/data/work/0056" />
+      <recent name="$PROJECT_DIR$/public/data/work" />
+      <recent name="$PROJECT_DIR$/public/data/work/0054" />
+      <recent name="$PROJECT_DIR$/src/pages/templates" />
     </key>
     <key name="es6.move.members.recent.items">
+      <recent name="$PROJECT_DIR$/src/ReuseStyles.js" />
       <recent name="$PROJECT_DIR$/src/components/HorizontalPageStyles.js" />
       <recent name="$PROJECT_DIR$/src/components/CursorStyles.js" />
       <recent name="$PROJECT_DIR$/src/pages/about/AboutSecondPageStyles.js" />
       <recent name="$PROJECT_DIR$/src/contexts/CursorChangeContext.js" />
-      <recent name="$PROJECT_DIR$/src/pages/about/AboutPageStyles.js" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/components/wrappers" />
-      <recent name="$PROJECT_DIR$/src/components/icons" />
-      <recent name="$PROJECT_DIR$/src/pages/about" />
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/public/img" />
+      <recent name="$PROJECT_DIR$/public/fonts" />
+      <recent name="$PROJECT_DIR$/public/img/works" />
+      <recent name="$PROJECT_DIR$/src/pages/templates" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -122,7 +218,14 @@
       <workItem from="1601035755540" duration="23007000" />
       <workItem from="1601073169342" duration="1541000" />
       <workItem from="1601296446308" duration="461000" />
-      <workItem from="1601297247352" duration="104951000" />
+      <workItem from="1601297247352" duration="157741000" />
+      <workItem from="1603195028934" duration="1879000" />
+      <workItem from="1604430051830" duration="337000" />
+      <workItem from="1605785312321" duration="2651000" />
+      <workItem from="1609877711873" duration="521000" />
+      <workItem from="1613146752307" duration="309000" />
+      <workItem from="1613147573677" duration="15609000" />
+      <workItem from="1613504462597" duration="89924000" />
     </task>
     <task id="LOCAL-00001" summary="Menu, URL and localization backbone">
       <created>1601059182004</created>
@@ -138,7 +241,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601493833462</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Huge portion of everything #2">
+      <created>1602075803100</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1602075803100</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,90 +259,76 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Menu, URL and localization backbone" />
     <MESSAGE value="Huge portion of everything" />
-    <option name="LAST_COMMIT_MESSAGE" value="Huge portion of everything" />
+    <MESSAGE value="Huge portion of everything #2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Huge portion of everything #2" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="522" y="257" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1601474111262">
-      <screen x="40" y="23" width="1400" height="877" />
+    <state x="-1158" y="-262" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1615144840807">
+      <screen x="-1680" y="-594" width="1680" height="1050" />
     </state>
-    <state x="2018" y="-238" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900/1440.-518.1680.1050@1440.-518.1680.1050" timestamp="1601053775731" />
-    <state x="522" y="257" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/40.23.1400.877/1440.-495.1680.1027@40.23.1400.877" timestamp="1601474111262" />
-    <state x="367" y="110" key="CommitChangelistDialog2" timestamp="1601493832761">
-      <screen x="40" y="23" width="1400" height="877" />
+    <state x="-1158" y="-262" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900/-1680.-594.1680.1050@-1680.-594.1680.1050" timestamp="1615144840807" />
+    <state x="438" y="204" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1613146866184">
+      <screen x="56" y="25" width="1384" height="875" />
     </state>
-    <state x="1832" y="-388" key="CommitChangelistDialog2/0.0.1440.900/1440.-518.1680.1050@1440.-518.1680.1050" timestamp="1601059181313" />
-    <state x="367" y="110" key="CommitChangelistDialog2/40.23.1400.877/1440.-495.1680.1027@40.23.1400.877" timestamp="1601493832761" />
-    <state x="540" y="339" key="Github.ShareDialog" timestamp="1601036211395">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="438" y="204" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/56.25.1384.875@56.25.1384.875" timestamp="1613146866184" />
+    <state x="-1102" y="-317" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1614692923579">
+      <screen x="-1680" y="-594" width="1680" height="1050" />
     </state>
-    <state x="540" y="339" key="Github.ShareDialog/0.0.1440.900/1440.-518.1680.1050@0.0.1440.900" timestamp="1601036211395" />
-    <state width="1355" height="154" key="GridCell.Tab.0.bottom" timestamp="1601999812446">
-      <screen x="48" y="23" width="1392" height="877" />
+    <state x="-1102" y="-317" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900/-1680.-594.1680.1050@-1680.-594.1680.1050" timestamp="1614692923579" />
+    <state width="1638" height="124" key="GridCell.Tab.0.bottom" timestamp="1615161329040">
+      <screen x="-1680" y="-594" width="1680" height="1050" />
     </state>
-    <state width="1638" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.-518.1680.1050@1440.-518.1680.1050" timestamp="1601047147071" />
-    <state width="1355" height="185" key="GridCell.Tab.0.bottom/37.23.1403.877/1440.-495.1680.1027@37.23.1403.877" timestamp="1601911422858" />
-    <state width="1355" height="190" key="GridCell.Tab.0.bottom/38.23.1402.877/1440.-495.1680.1027@38.23.1402.877" timestamp="1601290511399" />
-    <state width="1355" height="186" key="GridCell.Tab.0.bottom/40.23.1400.877/1440.-495.1680.1027@40.23.1400.877" timestamp="1601493804659" />
-    <state width="1638" height="245" key="GridCell.Tab.0.bottom/43.23.1397.877@43.23.1397.877" timestamp="1601065822845" />
-    <state width="1355" height="154" key="GridCell.Tab.0.bottom/48.23.1392.877/1440.-495.1680.1027@48.23.1392.877" timestamp="1601999812446" />
-    <state width="1355" height="154" key="GridCell.Tab.0.center" timestamp="1601999812444">
-      <screen x="48" y="23" width="1392" height="877" />
+    <state width="1638" height="124" key="GridCell.Tab.0.bottom/0.0.1440.900/-1680.-594.1680.1050@-1680.-594.1680.1050" timestamp="1615161329040" />
+    <state width="1398" height="124" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1614851655403" />
+    <state width="1338" height="152" key="GridCell.Tab.0.bottom/56.25.1384.875/1440.-493.1680.1025@56.25.1384.875" timestamp="1613478950362" />
+    <state width="1336" height="152" key="GridCell.Tab.0.bottom/60.25.1380.875/1440.-493.1680.1025@60.25.1380.875" timestamp="1613864990659" />
+    <state width="1638" height="124" key="GridCell.Tab.0.center" timestamp="1615161329028">
+      <screen x="-1680" y="-594" width="1680" height="1050" />
     </state>
-    <state width="1638" height="245" key="GridCell.Tab.0.center/0.0.1440.900/1440.-518.1680.1050@1440.-518.1680.1050" timestamp="1601047147068" />
-    <state width="1355" height="185" key="GridCell.Tab.0.center/37.23.1403.877/1440.-495.1680.1027@37.23.1403.877" timestamp="1601911422854" />
-    <state width="1355" height="190" key="GridCell.Tab.0.center/38.23.1402.877/1440.-495.1680.1027@38.23.1402.877" timestamp="1601290511399" />
-    <state width="1355" height="186" key="GridCell.Tab.0.center/40.23.1400.877/1440.-495.1680.1027@40.23.1400.877" timestamp="1601493804657" />
-    <state width="1638" height="245" key="GridCell.Tab.0.center/43.23.1397.877@43.23.1397.877" timestamp="1601065822844" />
-    <state width="1355" height="154" key="GridCell.Tab.0.center/48.23.1392.877/1440.-495.1680.1027@48.23.1392.877" timestamp="1601999812444" />
-    <state width="1355" height="154" key="GridCell.Tab.0.left" timestamp="1601999812444">
-      <screen x="48" y="23" width="1392" height="877" />
+    <state width="1638" height="124" key="GridCell.Tab.0.center/0.0.1440.900/-1680.-594.1680.1050@-1680.-594.1680.1050" timestamp="1615161329028" />
+    <state width="1398" height="124" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1614851655400" />
+    <state width="1338" height="152" key="GridCell.Tab.0.center/56.25.1384.875/1440.-493.1680.1025@56.25.1384.875" timestamp="1613478950361" />
+    <state width="1336" height="152" key="GridCell.Tab.0.center/60.25.1380.875/1440.-493.1680.1025@60.25.1380.875" timestamp="1613864990657" />
+    <state width="1638" height="124" key="GridCell.Tab.0.left" timestamp="1615161329025">
+      <screen x="-1680" y="-594" width="1680" height="1050" />
     </state>
-    <state width="1638" height="245" key="GridCell.Tab.0.left/0.0.1440.900/1440.-518.1680.1050@1440.-518.1680.1050" timestamp="1601047147067" />
-    <state width="1355" height="185" key="GridCell.Tab.0.left/37.23.1403.877/1440.-495.1680.1027@37.23.1403.877" timestamp="1601911422853" />
-    <state width="1355" height="190" key="GridCell.Tab.0.left/38.23.1402.877/1440.-495.1680.1027@38.23.1402.877" timestamp="1601290511398" />
-    <state width="1355" height="186" key="GridCell.Tab.0.left/40.23.1400.877/1440.-495.1680.1027@40.23.1400.877" timestamp="1601493804655" />
-    <state width="1638" height="245" key="GridCell.Tab.0.left/43.23.1397.877@43.23.1397.877" timestamp="1601065822843" />
-    <state width="1355" height="154" key="GridCell.Tab.0.left/48.23.1392.877/1440.-495.1680.1027@48.23.1392.877" timestamp="1601999812444" />
-    <state width="1355" height="154" key="GridCell.Tab.0.right" timestamp="1601999812445">
-      <screen x="48" y="23" width="1392" height="877" />
+    <state width="1638" height="124" key="GridCell.Tab.0.left/0.0.1440.900/-1680.-594.1680.1050@-1680.-594.1680.1050" timestamp="1615161329025" />
+    <state width="1398" height="124" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1614851655392" />
+    <state width="1338" height="152" key="GridCell.Tab.0.left/56.25.1384.875/1440.-493.1680.1025@56.25.1384.875" timestamp="1613478950360" />
+    <state width="1336" height="152" key="GridCell.Tab.0.left/60.25.1380.875/1440.-493.1680.1025@60.25.1380.875" timestamp="1613864990656" />
+    <state width="1638" height="124" key="GridCell.Tab.0.right" timestamp="1615161329038">
+      <screen x="-1680" y="-594" width="1680" height="1050" />
     </state>
-    <state width="1638" height="245" key="GridCell.Tab.0.right/0.0.1440.900/1440.-518.1680.1050@1440.-518.1680.1050" timestamp="1601047147069" />
-    <state width="1355" height="185" key="GridCell.Tab.0.right/37.23.1403.877/1440.-495.1680.1027@37.23.1403.877" timestamp="1601911422857" />
-    <state width="1355" height="190" key="GridCell.Tab.0.right/38.23.1402.877/1440.-495.1680.1027@38.23.1402.877" timestamp="1601290511399" />
-    <state width="1355" height="186" key="GridCell.Tab.0.right/40.23.1400.877/1440.-495.1680.1027@40.23.1400.877" timestamp="1601493804658" />
-    <state width="1638" height="245" key="GridCell.Tab.0.right/43.23.1397.877@43.23.1397.877" timestamp="1601065822845" />
-    <state width="1355" height="154" key="GridCell.Tab.0.right/48.23.1392.877/1440.-495.1680.1027@48.23.1392.877" timestamp="1601999812445" />
-    <state x="392" y="165" key="NewModule_or_Project.wizard" timestamp="1601537485882">
-      <screen x="41" y="23" width="1399" height="877" />
+    <state width="1638" height="124" key="GridCell.Tab.0.right/0.0.1440.900/-1680.-594.1680.1050@-1680.-594.1680.1050" timestamp="1615161329038" />
+    <state width="1398" height="124" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1614851655401" />
+    <state width="1338" height="152" key="GridCell.Tab.0.right/56.25.1384.875/1440.-493.1680.1025@56.25.1384.875" timestamp="1613478950361" />
+    <state width="1336" height="152" key="GridCell.Tab.0.right/60.25.1380.875/1440.-493.1680.1025@60.25.1380.875" timestamp="1613864990658" />
+    <state x="395" y="165" key="NewModule_or_Project.wizard" timestamp="1605792976744">
+      <screen x="45" y="23" width="1395" height="877" />
     </state>
-    <state x="392" y="165" key="NewModule_or_Project.wizard/41.23.1399.877/1440.-495.1680.1027@41.23.1399.877" timestamp="1601537485882" />
-    <state x="341" y="203" key="Vcs.Push.Dialog.v2" timestamp="1601493835662">
-      <screen x="40" y="23" width="1400" height="877" />
+    <state x="395" y="165" key="NewModule_or_Project.wizard/45.23.1395.877/1440.-495.1680.1027@45.23.1395.877" timestamp="1605792976744" />
+    <state x="260" y="98" key="SettingsEditor" timestamp="1613598360172">
+      <screen x="60" y="25" width="1380" height="875" />
     </state>
-    <state x="341" y="203" key="Vcs.Push.Dialog.v2/40.23.1400.877/1440.-495.1680.1027@40.23.1400.877" timestamp="1601493835662" />
-    <state x="50" y="30" width="1383" height="863" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1601896722137">
-      <screen x="40" y="23" width="1400" height="877" />
+    <state x="260" y="98" key="SettingsEditor/60.25.1380.875/1440.-493.1680.1025@60.25.1380.875" timestamp="1613598360172" />
+    <state x="-1186" y="-449" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1615144883905">
+      <screen x="-1680" y="-594" width="1680" height="1050" />
     </state>
-    <state x="50" y="30" width="1383" height="863" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog/43.23.1397.877/1440.-495.1680.1027@43.23.1397.877" timestamp="1601462333703" />
-    <state x="426" y="225" width="645" height="472" key="find.popup" timestamp="1602001153330">
-      <screen x="48" y="23" width="1392" height="877" />
+    <state x="-1186" y="-449" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1440.900/-1680.-594.1680.1050@-1680.-594.1680.1050" timestamp="1615144883905" />
+    <state x="-1615" y="-572" width="1467" height="856" key="find.popup" timestamp="1615160494698">
+      <screen x="-1680" y="-594" width="1680" height="1050" />
     </state>
-    <state x="418" y="225" width="646" height="472" key="find.popup/37.23.1403.877/1440.-495.1680.1027@37.23.1403.877" timestamp="1601909120757" />
-    <state x="419" y="225" width="645" height="472" key="find.popup/39.23.1401.877/1440.-495.1680.1027@39.23.1401.877" timestamp="1601477265565" />
-    <state x="425" y="225" width="645" height="472" key="find.popup/47.23.1393.877/1440.-495.1680.1027@47.23.1393.877" timestamp="1601993175049" />
-    <state x="426" y="225" width="645" height="472" key="find.popup/48.23.1392.877/1440.-495.1680.1027@48.23.1392.877" timestamp="1602001153330" />
-    <state x="1945" y="-11" key="run.anything.popup" timestamp="1601049708344">
-      <screen x="1440" y="-518" width="1680" height="1050" />
+    <state x="-1615" y="-572" width="1467" height="856" key="find.popup/0.0.1440.900/-1680.-594.1680.1050@-1680.-594.1680.1050" timestamp="1615160494698" />
+    <state x="141" y="68" width="1207" height="713" key="find.popup/56.25.1384.875/1440.-493.1680.1025@56.25.1384.875" timestamp="1613425621074" />
+    <state x="143" y="68" width="1206" height="713" key="find.popup/58.25.1382.875/1440.-493.1680.1025@58.25.1382.875" timestamp="1613848609067" />
+    <state x="147" y="68" width="1202" height="713" key="find.popup/62.25.1378.875/1440.-493.1680.1025@62.25.1378.875" timestamp="1613513432995" />
+    <state x="412" y="214" width="672" height="676" key="search.everywhere.popup" timestamp="1613425630653">
+      <screen x="56" y="25" width="1384" height="875" />
     </state>
-    <state x="1945" y="-11" key="run.anything.popup/0.0.1440.900/1440.-518.1680.1050@1440.-518.1680.1050" timestamp="1601049708344" />
-    <state x="468" y="218" width="670" height="565" key="search.everywhere.popup" timestamp="1601990842752">
-      <screen x="50" y="23" width="1390" height="877" />
-    </state>
-    <state x="1945" y="-285" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/1440.-518.1680.1050@1440.-518.1680.1050" timestamp="1601046387654" />
-    <state x="459" y="218" width="672" height="565" key="search.everywhere.popup/37.23.1403.877/1440.-495.1680.1027@37.23.1403.877" timestamp="1601922755488" />
-    <state x="462" y="218" width="670" height="565" key="search.everywhere.popup/41.23.1399.877/1440.-495.1680.1027@41.23.1399.877" timestamp="1601308326529" />
-    <state x="468" y="218" width="670" height="565" key="search.everywhere.popup/50.23.1390.877/1440.-495.1680.1027@50.23.1390.877" timestamp="1601990842752" />
+    <state x="412" y="214" width="672" height="676" key="search.everywhere.popup/56.25.1384.875/1440.-493.1680.1025@56.25.1384.875" timestamp="1613425630653" />
+    <state x="415" y="214" width="670" height="676" key="search.everywhere.popup/60.25.1380.875/1440.-493.1680.1025@60.25.1380.875" timestamp="1613341913391" />
   </component>
 </project>

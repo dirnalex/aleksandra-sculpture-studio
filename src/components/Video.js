@@ -1,5 +1,5 @@
 import React, {useContext, useEffect, useState} from 'react';
-import {StyledTitle, StyledVideo, StyledWrapper} from '../pages/about/VideoStyles';
+import {StyledTitle, StyledVideo, StyledWrapper} from './VideoStyles';
 import CursorChangeContext from '../contexts/CursorChangeContext';
 
 const Video = ({title, children, className}) => {

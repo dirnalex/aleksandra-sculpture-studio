@@ -1,43 +1,57 @@
-import React, {createRef, useRef} from 'react';
-import useResize from '../hooks/useResize';
+import React, {createRef, useContext, useEffect, useRef} from 'react';
+import {useSwipeable} from 'react-swipeable';
 import usePagination from '../hooks/usePagination';
 import useHorizontalScroll from '../hooks/useHorizontalScroll';
 import useNoScrollOnWheel from '../hooks/useNoScrollOnWheel';
 import useScroll from '../hooks/useScroll';
 import {generateArrayFillingWith} from '../utils/array';
-import {
-  PageSlider,
-  StyledArrowLeft,
-  StyledArrowRight,
-  StyledHorizontalScroll,
-  StyledPage
-} from './HorizontalScrollStyles';
+import {StyledArrowLeft, StyledArrowRight, StyledHorizontalScroll, StyledPage} from './HorizontalScrollStyles';
+import {ThemeContext} from 'styled-components';
+import PageSlider from './PageSlider';
 
 const HorizontalScroll = ({children, className}) => {
   const amountOfPages = children.length;
 
   const containerRef = useRef(null);
-  const pageRefs = useRef(generateArrayFillingWith({size: amountOfPages, generateFunc: createRef}));
+  const pageRefs = useRef([]);
+
+  useEffect(() => {
+    pageRefs.current = generateArrayFillingWith({size: amountOfPages, generateFunc: createRef});
+  }, [amountOfPages]);
 
   const handlePageChange = (page) => {
-    console.debug(`Scrolling automatically to page ${pageRefs.current[page].current.id}`);
-    pageRefs.current[page].current.scrollIntoView({behavior: "smooth", inline: "start"});
+    if (pageRefs.current[page] && pageRefs.current[page].current) {
+      pageRefs.current[page].current.scrollIntoView({behavior: "smooth", inline: "start"});
+    }
   };
 
-  const {incrementPage, decrementPage, isFirstPage, isLastPage} = usePagination(0, amountOfPages, handlePageChange);
+  const {page, incrementPage, decrementPage, isFirstPage, isLastPage} = usePagination(0, amountOfPages, handlePageChange);
 
   const [handleScroll, scrollLeftRatio] = useScroll();
 
   const handleWheel = useHorizontalScroll(incrementPage, decrementPage);
 
+  const handlers = useSwipeable({
+    onSwipedRight: decrementPage,
+    onSwipedLeft: incrementPage,
+    preventDefaultTouchmoveEvent: true
+  });
+
   useNoScrollOnWheel(containerRef);
 
-  const {width} = useResize(containerRef);
-  const sliderWidth = width / children.length;
+  const theme = useContext(ThemeContext);
+  useEffect(() => {
+    if (children[page] && children[page].props && children[page].props.theme) {
+      theme.setTheme(children[page].props.theme);
+    } else {
+      theme.setDefaultTheme();
+    }
+  }, [page, children]);
 
-  return (
-    <StyledHorizontalScroll ref={containerRef} className={className} onScroll={handleScroll} onWheel={handleWheel}>
-      <PageSlider left={scrollLeftRatio * width} width={sliderWidth}/>
+  return (amountOfPages === 0) ? null : (
+    <StyledHorizontalScroll ref={containerRef} className={className}
+                            onScroll={handleScroll} onWheel={handleWheel} {...handlers}>
+      {amountOfPages > 1 && <PageSlider scrollLeftRatio={scrollLeftRatio} amountOfPages={amountOfPages}/>}
       {!isFirstPage && <StyledArrowLeft onClick={decrementPage}/>}
       {!isLastPage && <StyledArrowRight onClick={incrementPage}/>}
       {children.map((child, index) => <StyledPage key={index} id={index}

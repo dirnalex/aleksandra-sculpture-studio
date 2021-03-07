@@ -1,11 +1,10 @@
 import React from 'react';
-import {useRouteMatch} from 'react-router-dom';
-
-import messages from '../../translations';
+import PropTypes from 'prop-types';
 import {IntlProvider} from 'react-intl';
 
-const Internationalize = ({children}) => {
-  const {params: {locale}} = useRouteMatch();
+import messages from '../../translations';
+
+const Internationalize = ({locale, children}) => {
 
   return (
     messages[locale]
@@ -16,6 +15,9 @@ const Internationalize = ({children}) => {
   );
 };
 
-Internationalize.propTypes = {};
+Internationalize.propTypes = {
+  locale: PropTypes.string,
+  children: PropTypes.node
+};
 
 export default Internationalize;

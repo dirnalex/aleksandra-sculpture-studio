@@ -1,15 +1,15 @@
 import React from 'react';
 
-import AboutFirstPage from './AboutFirstPage';
-import AboutSecondPage from './AboutSecondPage';
-
 import {StyledHorizontalScroll} from './AboutPageStyles';
+import usePageDescriptions from '../../hooks/usePageDescriptions';
+import {renderPage} from '../../utils/pageDescription';
 
 const AboutPage = () => {
+  const pageDescriptions = usePageDescriptions('/data/about');
+
   return (
     <StyledHorizontalScroll>
-      <AboutFirstPage/>
-      <AboutSecondPage/>
+      {pageDescriptions.map((desc, i) => renderPage(desc, i))}
     </StyledHorizontalScroll>
   );
 };

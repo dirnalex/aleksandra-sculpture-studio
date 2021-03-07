@@ -1,0 +1,16 @@
+{
+  "WorkVideoPage": {
+    "link": "/video/video.mp4",
+    "title": {
+      "pl": "Pokoj nie pokoj",
+      "en": "Pokoj nie pokoj"
+    },
+    "workLink": {
+      "text": {
+        "pl": "Więcej o ”Pokoj nie pokoj”",
+        "en": "More about ”Pokoj nie pokoj”"
+      },
+      "link": ""
+    }
+  }
+}

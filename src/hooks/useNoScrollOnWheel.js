@@ -1,11 +1,14 @@
-import {useEffect} from 'react';
+import {useLayoutEffect} from 'react';
 
-export default (ref) => useEffect(() => {
-  const preventDefault = (e) => {
-    e.preventDefault();
-  };
-  ref.current.addEventListener("wheel", preventDefault, {passive: false});
-  return () => {
-    ref.current.removeEventListener("wheel", preventDefault);
-  };
-}, []);
+export default (ref) => useLayoutEffect(() => {
+  const {current} = ref;
+  if (current) {
+    const preventDefault = (e) => {
+      e.preventDefault();
+    };
+    current.addEventListener("wheel", preventDefault, {passive: false});
+    return () => {
+      current.removeEventListener("wheel", preventDefault);
+    };
+  }
+}, [ref]);
