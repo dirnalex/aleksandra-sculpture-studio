@@ -10,7 +10,7 @@ export default (width) => {
     } else {
       setMini(false);
     }
-  }, [width]);
+  }, [width, theme]);
 
   return mini;
 }
