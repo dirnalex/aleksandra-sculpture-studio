@@ -2,115 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09cedebb-8053-44cd-bdf6-6a50c19777b3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/android-chrome-192x192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/android-chrome-512x512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/apple-touch-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/data/about/1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/data/about/2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/data/about/3.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/data/contact/1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/data/start/1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/data/start/2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/data/start/3.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/data/start/4.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/data/start/5.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/data/work/0054/1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/data/work/0054/2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/data/work/0054/3.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/data/work/0054/4.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/data/work/0054/5.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/data/work/0054/6.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/data/work/0055/1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/data/work/0055/2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/data/work/0055/3.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/data/work/0055/4.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/data/work/0055/5.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/data/work/0055/6.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/data/work/0056/1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/data/work/list.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon-16x16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon-32x32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/NeueMontreal-Light.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/NeueMontreal-Regular.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/NeueMontreal-Regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/NeueMontreal-Regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/luna.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/ola-blue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/ola-sits-on-puff.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/test-img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/works/0054/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/works/0054/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/works/0054/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/works/0054/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/works/0054/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/works/0055/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/works/0055/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/works/0056/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/works/0056/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/works/0056/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/video/video.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AnimationStyles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ReuseStyles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/PageSlider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Vertical Scroll.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/work/WorkDescription.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hooks/useExtendedRouteMatch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hooks/useIsMini.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hooks/usePageDescriptions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hooks/useWorkList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/start/StartPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/templates/ContactPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/templates/FullscreenImagePage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/templates/ImagePage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/templates/ListPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/templates/TextWithMore.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/templates/VideoPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/templates/WorkVideoPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/templates/pageTemplateIndex.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/work/WorkPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/work/WorkSelectPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routers/AppRouter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routers/InternalizeRouter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routers/WorkRouter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/pageDescription.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/random.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/play-cursor.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AppStyles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppStyles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InternationalizedApp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/InternationalizedApp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HorizontalScroll.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HorizontalScroll.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HorizontalScrollStyles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HorizontalScrollStyles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Menu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MenuStyles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MenuStyles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Video.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Video.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/wrappers/ConnectParamToLastPartOfRoute.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/wrappers/ConnectParamToLastPartOfRoute.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/wrappers/Internationalize.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/wrappers/Internationalize.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PageSlider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PageSlider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Vertical Scroll.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Vertical Scroll.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/hooks/useNoScrollOnWheel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/useNoScrollOnWheel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hooks/useResize.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/useResize.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/usePagination.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/usePagination.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ContactPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/contact/ContactPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/HomePage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/LanguageSelectPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/LanguageSelectPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/WorkPage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/about/AboutFirstPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/templates/TextPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/about/AboutPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/about/AboutPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/about/AboutPageStyles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/about/AboutPageStyles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/about/AboutSecondPage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/about/VideoStyles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/VideoStyles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/serviceWorker.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/serviceWorker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/setupTests.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/translations/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/translations/en.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/translations/pl.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/translations/pl.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/templates/VideoPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/templates/VideoPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/templates/WorkVideoPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/templates/WorkVideoPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/work/WorkPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/work/WorkPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/work/WorkSelectPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/work/WorkSelectPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -225,7 +128,7 @@
       <workItem from="1609877711873" duration="521000" />
       <workItem from="1613146752307" duration="309000" />
       <workItem from="1613147573677" duration="15609000" />
-      <workItem from="1613504462597" duration="89924000" />
+      <workItem from="1613504462597" duration="97989000" />
     </task>
     <task id="LOCAL-00001" summary="Menu, URL and localization backbone">
       <created>1601059182004</created>
@@ -248,11 +151,29 @@
       <option name="project" value="LOCAL" />
       <updated>1602075803100</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Huge portion of everything #3">
+      <created>1615161384598</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1615161384598</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
@@ -260,7 +181,8 @@
     <MESSAGE value="Menu, URL and localization backbone" />
     <MESSAGE value="Huge portion of everything" />
     <MESSAGE value="Huge portion of everything #2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Huge portion of everything #2" />
+    <MESSAGE value="Huge portion of everything #3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Huge portion of everything #3" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -278,6 +200,10 @@
       <screen x="-1680" y="-594" width="1680" height="1050" />
     </state>
     <state x="-1102" y="-317" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900/-1680.-594.1680.1050@-1680.-594.1680.1050" timestamp="1614692923579" />
+    <state x="-1316" y="-467" key="CommitChangelistDialog2" timestamp="1615161383310">
+      <screen x="-1680" y="-594" width="1680" height="1050" />
+    </state>
+    <state x="-1316" y="-467" key="CommitChangelistDialog2/0.0.1440.900/-1680.-594.1680.1050@-1680.-594.1680.1050" timestamp="1615161383310" />
     <state width="1638" height="124" key="GridCell.Tab.0.bottom" timestamp="1615161329040">
       <screen x="-1680" y="-594" width="1680" height="1050" />
     </state>
@@ -314,20 +240,25 @@
       <screen x="60" y="25" width="1380" height="875" />
     </state>
     <state x="260" y="98" key="SettingsEditor/60.25.1380.875/1440.-493.1680.1025@60.25.1380.875" timestamp="1613598360172" />
+    <state x="-1240" y="-331" key="Vcs.Push.Dialog.v2" timestamp="1615161387385">
+      <screen x="-1680" y="-594" width="1680" height="1050" />
+    </state>
+    <state x="-1240" y="-331" key="Vcs.Push.Dialog.v2/0.0.1440.900/-1680.-594.1680.1050@-1680.-594.1680.1050" timestamp="1615161387385" />
     <state x="-1186" y="-449" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1615144883905">
       <screen x="-1680" y="-594" width="1680" height="1050" />
     </state>
     <state x="-1186" y="-449" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1440.900/-1680.-594.1680.1050@-1680.-594.1680.1050" timestamp="1615144883905" />
-    <state x="-1615" y="-572" width="1467" height="856" key="find.popup" timestamp="1615160494698">
+    <state x="-1615" y="-572" width="1467" height="856" key="find.popup" timestamp="1615200879257">
       <screen x="-1680" y="-594" width="1680" height="1050" />
     </state>
-    <state x="-1615" y="-572" width="1467" height="856" key="find.popup/0.0.1440.900/-1680.-594.1680.1050@-1680.-594.1680.1050" timestamp="1615160494698" />
+    <state x="-1615" y="-572" width="1467" height="856" key="find.popup/0.0.1440.900/-1680.-594.1680.1050@-1680.-594.1680.1050" timestamp="1615200879257" />
     <state x="141" y="68" width="1207" height="713" key="find.popup/56.25.1384.875/1440.-493.1680.1025@56.25.1384.875" timestamp="1613425621074" />
     <state x="143" y="68" width="1206" height="713" key="find.popup/58.25.1382.875/1440.-493.1680.1025@58.25.1382.875" timestamp="1613848609067" />
     <state x="147" y="68" width="1202" height="713" key="find.popup/62.25.1378.875/1440.-493.1680.1025@62.25.1378.875" timestamp="1613513432995" />
-    <state x="412" y="214" width="672" height="676" key="search.everywhere.popup" timestamp="1613425630653">
-      <screen x="56" y="25" width="1384" height="875" />
+    <state x="-1248" y="-367" width="816" height="812" key="search.everywhere.popup" timestamp="1615196898312">
+      <screen x="-1680" y="-594" width="1680" height="1050" />
     </state>
+    <state x="-1248" y="-367" width="816" height="812" key="search.everywhere.popup/0.0.1440.900/-1680.-594.1680.1050@-1680.-594.1680.1050" timestamp="1615196898312" />
     <state x="412" y="214" width="672" height="676" key="search.everywhere.popup/56.25.1384.875/1440.-493.1680.1025@56.25.1384.875" timestamp="1613425630653" />
     <state x="415" y="214" width="670" height="676" key="search.everywhere.popup/60.25.1380.875/1440.-493.1680.1025@60.25.1380.875" timestamp="1613341913391" />
   </component>

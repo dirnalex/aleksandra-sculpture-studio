@@ -3,6 +3,9 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import InternationalizedApp from './InternationalizedApp';
 import * as serviceWorker from './serviceWorker';
+import smoothscroll from 'smoothscroll-polyfill';
+
+smoothscroll.polyfill();
 
 ReactDOM.render(
   <React.StrictMode>

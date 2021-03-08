@@ -2,18 +2,21 @@ import React from 'react';
 import {useIntl} from 'react-intl';
 import styled from 'styled-components';
 import Video from '../../components/Video';
+import {StandardTopBottomMargin} from '../../ReuseStyles';
 
-const StyledVideo = styled(Video)`
-  padding: 130px 150px;
+const PageContainer = styled.div`
+  ${StandardTopBottomMargin};
 `;
 
 const VideoPage = ({link, title}) => {
   const {locale} = useIntl();
   return (
-    <StyledVideo title={title[locale]}>
-      <source src={link}/>
-      Sorry, your browser doesn't support embedded videos.
-    </StyledVideo>
+    <PageContainer>
+      <Video title={title[locale]}>
+        <source src={link}/>
+        Sorry, your browser doesn't support embedded videos.
+      </Video>
+    </PageContainer>
   );
 };
 

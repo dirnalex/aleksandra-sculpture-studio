@@ -23,11 +23,21 @@ const WorkList = styled.ul`
   font-size: 2em;
   line-height: 100%;
   
+  @media only screen and 
+      (max-width: ${({theme}) => theme.mobileBreakpoint()}px) {
+    font-size: 1.25em;
+    line-height: 120%;   
+  }
+  
   ${HideScrollbar}
 `;
 
 const WorkItem = styled.li`
   margin-left: 250px;
+  @media only screen and 
+      (max-width: ${({theme}) => theme.mobileBreakpoint()}px) {
+    margin-left: 50px;    
+  }
   position: relative;
   display: table;
   cursor:pointer;

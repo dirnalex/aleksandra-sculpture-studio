@@ -3,20 +3,26 @@ import {useIntl} from 'react-intl';
 import styled from 'styled-components';
 import Video from '../../components/Video';
 import {NavLink} from 'react-router-dom';
+import {Blinking, StandardTopBottomMargin} from '../../ReuseStyles';
 
-const Container = styled.div`
+const PageContainer = styled.div`
+  ${StandardTopBottomMargin};
   position: relative;
-  width: 100%;
-  height: 100%;
-`;
-
-const StyledVideo = styled(Video)`
-  padding: 130px 150px;
 `;
 
 const StyledLink = styled(NavLink)`
+  ${Blinking()};
+  :hover {
+    animation: none;
+    color: ${({theme}) => theme.app.emphasisedTextColor};
+  }
+  
   position: absolute;
-  bottom: 33px;
+  bottom: -${({theme}) => theme.app.bottomMargin + theme.menu.itemHeight}px;
+  @media only screen and 
+      (max-width: ${({theme}) => theme.mobileBreakpoint()}px) {
+    bottom: 0;    
+  }
   left: 50%;
   transform: translateX(-50%);
   
@@ -25,21 +31,24 @@ const StyledLink = styled(NavLink)`
   font-weight: 400;
   line-height: 14px;
   letter-spacing: 0.055em;
-  text-align: left;
+  text-align: center;
+  display: flex;
+  width: 100%;
+  justify-content: center;
 `;
 
 const WorkVideoPage = ({link, title, workLink}) => {
   const {locale} = useIntl();
   return (
-    <Container>
-      <StyledVideo title={title[locale]}>
+    <PageContainer>
+      <Video title={title[locale]}>
         <source src={link}/>
         Sorry, your browser doesn't support embedded videos.
-      </StyledVideo>
+      </Video>
       <StyledLink exact to={workLink.link}>
         {workLink.text[locale]}
       </StyledLink>
-    </Container>
+    </PageContainer>
   );
 };
 

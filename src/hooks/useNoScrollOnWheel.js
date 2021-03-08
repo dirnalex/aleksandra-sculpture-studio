@@ -1,14 +1,13 @@
 import {useLayoutEffect} from 'react';
 
-export default (ref) => useLayoutEffect(() => {
-  const {current} = ref;
-  if (current) {
-    const preventDefault = (e) => {
+export default () => useLayoutEffect(() => {
+  const preventDefault = (e) => {
+    if (e.deltaX !== 0) {
       e.preventDefault();
-    };
-    current.addEventListener("wheel", preventDefault, {passive: false});
-    return () => {
-      current.removeEventListener("wheel", preventDefault);
-    };
-  }
-}, [ref]);
+    }
+  };
+  window.addEventListener("wheel", preventDefault, {passive: false});
+  return () => {
+    window.removeEventListener("wheel", preventDefault);
+  };
+}, []);

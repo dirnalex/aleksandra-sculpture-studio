@@ -8,7 +8,7 @@ import {getProps, renderPage} from '../../utils/pageDescription';
 import useResize from '../../hooks/useResize';
 import useIsMini from '../../hooks/useIsMini';
 import WorkDescription from '../../components/work/WorkDescription';
-import {Blinking, StandardTopBottomMargin} from '../../ReuseStyles';
+import {Blinking, HideScrollbar, StandardTopBottomMargin} from '../../ReuseStyles';
 
 const Container = styled.div`
   width: 100%;
@@ -34,9 +34,13 @@ const WorkDescriptionPageContainer = styled.div`
 `;
 
 const OnPageWorkDescription = styled(WorkDescription)`
-  position: absolute;
-  bottom: 130px;
-  left: ${({theme}) => -theme.app.leftMargin - theme.menu.maxItemWidth}px;
+  position: fixed;
+  z-index: 999;
+  bottom: ${({theme}) => theme.app.bottomMargin * 2 + theme.menu.itemHeight}px;
+  top: calc(50% + ${({theme}) => theme.scroller.arrow.height + 10}px);
+  left: ${({theme}) => theme.app.leftMargin}px;
+  overflow-y: scroll;
+  ${HideScrollbar}
 `;
 
 const PrevNextPageContainer = styled.div`
@@ -124,7 +128,6 @@ const WorkPage = ({id}) => {
 
   const pages = pageDescriptions.map((desc, i) =>
     <WorkPageContainer {...getProps(desc)} key={i}>
-      {!mini && <OnPageWorkDescription work={work}/>}
       {!mini && i === pageDescriptions.length - 1 && prevWork && prevWork.id &&
       PrevWorkComponent
       }
@@ -154,6 +157,7 @@ const WorkPage = ({id}) => {
 
   return (
     <Container ref={containerRef}>
+      {!mini && <OnPageWorkDescription work={work}/>}
       <HorizontalScroll>
         {pages}
       </HorizontalScroll>

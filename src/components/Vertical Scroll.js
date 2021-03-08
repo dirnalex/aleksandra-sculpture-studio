@@ -14,7 +14,7 @@ const BlurContainer = styled.div`
     top: 0;
     width: 100%;
     height: ${({theme}) => theme.verticalScroll.blur.top.height}px;
-    background:linear-gradient(${({theme}) => theme.app.backgroundColor} 0%, ${({theme}) => theme.app.backgroundColor} 50%, rgba(255, 255, 255, 0) 100%);
+    background:linear-gradient(${({theme}) => theme.app.backgroundColor} 0%, ${({theme}) => theme.app.backgroundColor} 50%, ${({theme}) => theme.app.backgroundColor}00 100%);
   }
   &::after {
     content: '';
@@ -22,7 +22,7 @@ const BlurContainer = styled.div`
     bottom: 0;
     width: 100%;
     height: ${({theme}) => theme.verticalScroll.blur.bottom.height}px;
-    background: linear-gradient(rgba(255, 255, 255, 0) 0%, ${({theme}) => theme.app.backgroundColor} 50%, ${({theme}) => theme.app.backgroundColor} 100%);
+    background: linear-gradient(${({theme}) => theme.app.backgroundColor}00 0%, ${({theme}) => theme.app.backgroundColor} 50%, ${({theme}) => theme.app.backgroundColor} 100%);
   }
 `;
 

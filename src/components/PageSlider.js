@@ -30,10 +30,13 @@ const Dot = styled.div`
   }
 `;
 
-const Slider = styled.div`
+const Slider = styled.div.attrs(props => ({
+  style: {
+    left: `${props.sliderLeft}px`,
+    width: `${props.sliderWidth}px`,
+  }
+}))`
   position: absolute;
-  left: ${props => props.sliderLeft}px;
-  width: ${props => props.sliderWidth}px;
   height: 10px;
   background-color: #00EED1;
 `;
