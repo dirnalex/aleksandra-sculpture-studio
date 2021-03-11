@@ -30,7 +30,7 @@ export const StyledPage = styled.div`
   }
   
   & > *:last-child {
-    margin-right: ${({theme}) => theme.app.rightMargin * 2 + theme.menu.maxItemWidth}px;
+    margin-right: ${({theme}) => theme.app.rightMargin * 4 + theme.menu.maxItemWidth}px;
     @media only screen and 
       (max-width: ${({theme}) => theme.mobileBreakpoint()}px) {
       margin-right: ${({theme}) => theme.app.rightMarginMobile}px;
@@ -38,7 +38,7 @@ export const StyledPage = styled.div`
   }
   
   & > *:first-child {
-    margin-left: ${({theme}) => theme.app.leftMargin * 2 + theme.menu.maxItemWidth}px;
+    margin-left: ${({theme}) => theme.app.leftMargin * 4 + theme.menu.maxItemWidth}px;
     @media only screen and 
       (max-width: ${({theme}) => theme.mobileBreakpoint()}px) {
       margin-left: ${({theme}) => theme.app.leftMarginMobile}px;
