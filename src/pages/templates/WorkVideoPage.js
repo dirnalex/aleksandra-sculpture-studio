@@ -42,7 +42,7 @@ const WorkVideoPage = ({link, title, workLink, isYouTube}) => {
   return (
     <PageContainer>
       <Video link={link} title={title && title[locale]} isYouTube={isYouTube}/>
-      <StyledLink exact to={workLink.link[locale]}>
+      <StyledLink to={workLink.link[locale]}>
         {workLink.text[locale]}
       </StyledLink>
     </PageContainer>

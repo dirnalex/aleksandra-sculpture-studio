@@ -65,8 +65,9 @@ const TextWithMorePage = ({text, moreText}) => {
           <Text>
             {text[locale]}
             {moreText && moreText[locale] &&
-            <More
-              onClick={toggleMore}>{showingMore ? intl.formatMessage({id: "less"}) : intl.formatMessage({id: "more"})}</More>
+            <More onClick={toggleMore}>
+              {showingMore ? intl.formatMessage({id: "less"}) : intl.formatMessage({id: "more"})}
+            </More>
             }
           </Text>
           {moreText && moreText[locale] && showingMore &&
