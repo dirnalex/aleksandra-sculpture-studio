@@ -9,9 +9,9 @@ const PageContainer = styled.div`
 const StyledImagePage = styled.img`
   width: 100vw;
   margin-top: -${({theme}) => theme.app.topMargin * 2 + theme.menu.itemHeight}px;
-  margin-right: -${({theme}) => theme.app.rightMargin * 4 + theme.menu.maxItemWidth}px;
+  margin-right: -${({theme}) => theme.app.rightMargin * 2 + theme.menu.maxItemWidth}px;
   margin-bottom: -${({theme}) => theme.app.bottomMargin * 2 + theme.menu.itemHeight}px;
-  margin-left: -${({theme}) => theme.app.leftMargin * 4 + theme.menu.maxItemWidth}px;
+  margin-left: -${({theme}) => theme.app.leftMargin * 2 + theme.menu.maxItemWidth}px;
   @media only screen and 
     (max-width: ${({theme}) => theme.mobileBreakpoint()}px) {
     margin-top: -${({theme}) => theme.app.topMarginMobile * 2 + theme.menu.itemHeight}px;

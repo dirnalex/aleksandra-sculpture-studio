@@ -7,7 +7,7 @@ import InternalizeRouter from './routers/InternalizeRouter';
 import {ThemeProvider} from 'styled-components';
 
 const defaultTheme = {
-  mobileBreakpoint: () => defaultTheme.app.leftMargin * 4 + defaultTheme.app.rightMargin * 4 + defaultTheme.menu.maxItemWidth * 2 + defaultTheme.content.minWidth,
+  mobileBreakpoint: () => defaultTheme.app.leftMargin * 2 + defaultTheme.app.rightMargin * 2 + defaultTheme.menu.maxItemWidth * 2 + defaultTheme.content.minWidth,
   app: {
     backgroundColor: '#E5E5E5',
     textColor: '#000000',
