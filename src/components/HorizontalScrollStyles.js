@@ -17,6 +17,7 @@ export const StyledPage = styled.div`
   height: 100%;
   display: flex;
   align-items: stretch;
+  justify-content: center;
   & > * {
     flex: auto 1 1;
     margin-top: 0;

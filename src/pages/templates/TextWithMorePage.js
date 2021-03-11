@@ -6,6 +6,7 @@ import {StandardTopBottomMargin} from '../../ReuseStyles';
 
 const PageContainer = styled.div`
   ${StandardTopBottomMargin};
+  max-width: 930px;
 `;
 
 const ContentContainer = styled.div`

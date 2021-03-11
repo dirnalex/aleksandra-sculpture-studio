@@ -21,6 +21,7 @@ const WorkPageContainer = styled.div`
   position: relative;
   display: flex;
   align-items: stretch;
+  justify-content: center;
   margin-top: 0;
   margin-bottom: 0;
   & > * {
