@@ -91,8 +91,7 @@ const NextWorkContainer = styled.div`
 const WorkPage = ({id}) => {
   const {locale} = useIntl();
 
-  const containerRef = useRef(null);
-  const {width} = useResize(containerRef);
+  const {width} = useResize();
   const mini = useIsMini(width);
 
   const [workList] = useWorkList([]);
@@ -160,7 +159,7 @@ const WorkPage = ({id}) => {
   if (!Array.isArray(pageDescriptions)) return null;
   if (pageDescriptions.length === 0) return <Redirect to={`/${locale}/work`}/>;
   return (
-    <Container ref={containerRef}>
+    <Container>
       {!mini && <OnPageWorkDescription work={work}/>}
       <HorizontalScroll>
         {pages}

@@ -1,25 +1,23 @@
 import {useLayoutEffect, useState} from 'react';
 
-export default (ref) => {
+export default () => {
   const [width, setWidth] = useState(0);
   const [height, setHeight] = useState(0);
 
   useLayoutEffect(() => {
-    if (ref.current) {
-      const handleResize = () => {
-        setWidth(ref.current.offsetWidth);
-        setHeight(ref.current.offsetHeight);
-      };
+    const handleResize = () => {
+      setWidth(window.innerWidth);
+      setHeight(window.innerHeight);
+    };
 
-      handleResize();
+    handleResize();
 
-      window.addEventListener('resize', handleResize);
+    window.addEventListener('resize', handleResize);
 
-      return () => {
-        window.removeEventListener('resize', handleResize)
-      }
+    return () => {
+      window.removeEventListener('resize', handleResize)
     }
-  }, [ref]);
+  });
 
   return {width, height}
 }
