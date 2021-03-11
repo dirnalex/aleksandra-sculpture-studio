@@ -1,4 +1,4 @@
-import React, {useRef, useState} from 'react';
+import React from 'react';
 import styled from 'styled-components';
 import {HideScrollbar} from '../../ReuseStyles';
 import {getRandomInt} from '../../utils/random';
@@ -6,6 +6,7 @@ import {Link} from 'react-router-dom';
 import useExtendedRouteMatch from '../../hooks/useExtendedRouteMatch';
 import {useIntl} from 'react-intl';
 import useWorkList from '../../hooks/useWorkList';
+import Loading from '../../components/Loading';
 
 const Page = styled.div`
   width: 100%;
@@ -15,7 +16,6 @@ const Page = styled.div`
 
 const WorkList = styled.ul`
   position: relative;
-  z-index: 2;
   
   height: 100%;
   width: 100%;
@@ -43,9 +43,17 @@ const WorkItem = styled.li`
   position: relative;
   display: table;
   cursor:pointer;
+  
+  &:hover .work-id {
+    visibility: visible;
+  }
+  &:hover img {
+    visibility: visible;
+  }
 `;
 
-const Number = styled.div`
+const WorkId = styled.div`
+  visibility: hidden;
   position: absolute;
   left: -55px;
   top: 4px;
@@ -53,70 +61,62 @@ const Number = styled.div`
   line-height: 133%;
 `;
 
-const Image = styled.div.attrs(({width, height, left, top, src}) => ({
+const Image = styled.img.attrs(({width, height, left, top}) => ({
   style: {
     width: `${width}px`,
     height: `${height}px`,
     top: `${top}px`,
-    left: `${left}px`,
-    backgroundImage: `url("${src}")`
+    left: `${left}px`
   }
-}))
-  `
-  position: absolute;
-  
-  transition: width 1s, height 1s, top 1s, left 1s;
-  background-size: contain;
-  background-repeat: no-repeat;
-  font-size: 0.6em;
-  line-height: 133%;
-  z-index: 1;
+}))`
+  visibility: hidden;
+  position: fixed;
+  object-fit: contain;
+  z-index: -1;
 `;
 
 const WorkSelectPage = props => {
     const {locale} = useIntl();
     const {urlWithoutSlash} = useExtendedRouteMatch();
 
-    const [workList, setWorkList] = useWorkList([]);
-    const [itemHovering, setItemHovering] = useState();
+    const [workList, setWorkList, loading] = useWorkList([], true);
 
-  const handleWorkListScroll = ({currentTarget: {scrollTop, scrollHeight, clientHeight}, deltaY}) => {
-    const scrollBottom = scrollHeight - scrollTop - clientHeight;
-    if (deltaY > 0 && scrollBottom < Math.abs(deltaY)) {
-      setWorkList(workList.slice(1).concat(workList.slice(0, 1)));
-    }
-    if (deltaY < 0 && scrollTop < Math.abs(deltaY)) {
-      setWorkList(workList.slice(-1).concat(workList.slice(0, -1)));
-    }
-  };
+    const handleWorkListScroll = ({currentTarget: {scrollTop, scrollHeight, clientHeight}, deltaY}) => {
+      const scrollBottom = scrollHeight - scrollTop - clientHeight;
+      if (deltaY > 0 && scrollBottom < Math.abs(deltaY)) {
+        setWorkList(workList.slice(1).concat(workList.slice(0, 1)));
+      }
+      if (deltaY < 0 && scrollTop < Math.abs(deltaY)) {
+        setWorkList(workList.slice(-1).concat(workList.slice(0, -1)));
+      }
+    };
 
-  const pageRef = useRef(null);
-  const imageZoneWidth = window.innerWidth;
-  const imageZoneHeight = window.innerHeight;
-  const imageWidth = Math.round(imageZoneWidth * 0.4);
-  const imageHeight = Math.round(imageZoneHeight * 0.4);
-  const imageLeft = getRandomInt(0, window.innerWidth - imageWidth);
-  const imageTop = getRandomInt(0, window.innerHeight - imageHeight);
+    const imageWidth = Math.round(window.innerWidth / 7);
+    const imageHeight = Math.round(window.innerHeight / 4);
 
-  return (
-    <Page ref={pageRef}>
-      <WorkList onWheel={handleWorkListScroll}>
-        {workList
-          .filter(work => work.id && work.name && work.name[locale])
-          .map(work =>
-            <WorkItem disabled={!work.imageLink} key={work.id}
-                      onMouseEnter={() => setItemHovering(work)}>
-              <Link to={work.imageLink ? `${urlWithoutSlash}/${work.id}` : undefined}>
-                {itemHovering && work.id === itemHovering.id && <Number>{work.id}</Number>}
-                {work.name[locale]}
-              </Link>
-            </WorkItem>
-          )}
-      </WorkList>
-      {itemHovering && itemHovering.id && itemHovering.imageLink &&
-      <Image key={itemHovering.id} width={imageWidth} height={imageHeight} left={imageLeft} top={imageTop}
-               src={itemHovering.imageLink}/>
-        }
+    if (loading) return <Loading/>;
+    return (
+      <Page>
+        <WorkList onWheel={handleWorkListScroll}>
+          {workList
+            .filter(work => work.id && work.name && work.name[locale])
+            .map(work =>
+              <WorkItem disabled={!work.imageLink} key={work.id}>
+                {work.imageLink &&
+                <Image key={work.id}
+                       width={imageWidth}
+                       height={imageHeight}
+                       left={getRandomInt(0, window.innerWidth - imageWidth)}
+                       top={getRandomInt(0, window.innerHeight - imageHeight)}
+                       src={work.imageLink}/>
+                }
+                <Link to={work.imageLink ? `${urlWithoutSlash}/${work.id}` : '#'}>
+                  <WorkId className="work-id">{work.id}</WorkId>
+                  {work.name[locale]}
+                </Link>
+              </WorkItem>
+            )}
+        </WorkList>
       </Page>
     );
   }
