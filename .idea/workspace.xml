@@ -2,210 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09cedebb-8053-44cd-bdf6-6a50c19777b3" name="Default Changelist" comment="Idea">
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/dirnalex.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/data/work/0018/1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/data/work/0018/2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/data/work/0018/3.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/data/work/0030/1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/data/work/0030/2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/data/work/0030/3.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/data/work/0043/1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/data/work/0043/2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/data/work/0043/3.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/data/work/0066/1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/data/work/0066/2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/data/work/0066/3.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/data/work/0066/4.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/data/work/0066/5.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/data/work/0066/6.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/data/work/0066/7.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/data/work/0069/1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/data/work/0069/2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/data/work/0069/3.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/data/work/0069/4.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/data/work/0086/1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/data/work/0086/2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/data/work/0086/3.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/data/work/0106/1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/data/work/0106/2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/data/work/0106/3.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/data/work/0106/4.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/data/work/0106/5.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/data/work/0106/6.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/data/work/0112/1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/data/work/0112/2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/data/work/0112/3.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/data/work/0129/1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/data/work/0129/2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/data/work/0129/3.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/data/work/0129/4.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/data/work/0147/1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/data/work/0147/2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/data/work/0147/3.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/data/work/0147/4.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/data/work/0147/5.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/data/work/0147/6.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/data/work/0147/7.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/data/work/0147/8.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/data/work/0147/9.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/data/work/0159/1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/data/work/0159/2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/data/work/0159/3.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/data/work/0159/4.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/data/work/0159/5.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/data/work/0159/6.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/data/work/0159/7.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/data/work/0166/1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/data/work/0166/2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/data/work/0166/3.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/data/work/0170/1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/data/work/0170/10.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/data/work/0170/2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/data/work/0170/3.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/data/work/0170/4.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/data/work/0170/5.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/data/work/0170/6.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/data/work/0170/7.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/data/work/0170/8.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/data/work/0170/9.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/data/work/0173/1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/data/work/0173/2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/data/work/0173/3.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/data/work/0173/4.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/data/work/0173/5.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/data/work/0173/6.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/work/0018/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/work/0018/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/work/0030/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/work/0030/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/work/0043/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/work/0043/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/work/0066/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/work/0066/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/work/0066/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/work/0066/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/work/0066/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/work/0066/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/work/0069/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/work/0069/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/work/0069/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/work/0086/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/work/0086/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/work/0106/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/work/0106/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/work/0106/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/work/0106/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/work/0106/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/work/0112/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/work/0112/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/work/0112/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/work/0129/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/work/0129/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/work/0129/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/work/0147/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/work/0147/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/work/0147/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/work/0147/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/work/0147/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/work/0147/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/work/0147/7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/work/0147/8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/work/0159/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/work/0159/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/work/0159/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/work/0159/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/work/0159/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/work/0159/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/work/0166/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/work/0170/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/work/0170/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/work/0170/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/work/0170/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/work/0170/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/work/0170/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/work/0170/7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/work/0170/8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/work/0173/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/work/0173/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/work/0173/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/work/0173/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/work/0173/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/work/PrevNextWorkLink.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/PageNotFound.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/data/about/2.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/data/about/2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/data/about/3.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/data/about/3.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/data/contact/1.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/data/contact/1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/data/start/1.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/data/start/1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/data/start/2.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/data/start/2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/data/start/3.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/data/start/3.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/data/start/4.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/data/start/4.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/data/start/5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/data/work/0054/1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/data/work/0054/2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/data/work/0054/3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/data/work/0054/4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/data/work/0054/5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/data/work/0054/6.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/data/work/0055/1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/data/work/0055/2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/data/work/0055/3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/data/work/0055/4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/data/work/0055/5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/data/work/0055/6.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/data/work/0056/1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/data/work/list.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/data/work/list.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/luna.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/ola-blue.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/test-img.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/works/0054/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/works/0054/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/works/0054/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/works/0054/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/works/0054/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/works/0055/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/works/0055/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/works/0056/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/works/0056/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/works/0056/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AppStyles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppStyles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InternationalizedApp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/InternationalizedApp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Cursor.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cursor.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CursorStyles.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HorizontalScroll.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HorizontalScroll.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HorizontalScrollStyles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HorizontalScrollStyles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MenuStyles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MenuStyles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PageSlider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PageSlider.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Video.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Video.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/VideoStyles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/VideoStyles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/work/WorkDescription.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/work/WorkDescription.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hooks/useIsMini.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/useIsMini.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hooks/usePageDescriptions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/usePageDescriptions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hooks/usePagination.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/usePagination.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/LanguageSelectPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/LanguageSelectPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/about/AboutPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/about/AboutPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/contact/ContactPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/contact/ContactPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/start/StartPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/start/StartPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/templates/ContactPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/templates/ContactPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/templates/FullscreenImagePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/templates/FullscreenImagePage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/templates/TextPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/templates/TextPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/templates/TextWithMore.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/templates/TextWithMorePage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/templates/VideoPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/templates/VideoPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/templates/WorkVideoPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/templates/WorkVideoPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/templates/pageTemplateIndex.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/templates/pageTemplateIndex.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/work/WorkPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/work/WorkPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/work/WorkSelectPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/work/WorkSelectPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routers/AppRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routers/AppRouter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/translations/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/translations/en.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/translations/pl.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/translations/pl.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -455,7 +252,28 @@
       <option name="project" value="LOCAL" />
       <updated>1615480924537</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Restrict text content width">
+      <created>1615488982313</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1615488982313</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Return initial margins">
+      <created>1615489025349</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1615489025349</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Fixes">
+      <created>1615489049653</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1615489049653</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -488,7 +306,10 @@
     <MESSAGE value="Cursor performance optimization" />
     <MESSAGE value="Delete videos from VCS" />
     <MESSAGE value="Idea" />
-    <option name="LAST_COMMIT_MESSAGE" value="Idea" />
+    <MESSAGE value="Restrict text content width" />
+    <MESSAGE value="Return initial margins" />
+    <MESSAGE value="Fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixes" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -515,11 +336,15 @@
       <screen x="-1680" y="-594" width="1680" height="1050" />
     </state>
     <state x="-1102" y="-317" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900/-1680.-594.1680.1050@-1680.-594.1680.1050" timestamp="1614692923579" />
-    <state x="-1265" y="-445" key="CommitChangelistDialog2" timestamp="1615483833682">
+    <state x="-1265" y="-445" key="CommitChangelistDialog2" timestamp="1615489049180">
       <screen x="-1615" y="-569" width="1615" height="1025" />
     </state>
     <state x="-1316" y="-467" key="CommitChangelistDialog2/0.0.1440.900/-1680.-594.1680.1050@-1680.-594.1680.1050" timestamp="1615201443089" />
-    <state x="-1265" y="-445" key="CommitChangelistDialog2/0.25.1440.875/-1615.-569.1615.1025@-1615.-569.1615.1025" timestamp="1615483833682" />
+    <state x="-1265" y="-445" key="CommitChangelistDialog2/0.25.1440.875/-1615.-569.1615.1025@-1615.-569.1615.1025" timestamp="1615489049180" />
+    <state x="-1378" y="-411" key="DiffContextDialog" timestamp="1615488941709">
+      <screen x="-1615" y="-569" width="1615" height="1025" />
+    </state>
+    <state x="-1378" y="-411" key="DiffContextDialog/0.25.1440.875/-1615.-569.1615.1025@-1615.-569.1615.1025" timestamp="1615488941709" />
     <state x="-1561" y="-481" width="1445" height="820" key="DirDiffDialog" timestamp="1615320508884">
       <screen x="-1615" y="-569" width="1615" height="1025" />
     </state>
@@ -591,13 +416,13 @@
       <screen x="-1680" y="-594" width="1680" height="1050" />
     </state>
     <state x="-1186" y="-449" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1440.900/-1680.-594.1680.1050@-1680.-594.1680.1050" timestamp="1615144883905" />
-    <state x="-1410" y="-489" width="1410" height="836" key="find.popup" timestamp="1615362672390">
-      <screen x="-1613" y="-569" width="1613" height="1025" />
+    <state x="-1411" y="-489" width="1411" height="836" key="find.popup" timestamp="1615487023684">
+      <screen x="-1615" y="-569" width="1615" height="1025" />
     </state>
     <state x="-1615" y="-572" width="1467" height="856" key="find.popup/0.0.1440.900/-1680.-594.1680.1050@-1680.-594.1680.1050" timestamp="1615200879257" />
     <state x="-1406" y="-489" width="1406" height="836" key="find.popup/0.25.1440.875/-1610.-569.1610.1025@-1610.-569.1610.1025" timestamp="1615300363901" />
     <state x="-1410" y="-489" width="1410" height="836" key="find.popup/0.25.1440.875/-1613.-569.1613.1025@-1613.-569.1613.1025" timestamp="1615362672390" />
-    <state x="-1411" y="-489" width="1411" height="836" key="find.popup/0.25.1440.875/-1615.-569.1615.1025@-1615.-569.1615.1025" timestamp="1615336451615" />
+    <state x="-1411" y="-489" width="1411" height="836" key="find.popup/0.25.1440.875/-1615.-569.1615.1025@-1615.-569.1615.1025" timestamp="1615487023684" />
     <state x="141" y="68" width="1207" height="713" key="find.popup/56.25.1384.875/1440.-493.1680.1025@56.25.1384.875" timestamp="1613425621074" />
     <state x="143" y="68" width="1206" height="713" key="find.popup/58.25.1382.875/1440.-493.1680.1025@58.25.1382.875" timestamp="1613848609067" />
     <state x="147" y="68" width="1202" height="713" key="find.popup/62.25.1378.875/1440.-493.1680.1025@62.25.1378.875" timestamp="1613513432995" />
@@ -613,13 +438,13 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="593" y="351" key="publish.login/0.0.1440.900@0.0.1440.900" timestamp="1615225984866" />
-    <state x="-1199" y="-347" width="785" height="793" key="search.everywhere.popup" timestamp="1615396369662">
+    <state x="-1199" y="-347" width="785" height="793" key="search.everywhere.popup" timestamp="1615486564167">
       <screen x="-1615" y="-569" width="1615" height="1025" />
     </state>
     <state x="-1248" y="-367" width="816" height="812" key="search.everywhere.popup/0.0.1440.900/-1680.-594.1680.1050@-1680.-594.1680.1050" timestamp="1615201112622" />
     <state x="-1196" y="-347" width="782" height="793" key="search.everywhere.popup/0.25.1440.875/-1610.-569.1610.1025@-1610.-569.1610.1025" timestamp="1615297409588" />
     <state x="-1198" y="-347" width="784" height="793" key="search.everywhere.popup/0.25.1440.875/-1613.-569.1613.1025@-1613.-569.1613.1025" timestamp="1615313795447" />
-    <state x="-1199" y="-347" width="785" height="793" key="search.everywhere.popup/0.25.1440.875/-1615.-569.1615.1025@-1615.-569.1615.1025" timestamp="1615396369662" />
+    <state x="-1199" y="-347" width="785" height="793" key="search.everywhere.popup/0.25.1440.875/-1615.-569.1615.1025@-1615.-569.1615.1025" timestamp="1615486564167" />
     <state x="412" y="214" width="672" height="676" key="search.everywhere.popup/56.25.1384.875/1440.-493.1680.1025@56.25.1384.875" timestamp="1613425630653" />
     <state x="415" y="214" width="670" height="676" key="search.everywhere.popup/60.25.1380.875/1440.-493.1680.1025@60.25.1380.875" timestamp="1613341913391" />
   </component>
