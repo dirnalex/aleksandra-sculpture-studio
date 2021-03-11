@@ -70,7 +70,7 @@ const Facebook = styled.a`
 `;
 
 
-const ContactPage = ({text = {}, mail, instagramLink, facebookLink}) => {
+const ContactPage = ({text = {}, mail, instagramLink, facebookLink, phone}) => {
   const {locale} = useIntl();
   return (
     <PageContainer>
@@ -83,6 +83,7 @@ const ContactPage = ({text = {}, mail, instagramLink, facebookLink}) => {
               {mail && <Mail href={`mailto:${mail}`} target="_blank">{mail}</Mail>}
               {instagramLink && <Instagram href={instagramLink} target="_blank">Instagram</Instagram>}
               {facebookLink && <Facebook href={facebookLink} target="_blank">Facebook</Facebook>}
+              {phone}
             </LinksInnerContainer>
           </LinksContainer>
         </ContentContainer>

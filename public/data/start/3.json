@@ -1,8 +1,16 @@
 {
-  "TextPage": {
-    "text": {
-      "pl": "Sculpture studio Jest przede wszystkim miejscem w którym istotny jest proces tworzenia, przestrzeń twórcza, zawierająca w sobie również autorskie attelier rzeźby. Interdyscyplinarność jest szerszą potrzebą sięgania po sztukę, czego efektem jest przenikanie się wielopłaszczyznowość podejmowanych w studio działań.",
-      "en": "Sculpture studio Jest przede wszystkim miejscem w którym istotny jest proces tworzenia, przestrzeń twórcza, zawierająca w sobie również autorskie attelier rzeźby. Interdyscyplinarność jest szerszą potrzebą sięgania po sztukę, czego efektem jest przenikanie się wielopłaszczyznowość podejmowanych w studio działań."
+  "WorkVideoPage": {
+    "link": "https://www.youtube.com/embed/HKR54odgHvw",
+    "isYouTube": true,
+    "workLink": {
+      "text": {
+        "pl": "Więcej o ”Pokoj nie pokoj II”",
+        "en": "More about ”Room - Anxiety II”"
+      },
+      "link": {
+        "pl": "/pl/work/0166",
+        "en": "/en/work/0166"
+      }
     }
   }
 }

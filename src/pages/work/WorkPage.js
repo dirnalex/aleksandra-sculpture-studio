@@ -1,5 +1,5 @@
 import React, {useEffect, useRef, useState} from 'react';
-import {FormattedMessage, useIntl} from 'react-intl';
+import {useIntl} from 'react-intl';
 import styled, {css} from 'styled-components';
 import HorizontalScroll from '../../components/HorizontalScroll';
 import useWorkList from '../../hooks/useWorkList';
@@ -9,6 +9,8 @@ import useResize from '../../hooks/useResize';
 import useIsMini from '../../hooks/useIsMini';
 import WorkDescription from '../../components/work/WorkDescription';
 import {Blinking, HideScrollbar, StandardTopBottomMargin} from '../../ReuseStyles';
+import PrevNextWorkLink from '../../components/work/PrevNextWorkLink';
+import {Redirect} from 'react-router-dom';
 
 const Container = styled.div`
   width: 100%;
@@ -35,11 +37,15 @@ const WorkDescriptionPageContainer = styled.div`
 
 const OnPageWorkDescription = styled(WorkDescription)`
   position: fixed;
+  color: ${props => props.theme.textColor || 'black'};
   z-index: 999;
   bottom: ${({theme}) => theme.app.bottomMargin * 2 + theme.menu.itemHeight}px;
   top: calc(50% + ${({theme}) => theme.scroller.arrow.height + 10}px);
   left: ${({theme}) => theme.app.leftMargin}px;
   overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   ${HideScrollbar}
 `;
 
@@ -57,6 +63,7 @@ const PrevNextWorkContainer = css`
   flex-direction: column;
   align-items: center;
   
+  color: ${props => props.theme.textColor || 'black'};
   font-size: 0.75em;
   line-height: 117%;
   
@@ -80,8 +87,7 @@ const NextWorkContainer = styled.div`
 `;
 
 const WorkPage = ({id}) => {
-  const intl = useIntl();
-  const {locale} = intl;
+  const {locale} = useIntl();
 
   const containerRef = useRef(null);
   const {width} = useResize(containerRef);
@@ -93,76 +99,68 @@ const WorkPage = ({id}) => {
   const [prevWork, setPrevWork] = useState({});
   const [nextWork, setNextWork] = useState({});
   useEffect(() => {
-    const workIndex = workList.findIndex(w => w.id === id);
+    const existingWorkList = workList.filter(work => !!work.imageLink)
+    const workIndex = existingWorkList.findIndex(w => w.id === id);
     if (workIndex > -1) {
-      setWork(workList[workIndex]);
-      workIndex - 1 > -1 && setPrevWork(workList[workIndex - 1]);
-      workIndex + 1 < workList.length && setNextWork(workList[workIndex + 1]);
+      setWork(existingWorkList[workIndex]);
+      workIndex - 1 > -1 ? setPrevWork(existingWorkList[workIndex - 1]) : setPrevWork(existingWorkList[existingWorkList.length - 1]);
+      workIndex + 1 < existingWorkList.length ? setNextWork(existingWorkList[workIndex + 1]) : setNextWork(existingWorkList[0]);
     }
   }, [workList, id]);
 
-  const pageDescriptions = usePageDescriptions(`/data/work/${id}`);
+  const {loadedPageDescriptions: pageDescriptions, loaded} = usePageDescriptions(`/data/work/${id}`);
 
-  const PrevWorkComponent =
-    <PrevWorkContainer>
-      <FormattedMessage id="works.prev"/>
-      <a href={`/${locale}/work/${prevWork.id}`}>
-        <FormattedMessage id="menu.work"/>
-        {prevWork.name && prevWork.name[locale] ?
-          prevWork.name[locale] :
-          prevWork.id
+  const [pages, setPages] = useState([]);
+  useEffect(() => {
+    const newPages = pageDescriptions.map((desc, i) =>
+      <WorkPageContainer {...getProps(desc)} key={i}>
+        {!mini && i === pageDescriptions.length - 1 && prevWork && prevWork.id &&
+        <PrevWorkContainer>
+          <PrevNextWorkLink labelId="work.prev" work={prevWork}/>
+        </PrevWorkContainer>
         }
-      </a>
-    </PrevWorkContainer>;
-
-  const NextWorkComponent =
-    <NextWorkContainer>
-      <FormattedMessage id="works.next"/>
-      <a href={`/${locale}/work/${nextWork.id}`}>
-        {nextWork.name && nextWork.name[locale] ?
-          nextWork.name[locale] :
-          nextWork.id
+        {!mini && i === pageDescriptions.length - 1 && nextWork && nextWork.id &&
+        <NextWorkContainer>
+          <PrevNextWorkLink labelId="work.next" work={nextWork}/>
+        </NextWorkContainer>
         }
-      </a>
-    </NextWorkContainer>;
-
-  const pages = pageDescriptions.map((desc, i) =>
-    <WorkPageContainer {...getProps(desc)} key={i}>
-      {!mini && i === pageDescriptions.length - 1 && prevWork && prevWork.id &&
-      PrevWorkComponent
-      }
-      {!mini && i === pageDescriptions.length - 1 && nextWork && nextWork.id &&
-      NextWorkComponent
-      }
-      {renderPage(desc, i)}
-    </WorkPageContainer>
-  );
-  if (mini) {
-    pages.unshift(
-      <WorkDescriptionPageContainer key='description'>
-        <WorkDescription work={work}/>
-      </WorkDescriptionPageContainer>
+        {renderPage(desc, i)}
+      </WorkPageContainer>
     );
-    pages.push(
-      <PrevNextPageContainer key='prevnext'>
-        {prevWork && prevWork.id &&
-        PrevWorkComponent
-        }
-        {nextWork && nextWork.id &&
-        NextWorkComponent
-        }
-      </PrevNextPageContainer>
-    );
-  }
 
-  return (
+    if (mini) {
+      newPages.unshift(
+        <WorkDescriptionPageContainer key='description'>
+          <WorkDescription work={work}/>
+        </WorkDescriptionPageContainer>
+      );
+      newPages.push(
+        <PrevNextPageContainer key='prevnext'>
+          {prevWork && prevWork.id &&
+          <PrevWorkContainer>
+            <PrevNextWorkLink labelId="work.prev" work={prevWork}/>
+          </PrevWorkContainer>
+          }
+          {nextWork && nextWork.id &&
+          <NextWorkContainer>
+            <PrevNextWorkLink labelId="work.next" work={nextWork}/>
+          </NextWorkContainer>
+          }
+        </PrevNextPageContainer>
+      );
+    }
+    setPages(newPages);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [pageDescriptions, work, mini]);
+
+  return (!loaded || (loaded && pageDescriptions.length > 0)) ? (
     <Container ref={containerRef}>
       {!mini && <OnPageWorkDescription work={work}/>}
       <HorizontalScroll>
         {pages}
       </HorizontalScroll>
     </Container>
-  );
+  ) : <Redirect to={`/${locale}/work`}/>;
 };
 
 export default WorkPage;

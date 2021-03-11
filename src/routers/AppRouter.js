@@ -5,6 +5,7 @@ import ContactPage from '../pages/contact/ContactPage';
 import AboutPage from '../pages/about/AboutPage';
 import WorkRouter from './WorkRouter';
 import useExtendedRouteMatch from '../hooks/useExtendedRouteMatch';
+import PageNotFound from '../pages/PageNotFound';
 
 const AppRouter = props => {
   const {pathWithoutSlash, urlWithoutSlash} = useExtendedRouteMatch();
@@ -24,7 +25,7 @@ const AppRouter = props => {
         <WorkRouter/>
       </Route>
       <Route>
-        404
+        <PageNotFound/>
       </Route>
     </Switch>
   );

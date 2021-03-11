@@ -6,6 +6,7 @@ import VerticalScroll from '../../components/Vertical Scroll';
 
 const PageContainer = styled.div`
   ${StandardTopBottomMargin};
+  max-width: 300px;
 `;
 
 const ContentContainer = styled.div`
@@ -37,7 +38,7 @@ const TextPage = ({text}) => {
       <VerticalScroll>
         <ContentContainer>
           <Text>
-            {text[locale]}{text[locale]}
+            {text[locale]}
           </Text>
         </ContentContainer>
       </VerticalScroll>

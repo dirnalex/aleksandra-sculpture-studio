@@ -4,7 +4,7 @@ import {StyledHorizontalScroll} from '../about/AboutPageStyles';
 import {renderPage} from '../../utils/pageDescription';
 
 const ContactPage = () => {
-  const pageDescriptions = usePageDescriptions('/data/contact');
+  const {loadedPageDescriptions: pageDescriptions} = usePageDescriptions('/data/contact');
 
   return (
     <StyledHorizontalScroll>

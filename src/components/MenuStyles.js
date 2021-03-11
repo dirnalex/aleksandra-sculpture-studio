@@ -6,6 +6,7 @@ export const MenuList = styled.ul`
   height: 100%;
   pointer-events: none;
   z-index: 999;
+  color: ${props => props.theme.textColor || 'black'};
 `;
 
 const MenuItem = styled.li`

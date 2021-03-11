@@ -8,14 +8,11 @@ const PageContainer = styled.div`
   ${StandardTopBottomMargin};
 `;
 
-const VideoPage = ({link, title}) => {
+const VideoPage = ({link, title, isYouTube}) => {
   const {locale} = useIntl();
   return (
     <PageContainer>
-      <Video title={title[locale]}>
-        <source src={link}/>
-        Sorry, your browser doesn't support embedded videos.
-      </Video>
+      <Video link={link} title={title && title[locale]} isYouTube={isYouTube}/>
     </PageContainer>
   );
 };

@@ -2,7 +2,7 @@ import React from 'react';
 import {useIntl} from 'react-intl';
 import styled from 'styled-components';
 import Video from '../../components/Video';
-import {NavLink} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 import {Blinking, StandardTopBottomMargin} from '../../ReuseStyles';
 
 const PageContainer = styled.div`
@@ -10,7 +10,7 @@ const PageContainer = styled.div`
   position: relative;
 `;
 
-const StyledLink = styled(NavLink)`
+const StyledLink = styled(Link)`
   ${Blinking()};
   :hover {
     animation: none;
@@ -37,15 +37,12 @@ const StyledLink = styled(NavLink)`
   justify-content: center;
 `;
 
-const WorkVideoPage = ({link, title, workLink}) => {
+const WorkVideoPage = ({link, title, workLink, isYouTube}) => {
   const {locale} = useIntl();
   return (
     <PageContainer>
-      <Video title={title[locale]}>
-        <source src={link}/>
-        Sorry, your browser doesn't support embedded videos.
-      </Video>
-      <StyledLink exact to={workLink.link}>
+      <Video link={link} title={title && title[locale]} isYouTube={isYouTube}/>
+      <StyledLink exact to={workLink.link[locale]}>
         {workLink.text[locale]}
       </StyledLink>
     </PageContainer>

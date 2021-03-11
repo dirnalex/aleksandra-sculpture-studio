@@ -1,7 +1,7 @@
 import {useEffect, useState} from 'react';
 
 export default (urlBase) => {
-  const [pageDescriptions, setPageDescriptions] = useState([]);
+  const [pageDescriptions, setPageDescriptions] = useState({loaded: false, loadedPageDescriptions: []});
 
   useEffect(() => {
     (async function getPages() {
@@ -9,7 +9,7 @@ export default (urlBase) => {
       const loadedPageDescriptions = [];
       for (let pageNo = 1; !emptyPage; pageNo++) {
         const response = await fetch(`${urlBase}/${pageNo}.json`);
-        if (response.ok) {
+        if (response.status === 200) {
           try {
             const json = await response.json();
             loadedPageDescriptions.push(json);
@@ -20,7 +20,7 @@ export default (urlBase) => {
           emptyPage = true;
         }
       }
-      setPageDescriptions(loadedPageDescriptions);
+      setPageDescriptions({loaded: true, loadedPageDescriptions});
     })();
   }, [urlBase]);
 

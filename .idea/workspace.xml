@@ -1,14 +1,221 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="09cedebb-8053-44cd-bdf6-6a50c19777b3" name="Default Changelist" comment="">
+    <list default="true" id="09cedebb-8053-44cd-bdf6-6a50c19777b3" name="Default Changelist" comment="Idea">
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/dirnalex.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/data/work/0018/1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/data/work/0018/2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/data/work/0018/3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/data/work/0030/1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/data/work/0030/2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/data/work/0030/3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/data/work/0043/1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/data/work/0043/2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/data/work/0043/3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/data/work/0066/1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/data/work/0066/2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/data/work/0066/3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/data/work/0066/4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/data/work/0066/5.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/data/work/0066/6.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/data/work/0066/7.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/data/work/0069/1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/data/work/0069/2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/data/work/0069/3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/data/work/0069/4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/data/work/0086/1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/data/work/0086/2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/data/work/0086/3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/data/work/0106/1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/data/work/0106/2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/data/work/0106/3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/data/work/0106/4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/data/work/0106/5.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/data/work/0106/6.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/data/work/0112/1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/data/work/0112/2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/data/work/0112/3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/data/work/0129/1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/data/work/0129/2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/data/work/0129/3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/data/work/0129/4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/data/work/0147/1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/data/work/0147/2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/data/work/0147/3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/data/work/0147/4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/data/work/0147/5.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/data/work/0147/6.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/data/work/0147/7.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/data/work/0147/8.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/data/work/0147/9.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/data/work/0159/1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/data/work/0159/2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/data/work/0159/3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/data/work/0159/4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/data/work/0159/5.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/data/work/0159/6.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/data/work/0159/7.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/data/work/0166/1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/data/work/0166/2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/data/work/0166/3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/data/work/0170/1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/data/work/0170/10.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/data/work/0170/2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/data/work/0170/3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/data/work/0170/4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/data/work/0170/5.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/data/work/0170/6.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/data/work/0170/7.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/data/work/0170/8.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/data/work/0170/9.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/data/work/0173/1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/data/work/0173/2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/data/work/0173/3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/data/work/0173/4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/data/work/0173/5.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/data/work/0173/6.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/work/0018/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/work/0018/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/work/0030/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/work/0030/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/work/0043/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/work/0043/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/work/0066/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/work/0066/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/work/0066/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/work/0066/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/work/0066/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/work/0066/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/work/0069/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/work/0069/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/work/0069/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/work/0086/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/work/0086/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/work/0106/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/work/0106/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/work/0106/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/work/0106/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/work/0106/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/work/0112/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/work/0112/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/work/0112/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/work/0129/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/work/0129/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/work/0129/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/work/0147/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/work/0147/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/work/0147/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/work/0147/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/work/0147/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/work/0147/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/work/0147/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/work/0147/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/work/0159/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/work/0159/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/work/0159/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/work/0159/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/work/0159/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/work/0159/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/work/0166/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/work/0170/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/work/0170/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/work/0170/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/work/0170/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/work/0170/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/work/0170/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/work/0170/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/work/0170/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/work/0173/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/work/0173/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/work/0173/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/work/0173/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/work/0173/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/work/PrevNextWorkLink.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/PageNotFound.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/data/about/2.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/data/about/2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/data/about/3.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/data/about/3.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/data/contact/1.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/data/contact/1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/data/start/1.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/data/start/1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/data/start/2.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/data/start/2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/data/start/3.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/data/start/3.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/data/start/4.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/data/start/4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/data/start/5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/data/work/0054/1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/data/work/0054/2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/data/work/0054/3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/data/work/0054/4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/data/work/0054/5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/data/work/0054/6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/data/work/0055/1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/data/work/0055/2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/data/work/0055/3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/data/work/0055/4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/data/work/0055/5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/data/work/0055/6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/data/work/0056/1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/data/work/list.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/data/work/list.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/luna.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/ola-blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/test-img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/works/0054/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/works/0054/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/works/0054/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/works/0054/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/works/0054/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/works/0055/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/works/0055/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/works/0056/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/works/0056/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/works/0056/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppStyles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppStyles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InternationalizedApp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/InternationalizedApp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Cursor.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cursor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CursorStyles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HorizontalScroll.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HorizontalScroll.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HorizontalScrollStyles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HorizontalScrollStyles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MenuStyles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MenuStyles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PageSlider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PageSlider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Video.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Video.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/VideoStyles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/VideoStyles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/work/WorkDescription.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/work/WorkDescription.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/hooks/useIsMini.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/useIsMini.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/usePageDescriptions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/usePageDescriptions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/usePagination.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/usePagination.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/LanguageSelectPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/LanguageSelectPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/about/AboutPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/about/AboutPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/contact/ContactPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/contact/ContactPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/start/StartPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/start/StartPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/templates/ContactPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/templates/ContactPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/templates/FullscreenImagePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/templates/FullscreenImagePage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/templates/TextPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/templates/TextPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/templates/TextWithMore.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/templates/TextWithMorePage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/templates/VideoPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/templates/VideoPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/templates/WorkVideoPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/templates/WorkVideoPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/templates/pageTemplateIndex.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/templates/pageTemplateIndex.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/work/WorkPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/work/WorkPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/work/WorkSelectPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/work/WorkSelectPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routers/AppRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routers/AppRouter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/translations/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/translations/en.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/translations/pl.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/translations/pl.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
@@ -18,11 +225,25 @@
       <executable />
     </execution>
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -42,12 +263,18 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/hooks" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -56,16 +283,16 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/hooks" />
-      <recent name="$PROJECT_DIR$/public/data/work/0056" />
-      <recent name="$PROJECT_DIR$/public/data/work" />
-      <recent name="$PROJECT_DIR$/public/data/work/0054" />
-      <recent name="$PROJECT_DIR$/src/pages/templates" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/3d" />
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/public/img/work/0147" />
+      <recent name="$PROJECT_DIR$/public/video/work/0159" />
+      <recent name="$PROJECT_DIR$/public/video/work/0116" />
     </key>
     <key name="es6.move.members.recent.items">
       <recent name="$PROJECT_DIR$/src/ReuseStyles.js" />
@@ -74,16 +301,26 @@
       <recent name="$PROJECT_DIR$/src/pages/about/AboutSecondPageStyles.js" />
       <recent name="$PROJECT_DIR$/src/contexts/CursorChangeContext.js" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public" />
-      <recent name="$PROJECT_DIR$/public/img" />
-      <recent name="$PROJECT_DIR$/public/fonts" />
-      <recent name="$PROJECT_DIR$/public/img/works" />
-      <recent name="$PROJECT_DIR$/src/pages/templates" />
+      <recent name="$PROJECT_DIR$/public/data/work/0170" />
+      <recent name="$PROJECT_DIR$/build" />
+      <recent name="$PROJECT_DIR$/public/data/work/0106" />
+      <recent name="$PROJECT_DIR$/public/data/work" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
       <method v="2" />
     </configuration>
     <configuration name="npm start" type="js.build_tools.npm">
@@ -96,6 +333,22 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.build" />
+        <item itemvalue="npm.test" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -103,6 +356,11 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="09cedebb-8053-44cd-bdf6-6a50c19777b3" name="Default Changelist" comment="" />
+      <changelist id="" name="No push" comment="" />
+      <changelist id="" name="Idea" comment="" />
+      <changelist id="" name="Delete videos from VCS" comment="" />
+      <changelist id="" name="Cursor performance optimization" comment="" />
+      <changelist id="" name="Huge portion of everything #6" comment="" />
       <created>1601035750266</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -117,7 +375,8 @@
       <workItem from="1609877711873" duration="521000" />
       <workItem from="1613146752307" duration="309000" />
       <workItem from="1613147573677" duration="15609000" />
-      <workItem from="1613504462597" duration="98413000" />
+      <workItem from="1613504462597" duration="105172000" />
+      <workItem from="1615225408667" duration="52998000" />
     </task>
     <task id="LOCAL-00001" summary="Menu, URL and localization backbone">
       <created>1601059182004</created>
@@ -154,7 +413,49 @@
       <option name="project" value="LOCAL" />
       <updated>1615200998468</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Huge portion of everything #5">
+      <created>1615201443459</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1615201443459</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Huge portion of everything #6">
+      <created>1615395957317</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1615395957319</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Delete videos from VCS">
+      <created>1615480704933</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1615480704935</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Cursor performance optimization">
+      <created>1615480902959</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1615480902959</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Delete videos from VCS">
+      <created>1615480915016</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1615480915016</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Idea">
+      <created>1615480924537</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1615480924537</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,7 +466,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -174,21 +477,36 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Menu, URL and localization backbone" />
     <MESSAGE value="Huge portion of everything" />
     <MESSAGE value="Huge portion of everything #2" />
     <MESSAGE value="Huge portion of everything #3" />
     <MESSAGE value="Huge portion of everything #4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Huge portion of everything #4" />
+    <MESSAGE value="Huge portion of everything #5" />
+    <MESSAGE value="Huge portion of everything #6" />
+    <MESSAGE value="Cursor performance optimization" />
+    <MESSAGE value="Delete videos from VCS" />
+    <MESSAGE value="Idea" />
+    <option name="LAST_COMMIT_MESSAGE" value="Idea" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1158" y="-262" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1615144840807">
-      <screen x="-1680" y="-594" width="1680" height="1050" />
+    <state x="320" y="114" key="#Deployment" timestamp="1615222816451">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="114" key="#Deployment/0.0.1440.900@0.0.1440.900" timestamp="1615222816451" />
+    <state x="184" y="110" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1615222718710">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="184" y="110" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1615222718710" />
+    <state x="-1110" y="-245" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1615284130367">
+      <screen x="-1610" y="-569" width="1610" height="1025" />
     </state>
     <state x="-1158" y="-262" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900/-1680.-594.1680.1050@-1680.-594.1680.1050" timestamp="1615144840807" />
+    <state x="-1110" y="-245" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1440.875/-1610.-569.1610.1025@-1610.-569.1610.1025" timestamp="1615284130367" />
     <state x="438" y="204" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1613146866184">
       <screen x="56" y="25" width="1384" height="875" />
     </state>
@@ -197,65 +515,111 @@
       <screen x="-1680" y="-594" width="1680" height="1050" />
     </state>
     <state x="-1102" y="-317" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900/-1680.-594.1680.1050@-1680.-594.1680.1050" timestamp="1614692923579" />
-    <state x="-1316" y="-467" key="CommitChangelistDialog2" timestamp="1615200998020">
-      <screen x="-1680" y="-594" width="1680" height="1050" />
+    <state x="-1265" y="-445" key="CommitChangelistDialog2" timestamp="1615483833682">
+      <screen x="-1615" y="-569" width="1615" height="1025" />
     </state>
-    <state x="-1316" y="-467" key="CommitChangelistDialog2/0.0.1440.900/-1680.-594.1680.1050@-1680.-594.1680.1050" timestamp="1615200998020" />
-    <state width="1638" height="401" key="GridCell.Tab.0.bottom" timestamp="1615201425704">
-      <screen x="-1680" y="-594" width="1680" height="1050" />
+    <state x="-1316" y="-467" key="CommitChangelistDialog2/0.0.1440.900/-1680.-594.1680.1050@-1680.-594.1680.1050" timestamp="1615201443089" />
+    <state x="-1265" y="-445" key="CommitChangelistDialog2/0.25.1440.875/-1615.-569.1615.1025@-1615.-569.1615.1025" timestamp="1615483833682" />
+    <state x="-1561" y="-481" width="1445" height="820" key="DirDiffDialog" timestamp="1615320508884">
+      <screen x="-1615" y="-569" width="1615" height="1025" />
     </state>
-    <state width="1638" height="401" key="GridCell.Tab.0.bottom/0.0.1440.900/-1680.-594.1680.1050@-1680.-594.1680.1050" timestamp="1615201425704" />
-    <state width="1398" height="124" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1614851655403" />
+    <state x="-1561" y="-481" width="1445" height="820" key="DirDiffDialog/0.25.1440.875/-1615.-569.1615.1025@-1615.-569.1615.1025" timestamp="1615320508884" />
+    <state x="100" y="100" width="1240" height="700" key="DirDiffDialog/54.25.1386.875@54.25.1386.875" timestamp="1615222899851" />
+    <state width="1568" height="335" key="GridCell.Tab.0.bottom" timestamp="1615363688753">
+      <screen x="-1613" y="-569" width="1613" height="1025" />
+    </state>
+    <state width="1638" height="401" key="GridCell.Tab.0.bottom/0.0.1440.900/-1680.-594.1680.1050@-1680.-594.1680.1050" timestamp="1615201603162" />
+    <state width="1398" height="335" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1615225375199" />
+    <state width="784" height="335" key="GridCell.Tab.0.bottom/0.25.1440.875/-1610.-569.1610.1025@-1610.-569.1610.1025" timestamp="1615296122122" />
+    <state width="1568" height="335" key="GridCell.Tab.0.bottom/0.25.1440.875/-1613.-569.1613.1025@-1613.-569.1613.1025" timestamp="1615363688753" />
+    <state width="1568" height="335" key="GridCell.Tab.0.bottom/0.25.1440.875/-1615.-569.1615.1025@-1615.-569.1615.1025" timestamp="1615327127891" />
+    <state width="1568" height="335" key="GridCell.Tab.0.bottom/0.25.1440.875/-1619.-569.1619.1025@-1619.-569.1619.1025" timestamp="1615327205117" />
     <state width="1338" height="152" key="GridCell.Tab.0.bottom/56.25.1384.875/1440.-493.1680.1025@56.25.1384.875" timestamp="1613478950362" />
     <state width="1336" height="152" key="GridCell.Tab.0.bottom/60.25.1380.875/1440.-493.1680.1025@60.25.1380.875" timestamp="1613864990659" />
-    <state width="1638" height="401" key="GridCell.Tab.0.center" timestamp="1615201425701">
-      <screen x="-1680" y="-594" width="1680" height="1050" />
+    <state width="1568" height="335" key="GridCell.Tab.0.center" timestamp="1615363688752">
+      <screen x="-1613" y="-569" width="1613" height="1025" />
     </state>
-    <state width="1638" height="401" key="GridCell.Tab.0.center/0.0.1440.900/-1680.-594.1680.1050@-1680.-594.1680.1050" timestamp="1615201425701" />
-    <state width="1398" height="124" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1614851655400" />
+    <state width="1638" height="401" key="GridCell.Tab.0.center/0.0.1440.900/-1680.-594.1680.1050@-1680.-594.1680.1050" timestamp="1615201603158" />
+    <state width="1398" height="335" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1615225375191" />
+    <state width="784" height="335" key="GridCell.Tab.0.center/0.25.1440.875/-1610.-569.1610.1025@-1610.-569.1610.1025" timestamp="1615296122121" />
+    <state width="1568" height="335" key="GridCell.Tab.0.center/0.25.1440.875/-1613.-569.1613.1025@-1613.-569.1613.1025" timestamp="1615363688752" />
+    <state width="1568" height="335" key="GridCell.Tab.0.center/0.25.1440.875/-1615.-569.1615.1025@-1615.-569.1615.1025" timestamp="1615327127890" />
+    <state width="1568" height="335" key="GridCell.Tab.0.center/0.25.1440.875/-1619.-569.1619.1025@-1619.-569.1619.1025" timestamp="1615327205113" />
     <state width="1338" height="152" key="GridCell.Tab.0.center/56.25.1384.875/1440.-493.1680.1025@56.25.1384.875" timestamp="1613478950361" />
     <state width="1336" height="152" key="GridCell.Tab.0.center/60.25.1380.875/1440.-493.1680.1025@60.25.1380.875" timestamp="1613864990657" />
-    <state width="1638" height="401" key="GridCell.Tab.0.left" timestamp="1615201425699">
-      <screen x="-1680" y="-594" width="1680" height="1050" />
+    <state width="1568" height="335" key="GridCell.Tab.0.left" timestamp="1615363688751">
+      <screen x="-1613" y="-569" width="1613" height="1025" />
     </state>
-    <state width="1638" height="401" key="GridCell.Tab.0.left/0.0.1440.900/-1680.-594.1680.1050@-1680.-594.1680.1050" timestamp="1615201425699" />
-    <state width="1398" height="124" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1614851655392" />
+    <state width="1638" height="401" key="GridCell.Tab.0.left/0.0.1440.900/-1680.-594.1680.1050@-1680.-594.1680.1050" timestamp="1615201603156" />
+    <state width="1398" height="335" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1615225375102" />
+    <state width="784" height="335" key="GridCell.Tab.0.left/0.25.1440.875/-1610.-569.1610.1025@-1610.-569.1610.1025" timestamp="1615296122120" />
+    <state width="1568" height="335" key="GridCell.Tab.0.left/0.25.1440.875/-1613.-569.1613.1025@-1613.-569.1613.1025" timestamp="1615363688751" />
+    <state width="1568" height="335" key="GridCell.Tab.0.left/0.25.1440.875/-1615.-569.1615.1025@-1615.-569.1615.1025" timestamp="1615327127889" />
+    <state width="1568" height="335" key="GridCell.Tab.0.left/0.25.1440.875/-1619.-569.1619.1025@-1619.-569.1619.1025" timestamp="1615327205112" />
     <state width="1338" height="152" key="GridCell.Tab.0.left/56.25.1384.875/1440.-493.1680.1025@56.25.1384.875" timestamp="1613478950360" />
     <state width="1336" height="152" key="GridCell.Tab.0.left/60.25.1380.875/1440.-493.1680.1025@60.25.1380.875" timestamp="1613864990656" />
-    <state width="1638" height="401" key="GridCell.Tab.0.right" timestamp="1615201425703">
-      <screen x="-1680" y="-594" width="1680" height="1050" />
+    <state width="1568" height="335" key="GridCell.Tab.0.right" timestamp="1615363688753">
+      <screen x="-1613" y="-569" width="1613" height="1025" />
     </state>
-    <state width="1638" height="401" key="GridCell.Tab.0.right/0.0.1440.900/-1680.-594.1680.1050@-1680.-594.1680.1050" timestamp="1615201425703" />
-    <state width="1398" height="124" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1614851655401" />
+    <state width="1638" height="401" key="GridCell.Tab.0.right/0.0.1440.900/-1680.-594.1680.1050@-1680.-594.1680.1050" timestamp="1615201603160" />
+    <state width="1398" height="335" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1615225375197" />
+    <state width="784" height="335" key="GridCell.Tab.0.right/0.25.1440.875/-1610.-569.1610.1025@-1610.-569.1610.1025" timestamp="1615296122121" />
+    <state width="1568" height="335" key="GridCell.Tab.0.right/0.25.1440.875/-1613.-569.1613.1025@-1613.-569.1613.1025" timestamp="1615363688753" />
+    <state width="1568" height="335" key="GridCell.Tab.0.right/0.25.1440.875/-1615.-569.1615.1025@-1615.-569.1615.1025" timestamp="1615327127890" />
+    <state width="1568" height="335" key="GridCell.Tab.0.right/0.25.1440.875/-1619.-569.1619.1025@-1619.-569.1619.1025" timestamp="1615327205114" />
     <state width="1338" height="152" key="GridCell.Tab.0.right/56.25.1384.875/1440.-493.1680.1025@56.25.1384.875" timestamp="1613478950361" />
     <state width="1336" height="152" key="GridCell.Tab.0.right/60.25.1380.875/1440.-493.1680.1025@60.25.1380.875" timestamp="1613864990658" />
-    <state x="395" y="165" key="NewModule_or_Project.wizard" timestamp="1605792976744">
-      <screen x="45" y="23" width="1395" height="877" />
+    <state x="-1105" y="-342" key="RollbackChangesDialog" timestamp="1615484191042">
+      <screen x="-1615" y="-569" width="1615" height="1025" />
     </state>
-    <state x="395" y="165" key="NewModule_or_Project.wizard/45.23.1395.877/1440.-495.1680.1027@45.23.1395.877" timestamp="1605792976744" />
-    <state x="260" y="98" key="SettingsEditor" timestamp="1613598360172">
-      <screen x="60" y="25" width="1380" height="875" />
+    <state x="-1105" y="-342" key="RollbackChangesDialog/0.25.1440.875/-1615.-569.1615.1025@-1615.-569.1615.1025" timestamp="1615484191042" />
+    <state x="-1377" y="-483" key="SettingsEditor" timestamp="1615238129071">
+      <screen x="-1610" y="-569" width="1610" height="1025" />
     </state>
+    <state x="-1377" y="-483" key="SettingsEditor/0.25.1440.875/-1610.-569.1610.1025@-1610.-569.1610.1025" timestamp="1615238129071" />
     <state x="260" y="98" key="SettingsEditor/60.25.1380.875/1440.-493.1680.1025@60.25.1380.875" timestamp="1613598360172" />
-    <state x="-1240" y="-331" key="Vcs.Push.Dialog.v2" timestamp="1615201000374">
-      <screen x="-1680" y="-594" width="1680" height="1050" />
+    <state x="-953" y="-136" key="VCS.ChangelistChooser" timestamp="1615483923218">
+      <screen x="-1615" y="-569" width="1615" height="1025" />
     </state>
-    <state x="-1240" y="-331" key="Vcs.Push.Dialog.v2/0.0.1440.900/-1680.-594.1680.1050@-1680.-594.1680.1050" timestamp="1615201000374" />
+    <state x="-953" y="-136" key="VCS.ChangelistChooser/0.25.1440.875/-1615.-569.1615.1025@-1615.-569.1615.1025" timestamp="1615483923218" />
+    <state x="-1192" y="-312" key="Vcs.Push.Dialog.v2" timestamp="1615480957592">
+      <screen x="-1615" y="-569" width="1615" height="1025" />
+    </state>
+    <state x="-1240" y="-331" key="Vcs.Push.Dialog.v2/0.0.1440.900/-1680.-594.1680.1050@-1680.-594.1680.1050" timestamp="1615201445097" />
+    <state x="-1192" y="-312" key="Vcs.Push.Dialog.v2/0.25.1440.875/-1615.-569.1615.1025@-1615.-569.1615.1025" timestamp="1615480957592" />
     <state x="-1186" y="-449" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1615144883905">
       <screen x="-1680" y="-594" width="1680" height="1050" />
     </state>
     <state x="-1186" y="-449" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1440.900/-1680.-594.1680.1050@-1680.-594.1680.1050" timestamp="1615144883905" />
-    <state x="-1615" y="-572" width="1467" height="856" key="find.popup" timestamp="1615200879257">
-      <screen x="-1680" y="-594" width="1680" height="1050" />
+    <state x="-1410" y="-489" width="1410" height="836" key="find.popup" timestamp="1615362672390">
+      <screen x="-1613" y="-569" width="1613" height="1025" />
     </state>
     <state x="-1615" y="-572" width="1467" height="856" key="find.popup/0.0.1440.900/-1680.-594.1680.1050@-1680.-594.1680.1050" timestamp="1615200879257" />
+    <state x="-1406" y="-489" width="1406" height="836" key="find.popup/0.25.1440.875/-1610.-569.1610.1025@-1610.-569.1610.1025" timestamp="1615300363901" />
+    <state x="-1410" y="-489" width="1410" height="836" key="find.popup/0.25.1440.875/-1613.-569.1613.1025@-1613.-569.1613.1025" timestamp="1615362672390" />
+    <state x="-1411" y="-489" width="1411" height="836" key="find.popup/0.25.1440.875/-1615.-569.1615.1025@-1615.-569.1615.1025" timestamp="1615336451615" />
     <state x="141" y="68" width="1207" height="713" key="find.popup/56.25.1384.875/1440.-493.1680.1025@56.25.1384.875" timestamp="1613425621074" />
     <state x="143" y="68" width="1206" height="713" key="find.popup/58.25.1382.875/1440.-493.1680.1025@58.25.1382.875" timestamp="1613848609067" />
     <state x="147" y="68" width="1202" height="713" key="find.popup/62.25.1378.875/1440.-493.1680.1025@62.25.1378.875" timestamp="1613513432995" />
-    <state x="-1248" y="-367" width="816" height="812" key="search.everywhere.popup" timestamp="1615201112622">
-      <screen x="-1680" y="-594" width="1680" height="1050" />
+    <state x="611" y="187" key="ftp.server.browser" timestamp="1615222587379">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="611" y="187" key="ftp.server.browser/0.0.1440.900@0.0.1440.900" timestamp="1615222587379" />
+    <state x="-1069" y="-218" key="git4idea.ui.GitUnstashDialog" timestamp="1615294476887">
+      <screen x="-1610" y="-569" width="1610" height="1025" />
+    </state>
+    <state x="-1069" y="-218" key="git4idea.ui.GitUnstashDialog/0.25.1440.875/-1610.-569.1610.1025@-1610.-569.1610.1025" timestamp="1615294476887" />
+    <state x="593" y="351" key="publish.login" timestamp="1615225984866">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="593" y="351" key="publish.login/0.0.1440.900@0.0.1440.900" timestamp="1615225984866" />
+    <state x="-1199" y="-347" width="785" height="793" key="search.everywhere.popup" timestamp="1615396369662">
+      <screen x="-1615" y="-569" width="1615" height="1025" />
     </state>
     <state x="-1248" y="-367" width="816" height="812" key="search.everywhere.popup/0.0.1440.900/-1680.-594.1680.1050@-1680.-594.1680.1050" timestamp="1615201112622" />
+    <state x="-1196" y="-347" width="782" height="793" key="search.everywhere.popup/0.25.1440.875/-1610.-569.1610.1025@-1610.-569.1610.1025" timestamp="1615297409588" />
+    <state x="-1198" y="-347" width="784" height="793" key="search.everywhere.popup/0.25.1440.875/-1613.-569.1613.1025@-1613.-569.1613.1025" timestamp="1615313795447" />
+    <state x="-1199" y="-347" width="785" height="793" key="search.everywhere.popup/0.25.1440.875/-1615.-569.1615.1025@-1615.-569.1615.1025" timestamp="1615396369662" />
     <state x="412" y="214" width="672" height="676" key="search.everywhere.popup/56.25.1384.875/1440.-493.1680.1025@56.25.1384.875" timestamp="1613425630653" />
     <state x="415" y="214" width="670" height="676" key="search.everywhere.popup/60.25.1380.875/1440.-493.1680.1025@60.25.1380.875" timestamp="1613341913391" />
   </component>

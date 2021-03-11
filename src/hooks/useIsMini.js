@@ -10,7 +10,8 @@ export default (width) => {
     } else {
       setMini(false);
     }
-  }, [width, theme]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [width]);
 
   return mini;
 }

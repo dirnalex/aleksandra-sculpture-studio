@@ -5,6 +5,6 @@
   "menu.about": "about",
   "menu.work": "work",
   "menu.contact": "contact",
-  "works.prev": "prev project",
-  "works.next": "next project"
+  "work.prev": "prev project",
+  "work.next": "next project"
 }

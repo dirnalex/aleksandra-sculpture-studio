@@ -26,7 +26,7 @@ export default createGlobalStyle`
   
   body {
     background: #E5E5E5;
-    color: ${props => props.theme.textColor || 'black'};
+    color: #000000;
     font-family: NeueMontrealRegular, sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -38,6 +38,10 @@ export default createGlobalStyle`
   
   #root {
     height: 100%;
+  }
+  
+  p {
+    white-space: pre-wrap;
   }
   
   a {

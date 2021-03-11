@@ -5,6 +5,6 @@
   "menu.about": "o mnie",
   "menu.work": "prace",
   "menu.contact": "kontakt",
-  "works.prev": "poprzedni projekt",
-  "works.next": "następny projekt"
+  "work.prev": "poprzedni projekt",
+  "work.next": "następny projekt"
 }

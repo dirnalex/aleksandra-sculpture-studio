@@ -1,8 +1,8 @@
-import React, {useContext, useEffect, useState} from 'react';
-import {StyledTitle, StyledVideo, StyledWrapper} from './VideoStyles';
+import React, {useContext, useState} from 'react';
+import {StyledTitle, StyledVideo, StyledWrapper, StyledYoutubeVideo} from './VideoStyles';
 import CursorChangeContext from '../contexts/CursorChangeContext';
 
-const Video = ({title, children, className}) => {
+const Video = ({title, link, isYouTube, className}) => {
   const changeCursor = useContext(CursorChangeContext);
   const [playing, setPlaying] = useState(false);
 
@@ -16,10 +16,14 @@ const Video = ({title, children, className}) => {
     }
   };
 
-  const handleVideoMouseMove = ({currentTarget: video}) => {
+  const handleVideoMouseEnter = ({currentTarget: video}) => {
     if (!video.controls) {
       changeCursor({text: playing ? 'pause' : 'play'});
     }
+  };
+
+  const handleVideoMouseOut = () => {
+    changeCursor();
   };
 
   const handleVideoPlay = ({currentTarget: video}) => {
@@ -36,17 +40,20 @@ const Video = ({title, children, className}) => {
     }
   };
 
-  useEffect(() => () => {
-    changeCursor();
-  }, []);
-
   return (
     <StyledWrapper className={className}>
-      {title && !playing && <StyledTitle>{title}</StyledTitle>}
-      <StyledVideo onClick={handleVideoClick} onMouseMove={handleVideoMouseMove}
-                   onMouseLeave={() => changeCursor()} onPlay={handleVideoPlay} onPause={handleVideoPause}>
-        {children}
-      </StyledVideo>
+      {!isYouTube && title && !playing && <StyledTitle>{title}</StyledTitle>}
+      {isYouTube ?
+        <StyledYoutubeVideo src={link} frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen/>
+        :
+        <StyledVideo onClick={handleVideoClick} onMouseEnter={handleVideoMouseEnter} onMouseOut={handleVideoMouseOut}
+                     onMouseLeave={() => changeCursor()} onPlay={handleVideoPlay} onPause={handleVideoPause}>
+          <source src={link}/>
+          Sorry, your browser doesn't support embedded videos.
+        </StyledVideo>
+      }
     </StyledWrapper>
   );
 };

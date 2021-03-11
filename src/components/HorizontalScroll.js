@@ -46,7 +46,8 @@ const HorizontalScroll = ({children, className}) => {
     } else {
       theme.setDefaultTheme();
     }
-  }, [page, children]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [children[page]]);
 
   return (amountOfPages === 0) ? null : (
     <StyledHorizontalScroll ref={containerRef} className={className}

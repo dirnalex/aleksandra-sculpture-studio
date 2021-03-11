@@ -21,23 +21,23 @@ const WorkDescription = ({work, className}) => {
   return (
     <Container className={className}>
       {work.id &&
-      <p>{work.id}</p>
+      <p key="id">{work.id}</p>
       }
       {work.name && work.name[locale] &&
-      <p>{work.name[locale]}</p>
+      <p key="name">{work.name[locale]}</p>
       }
       {Array.isArray(work.materials) &&
       work.materials
         .filter(material => material[locale])
-        .map(material =>
-          <p>{material[locale]}</p>
+        .map((material, i) =>
+          <p key={`material${i}`}>{material[locale]}</p>
         )
       }
       {work.notes && work.notes[locale] &&
-      <p>{work.notes[locale]}</p>
+      <p key="notes">{work.notes[locale]}</p>
       }
       {work.year &&
-      <p>{work.year}</p>
+      <p key="year">{work.year}</p>
       }
     </Container>
   );

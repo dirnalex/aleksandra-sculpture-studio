@@ -5,12 +5,12 @@ import ImagePage from './ImagePage';
 import ListPage from './ListPage';
 import ContactPage from './ContactPage';
 import FullscreenImagePage from './FullscreenImagePage';
-import TextWithMore from './TextWithMore';
+import TextWithMorePage from './TextWithMorePage';
 
 export default {
   ContactPage: ContactPage,
   TextPage: TextPage,
-  TextWithMore: TextWithMore,
+  TextWithMorePage: TextWithMorePage,
   ListPage: ListPage,
   ImagePage: ImagePage,
   FullscreenImagePage: FullscreenImagePage,

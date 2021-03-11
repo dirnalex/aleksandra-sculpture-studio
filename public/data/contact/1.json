@@ -1,11 +1,12 @@
 {
   "ContactPage": {
     "text": {
-      "en": "Jeśli jesteś zainteresowany współpracą lub zakupem prac skontaktój się z artystką przez",
+      "en": "If you are interested in cooperation with artist or would like to buy her works, contact via",
       "pl": "Jeśli jesteś zainteresowany współpracą lub zakupem prac skontaktój się z artystką przez"
     },
-    "mail": "hi@józefow.art",
-    "instagramLink": "http://instagram.com",
-    "facebookLink": "http://facebook.com"
+    "mail": "hi@jozefow.art",
+    "instagramLink": "https://www.instagram.com/ajozefow_sculpturestudio",
+    "facebookLink": "https://www.facebook.com/Aleksandra.Jozefow.Sculpture",
+    "phone": "+48 509 528 741"
   }
 }

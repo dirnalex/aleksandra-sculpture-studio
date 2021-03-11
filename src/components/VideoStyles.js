@@ -16,6 +16,13 @@ export const StyledVideo = styled.video`
   cursor: pointer;
 `;
 
+export const StyledYoutubeVideo = styled.iframe` 
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  cursor: pointer;
+`;
+
 export const StyledTitle = styled.div`
   position: absolute;
   left: 50%;

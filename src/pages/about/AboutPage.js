@@ -5,7 +5,7 @@ import usePageDescriptions from '../../hooks/usePageDescriptions';
 import {renderPage} from '../../utils/pageDescription';
 
 const AboutPage = () => {
-  const pageDescriptions = usePageDescriptions('/data/about');
+  const {loadedPageDescriptions: pageDescriptions} = usePageDescriptions('/data/about');
 
   return (
     <StyledHorizontalScroll>

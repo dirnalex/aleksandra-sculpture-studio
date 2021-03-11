@@ -1,16 +1,19 @@
 {
   "WorkVideoPage": {
-    "link": "/video/video.mp4",
+    "link": "/video/work/0116/1.mp4",
     "title": {
-      "pl": "Pokoj nie pokoj",
-      "en": "Pokoj nie pokoj"
+      "pl": "Volumen",
+      "en": "Volumen"
     },
     "workLink": {
       "text": {
-        "pl": "Więcej o ”Pokoj nie pokoj”",
-        "en": "More about ”Pokoj nie pokoj”"
+        "pl": "Więcej o ”Volumen”",
+        "en": "More about ”Volumen”"
       },
-      "link": ""
+      "link": {
+        "pl": "/pl/work/0116",
+        "en": "/en/work/0116"
+      }
     }
   }
 }

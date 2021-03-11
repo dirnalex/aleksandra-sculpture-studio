@@ -22,10 +22,12 @@ export default (pageFromOutside = 0, size = 0, onPageChange = noop) => {
     if (safePageFromOutside !== page) {
       setPage(safePageFromOutside);
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [pageFromOutside, size]);
 
   useEffect(() => {
     onPageChange(page, prevPage);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [page]);
 
   const safeSetPage = (pageToSet) => {

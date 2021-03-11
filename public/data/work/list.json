@@ -1,71 +1,532 @@
 [
   {
-    "id": "0054",
+    "id": "0159",
+    "name": {
+      "pl": "Pokój – Niepokój",
+      "en": "Peace - Anxiety"
+    },
+    "year": "2019",
+    "imageLink": "/img/work/0159/1.jpg"
+  },
+  {
+    "id": "0166",
+    "name": {
+      "pl": "Pokój - Niepokój II",
+      "en": "Peace - Anxiety II"
+    },
+    "materials": [
+      {
+        "pl": "Drewno",
+        "en": "Wood"
+      },
+      {
+        "pl": "płyty OSB",
+        "en": "OSB"
+      },
+      {
+        "pl": "światło led",
+        "en": "led light"
+      },
+      {
+        "pl": "draperia",
+        "en": "drapery"
+      }
+    ],
+    "notes": {
+      "pl": "wys. 3,5m",
+      "en": "heigth 3.5m"
+    },
+    "year": "2020",
+    "imageLink": "/img/work/0166/1.jpg"
+  },
+  {
+    "id": "0018",
+    "name": {
+      "pl": "Organiczność",
+      "en": "Organic"
+    },
+    "materials": [
+      {
+        "pl": "drewno",
+        "en": "wood"
+      }
+    ],
+    "notes": {
+      "pl": "50 x 25 x 20cm",
+      "en": "50 x 25 x 20cm"
+    },
+    "year": "2019",
+    "imageLink": "/img/work/0018/2.jpg"
+  },
+  {
+    "id": "0173",
+    "name": {
+      "pl": "Organiczność II",
+      "en": "Organic II"
+    },
+    "materials": [
+      {
+        "pl": "drewno",
+        "en": "wood"
+      }
+    ],
+    "notes": {
+      "pl": "50 x 25 x 20cm",
+      "en": "50 x 25 x 20cm"
+    },
+    "year": "2019",
+    "imageLink": "/img/work/0173/1.jpg"
+  },
+  {
+    "id": "0066",
+    "name": {
+      "pl": "Pamiętnik",
+      "en": "Diary"
+    },
+    "materials": [
+      {
+        "pl": "piaskowiec",
+        "en": "sandstone"
+      },
+      {
+        "pl": "stal",
+        "en": "steel"
+      },
+      {
+        "pl": "żeliwo",
+        "en": "cast iron"
+      },
+      {
+        "pl": "pleksi",
+        "en": "Plexi"
+      },
+      {
+        "pl": "MDF",
+        "en": "MDF"
+      }
+    ],
+    "notes": {
+      "pl": "wys. 180cm",
+      "en": "height 180cm"
+    },
+    "year": "2014-2017",
+    "imageLink": "/img/work/0066/1.jpg"
+  },
+  {
+    "id": "0163",
+    "name": {
+      "pl": "Marzyciel",
+      "en": "The dreamer"
+    },
+    "materials": [
+      {
+        "pl": "",
+        "en": ""
+      },
+      {
+        "pl": "",
+        "en": ""
+      }
+    ],
+    "notes": {
+      "pl": "",
+      "en": ""
+    },
+    "year": "",
+    "imageLink": ""
+  },
+  {
+    "id": "0162",
+    "name": {
+      "pl": "Pomiędzy",
+      "en": "Between"
+    },
+    "materials": [
+      {
+        "pl": "",
+        "en": ""
+      },
+      {
+        "pl": "",
+        "en": ""
+      }
+    ],
+    "notes": {
+      "pl": "",
+      "en": ""
+    },
+    "year": "",
+    "imageLink": ""
+  },
+  {
+    "id": "0116",
+    "name": {
+      "pl": "Volumen",
+      "en": "Volumen"
+    },
+    "materials": [
+      {
+        "pl": "",
+        "en": ""
+      },
+      {
+        "pl": "",
+        "en": ""
+      }
+    ],
+    "notes": {
+      "pl": "",
+      "en": ""
+    },
+    "year": "",
+    "imageLink": ""
+  },
+  {
+    "id": "0147",
+    "name": {
+      "pl": "Volumen II",
+      "en": "Volumen II"
+    },
+    "materials": [
+      {
+        "pl": "pleksi",
+        "en": "plexi"
+      },
+      {
+        "pl": "beton",
+        "en": "concrete"
+      }
+    ],
+    "notes": {
+      "pl": "wys. 1,32m",
+      "en": "height 1.32m"
+    },
+    "year": "2018",
+    "imageLink": "/img/work/0147/1.jpg"
+  },
+  {
+    "id": "0132",
+    "name": {
+      "pl": "Volumen III (*Instalacja z wideo)",
+      "en": "Volumen III (*Installation with video)"
+    },
+    "materials": [
+      {
+        "pl": "",
+        "en": ""
+      },
+      {
+        "pl": "",
+        "en": ""
+      }
+    ],
+    "notes": {
+      "pl": "",
+      "en": ""
+    },
+    "year": "",
+    "imageLink": ""
+  },
+  {
+    "id": "0145",
+    "name": {
+      "pl": "Volumen / Książka artystyczna",
+      "en": "Volumen / Art book"
+    },
+    "materials": [
+      {
+        "pl": "",
+        "en": ""
+      },
+      {
+        "pl": "",
+        "en": ""
+      }
+    ],
+    "notes": {
+      "pl": "",
+      "en": ""
+    },
+    "year": "",
+    "imageLink": ""
+  },
+  {
+    "id": "0106",
+    "name": {
+      "pl": "Most II",
+      "en": "Bridge II"
+    },
+    "materials": [
+      {
+        "pl": "",
+        "en": ""
+      },
+      {
+        "pl": "",
+        "en": ""
+      }
+    ],
+    "notes": {
+      "pl": "",
+      "en": ""
+    },
+    "year": "",
+    "imageLink": "/img/work/0106/1.jpg"
+  },
+  {
+    "id": "0086",
+    "name": {
+      "pl": "Most",
+      "en": "Bridge"
+    },
+    "materials": [
+      {
+        "pl": "marmur",
+        "en": "marble"
+      },
+      {
+        "pl": "beton",
+        "en": "concrete"
+      }
+    ],
+    "notes": {
+      "pl": "wys. 175cm",
+      "en": "height 175cm"
+    },
+    "year": "2016 - 2018",
+    "imageLink": "/img/work/0086/1.jpg"
+  },
+  {
+    "id": "0141",
+    "name": {
+      "pl": "Egzekucja wspomnień",
+      "en": "Execution of memories"
+    },
+    "materials": [
+      {
+        "pl": "",
+        "en": ""
+      },
+      {
+        "pl": "",
+        "en": ""
+      }
+    ],
+    "notes": {
+      "pl": "",
+      "en": ""
+    },
+    "year": "",
+    "imageLink": ""
+  },
+  {
+    "id": "0168",
+    "name": {
+      "pl": "Wysiłek",
+      "en": "Effort"
+    },
+    "materials": [
+      {
+        "pl": "",
+        "en": ""
+      },
+      {
+        "pl": "",
+        "en": ""
+      }
+    ],
+    "notes": {
+      "pl": "",
+      "en": ""
+    },
+    "year": "",
+    "imageLink": ""
+  },
+  {
+    "id": "0110",
+    "name": {
+      "pl": "Złamana kobiecość",
+      "en": "Broken femininity"
+    },
+    "materials": [
+      {
+        "pl": "",
+        "en": ""
+      },
+      {
+        "pl": "",
+        "en": ""
+      }
+    ],
+    "notes": {
+      "pl": "",
+      "en": ""
+    },
+    "year": "",
+    "imageLink": ""
+  },
+  {
+    "id": "0112",
+    "name": {
+      "pl": "Ostatni Patrol",
+      "en": "The Last Patrol"
+    },
+    "materials": [
+      {
+        "pl": "Żywica",
+        "en": "Resin"
+      }
+    ],
+    "notes": {
+      "pl": "wys. 20cm",
+      "en": "height 20cm"
+    },
+    "year": "2017",
+    "imageLink": "/img/work/0112/1.jpg"
+  },
+  {
+    "id": "0059",
+    "name": {
+      "pl": "Mój nagrobek",
+      "en": "My tombstone"
+    },
+    "materials": [
+      {
+        "pl": "",
+        "en": ""
+      },
+      {
+        "pl": "",
+        "en": ""
+      }
+    ],
+    "notes": {
+      "pl": "",
+      "en": ""
+    },
+    "year": "",
+    "imageLink": ""
+  },
+  {
+    "id": "0030",
+    "name": {
+      "pl": "Bracia",
+      "en": "Brothers"
+    },
+    "materials": [
+      {
+        "pl": "kamień",
+        "en": "stone"
+      },
+      {
+        "pl": "piaskowiec",
+        "en": "sandstone"
+      }
+    ],
+    "notes": {
+      "pl": "wys.180 cm",
+      "en": "height 180cm"
+    },
+    "year": "2014",
+    "imageLink": "/img/work/0030/1.jpg"
+  },
+  {
+    "id": "0043",
+    "name": {
+      "pl": "Zabawka",
+      "en": "The toy"
+    },
+    "materials": [
+      {
+        "pl": "piaskowiec",
+        "en": "sandstone"
+      },
+      {
+        "pl": "klej",
+        "en": "glue"
+      }
+    ],
+    "notes": {
+      "pl": "wys. 150cm",
+      "en": "height 150cm"
+    },
+    "year": "2014-2017",
+    "imageLink": "/img/work/0043/1.jpg"
+  },
+  {
+    "id": "0069",
+    "name": {
+      "pl": "Pijam",
+      "en": "Pijamas"
+    },
+    "materials": [
+      {
+        "pl": "żeliwo",
+        "en": "cast iron"
+      }
+    ],
+    "notes": {
+      "pl": "wys. 44cm",
+      "en": "height 44cm"
+    },
+    "year": "2014",
+    "imageLink": "/img/work/0069/1.jpg"
+  },
+  {
+    "id": "0129",
     "name": {
       "pl": "Brzemienna",
       "en": "Pregnant"
     },
     "materials": [
       {
-        "pl": "Piackowiec",
-        "en": "Sandstone"
-      },
-      {
-        "pl": "Beton",
-        "en": "Concrete"
+        "pl": "technika własna",
+        "en": "own technique"
       }
     ],
     "notes": {
-      "pl": "wys.130",
-      "en": "height.130"
+      "pl": "wys. 130cm",
+      "en": "height 130cm"
     },
-    "year": 2017,
-    "imageLink": "/img/test-img.png"
+    "year": "2017",
+    "imageLink": "/img/work/0129/1.jpg"
   },
   {
-    "id": "0055",
+    "id": "0170",
     "name": {
-      "pl": "Volumeen III",
-      "en": "Volumeen III"
+      "pl": "7 lekcji geometrii",
+      "en": "7 geometry lessons"
     },
     "materials": [
       {
-        "pl": "Piackowiec",
-        "en": "Sandstone"
-      },
-      {
-        "pl": "Beton",
-        "en": "Concrete"
+        "pl": "Technika własna",
+        "en": "Own technique"
       }
     ],
-    "notes": {
-      "pl": "wys.130",
-      "en": "height.130"
-    },
-    "year": 2017,
-    "imageLink": "/img/test-img.png"
+    "year": "2019",
+    "imageLink": "/img/work/0170/1.jpg"
   },
   {
-    "id": "0056",
+    "id": "",
     "name": {
-      "pl": "Volumeen I",
-      "en": "Volumeen I"
+      "pl": "",
+      "en": ""
     },
     "materials": [
       {
-        "pl": "Piackowiec",
-        "en": "Sandstone"
+        "pl": "",
+        "en": ""
       },
       {
-        "pl": "Beton",
-        "en": "Concrete"
+        "pl": "",
+        "en": ""
       }
     ],
     "notes": {
-      "pl": "wys.130",
-      "en": "height.130"
+      "pl": "",
+      "en": ""
     },
-    "year": 2017,
-    "imageLink": "/img/test-img.png"
+    "year": "",
+    "imageLink": ""
   }
 ]
