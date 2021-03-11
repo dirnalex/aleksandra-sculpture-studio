@@ -25,6 +25,7 @@ export default createGlobalStyle`
   }
   
   body {
+    height: 100vh;
     background: #E5E5E5;
     color: #000000;
     font-family: NeueMontrealRegular, sans-serif;
