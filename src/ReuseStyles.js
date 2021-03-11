@@ -14,9 +14,9 @@ export const HideScrollbar = css`
 `;
 
 export const Blinking = (delayMs = 0) => css`
-  animation: 1s ease-in-out ${delayMs}ms infinite alternate move;
+  animation: 1s ease-in-out ${delayMs}ms infinite alternate changeColor;
   
-  @keyframes move {
+  @keyframes changeColor {
     from {
       color: #000000;
     }
