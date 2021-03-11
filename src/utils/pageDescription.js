@@ -2,12 +2,13 @@ import pageIndex from '../pages/templates/pageTemplateIndex';
 import React from 'react';
 
 export function renderPage(desc, key) {
-  const componentName = Object.keys(desc)[0];
-  const PageComponent = pageIndex[componentName];
+  const PageComponent = pageIndex[getComponentName(desc)];
   if (!PageComponent) return null;
-  let pageProps = desc[componentName];
-  if (typeof pageProps !== 'object' || pageProps === null) pageProps = {};
-  return <PageComponent key={key} {...pageProps}/>
+  return <PageComponent key={key} {...getProps(desc)}/>
+}
+
+export function getComponentName(desc) {
+  return Object.keys(desc)[0];
 }
 
 export function getProps(desc) {

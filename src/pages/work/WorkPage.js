@@ -1,4 +1,4 @@
-import React, {useEffect, useRef, useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import {useIntl} from 'react-intl';
 import styled, {css} from 'styled-components';
 import HorizontalScroll from '../../components/HorizontalScroll';
@@ -11,6 +11,7 @@ import WorkDescription from '../../components/work/WorkDescription';
 import {Blinking, HideScrollbar, StandardTopBottomMargin} from '../../ReuseStyles';
 import PrevNextWorkLink from '../../components/work/PrevNextWorkLink';
 import {Redirect} from 'react-router-dom';
+import Loading from '../../components/Loading';
 
 const Container = styled.div`
   width: 100%;
@@ -109,10 +110,11 @@ const WorkPage = ({id}) => {
     }
   }, [workList, id]);
 
-  const {loadedPageDescriptions: pageDescriptions, loaded} = usePageDescriptions(`/data/work/${id}`);
+  const [pageDescriptions, loading] = usePageDescriptions(`/data/work/${id}`);
 
   const [pages, setPages] = useState([]);
   useEffect(() => {
+    if (!Array.isArray(pageDescriptions)) return;
     const newPages = pageDescriptions.map((desc, i) =>
       <WorkPageContainer {...getProps(desc)} key={i}>
         {!mini && i === pageDescriptions.length - 1 && prevWork && prevWork.id &&
@@ -154,14 +156,17 @@ const WorkPage = ({id}) => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [pageDescriptions, work, mini]);
 
-  return (!loaded || (loaded && pageDescriptions.length > 0)) ? (
+  if (loading) return <Loading/>;
+  if (!Array.isArray(pageDescriptions)) return null;
+  if (pageDescriptions.length === 0) return <Redirect to={`/${locale}/work`}/>;
+  return (
     <Container ref={containerRef}>
       {!mini && <OnPageWorkDescription work={work}/>}
       <HorizontalScroll>
         {pages}
       </HorizontalScroll>
     </Container>
-  ) : <Redirect to={`/${locale}/work`}/>;
+  );
 };
 
 export default WorkPage;

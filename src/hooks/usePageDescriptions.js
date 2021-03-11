@@ -1,10 +1,14 @@
 import {useEffect, useState} from 'react';
+import {getComponentName, getProps} from '../utils/pageDescription';
+import loadImage from '../utils/loadImage';
 
 export default (urlBase) => {
-  const [pageDescriptions, setPageDescriptions] = useState({loaded: false, loadedPageDescriptions: []});
+  const [pageDescriptions, setPageDescriptions] = useState(null);
+  const [loading, setLoading] = useState(false);
 
   useEffect(() => {
     (async function getPages() {
+      setLoading(true);
       let emptyPage = false;
       const loadedPageDescriptions = [];
       for (let pageNo = 1; !emptyPage; pageNo++) {
@@ -12,6 +16,9 @@ export default (urlBase) => {
         if (response.status === 200) {
           try {
             const json = await response.json();
+            if (['ImagePage', 'FullscreenImagePage'].includes(getComponentName(json))) {
+              await loadImage(getProps(json).imageLink);
+            }
             loadedPageDescriptions.push(json);
           } catch (e) {
             emptyPage = true;
@@ -20,9 +27,10 @@ export default (urlBase) => {
           emptyPage = true;
         }
       }
-      setPageDescriptions({loaded: true, loadedPageDescriptions});
+      setPageDescriptions(loadedPageDescriptions);
+      setLoading(false);
     })();
   }, [urlBase]);
 
-  return pageDescriptions;
+  return [pageDescriptions, loading];
 };
