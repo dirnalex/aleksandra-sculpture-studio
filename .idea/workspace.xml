@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="09cedebb-8053-44cd-bdf6-6a50c19777b3" name="Default Changelist" comment="Idea">
+    <list default="true" id="09cedebb-8053-44cd-bdf6-6a50c19777b3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppStyles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppStyles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/useWorkList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/useWorkList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/work/WorkSelectPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/work/WorkSelectPage.js" afterDir="false" />
+    </list>
+    <list id="1b7b4eec-f492-4e2f-be3a-449e18930034" name="3d" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/ThreeD.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -273,7 +279,49 @@
       <option name="project" value="LOCAL" />
       <updated>1615489049653</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Idea">
+      <created>1615489058774</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1615489058774</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Remove 3d">
+      <created>1615492664960</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1615492664960</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Loading">
+      <created>1615497659962</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1615497659962</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Resize">
+      <created>1615497699327</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1615497699327</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Name fix">
+      <created>1615497729909</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1615497729909</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Revert &quot;Return initial margins&quot;&#10;&#10;This reverts commit 4ef148be">
+      <created>1615497783173</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1615497783173</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -305,11 +353,16 @@
     <MESSAGE value="Huge portion of everything #6" />
     <MESSAGE value="Cursor performance optimization" />
     <MESSAGE value="Delete videos from VCS" />
-    <MESSAGE value="Idea" />
     <MESSAGE value="Restrict text content width" />
     <MESSAGE value="Return initial margins" />
     <MESSAGE value="Fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixes" />
+    <MESSAGE value="Idea" />
+    <MESSAGE value="Remove 3d" />
+    <MESSAGE value="Loading" />
+    <MESSAGE value="Resize" />
+    <MESSAGE value="Name fix" />
+    <MESSAGE value="Revert &quot;Return initial margins&quot;&#10;&#10;This reverts commit 4ef148be" />
+    <option name="LAST_COMMIT_MESSAGE" value="Revert &quot;Return initial margins&quot;&#10;&#10;This reverts commit 4ef148be" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -336,61 +389,61 @@
       <screen x="-1680" y="-594" width="1680" height="1050" />
     </state>
     <state x="-1102" y="-317" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900/-1680.-594.1680.1050@-1680.-594.1680.1050" timestamp="1614692923579" />
-    <state x="-1265" y="-445" key="CommitChangelistDialog2" timestamp="1615489049180">
+    <state x="-1265" y="-445" key="CommitChangelistDialog2" timestamp="1615501703935">
       <screen x="-1615" y="-569" width="1615" height="1025" />
     </state>
     <state x="-1316" y="-467" key="CommitChangelistDialog2/0.0.1440.900/-1680.-594.1680.1050@-1680.-594.1680.1050" timestamp="1615201443089" />
-    <state x="-1265" y="-445" key="CommitChangelistDialog2/0.25.1440.875/-1615.-569.1615.1025@-1615.-569.1615.1025" timestamp="1615489049180" />
-    <state x="-1378" y="-411" key="DiffContextDialog" timestamp="1615488941709">
+    <state x="-1265" y="-445" key="CommitChangelistDialog2/0.25.1440.875/-1615.-569.1615.1025@-1615.-569.1615.1025" timestamp="1615501703935" />
+    <state x="-1378" y="-411" width="1152" height="700" key="DiffContextDialog" timestamp="1615497788461">
       <screen x="-1615" y="-569" width="1615" height="1025" />
     </state>
-    <state x="-1378" y="-411" key="DiffContextDialog/0.25.1440.875/-1615.-569.1615.1025@-1615.-569.1615.1025" timestamp="1615488941709" />
+    <state x="-1378" y="-411" width="1152" height="700" key="DiffContextDialog/0.25.1440.875/-1615.-569.1615.1025@-1615.-569.1615.1025" timestamp="1615497788461" />
     <state x="-1561" y="-481" width="1445" height="820" key="DirDiffDialog" timestamp="1615320508884">
       <screen x="-1615" y="-569" width="1615" height="1025" />
     </state>
     <state x="-1561" y="-481" width="1445" height="820" key="DirDiffDialog/0.25.1440.875/-1615.-569.1615.1025@-1615.-569.1615.1025" timestamp="1615320508884" />
     <state x="100" y="100" width="1240" height="700" key="DirDiffDialog/54.25.1386.875@54.25.1386.875" timestamp="1615222899851" />
-    <state width="1568" height="335" key="GridCell.Tab.0.bottom" timestamp="1615363688753">
-      <screen x="-1613" y="-569" width="1613" height="1025" />
+    <state width="1568" height="335" key="GridCell.Tab.0.bottom" timestamp="1615496113310">
+      <screen x="-1615" y="-569" width="1615" height="1025" />
     </state>
     <state width="1638" height="401" key="GridCell.Tab.0.bottom/0.0.1440.900/-1680.-594.1680.1050@-1680.-594.1680.1050" timestamp="1615201603162" />
     <state width="1398" height="335" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1615225375199" />
     <state width="784" height="335" key="GridCell.Tab.0.bottom/0.25.1440.875/-1610.-569.1610.1025@-1610.-569.1610.1025" timestamp="1615296122122" />
     <state width="1568" height="335" key="GridCell.Tab.0.bottom/0.25.1440.875/-1613.-569.1613.1025@-1613.-569.1613.1025" timestamp="1615363688753" />
-    <state width="1568" height="335" key="GridCell.Tab.0.bottom/0.25.1440.875/-1615.-569.1615.1025@-1615.-569.1615.1025" timestamp="1615327127891" />
+    <state width="1568" height="335" key="GridCell.Tab.0.bottom/0.25.1440.875/-1615.-569.1615.1025@-1615.-569.1615.1025" timestamp="1615496113310" />
     <state width="1568" height="335" key="GridCell.Tab.0.bottom/0.25.1440.875/-1619.-569.1619.1025@-1619.-569.1619.1025" timestamp="1615327205117" />
     <state width="1338" height="152" key="GridCell.Tab.0.bottom/56.25.1384.875/1440.-493.1680.1025@56.25.1384.875" timestamp="1613478950362" />
     <state width="1336" height="152" key="GridCell.Tab.0.bottom/60.25.1380.875/1440.-493.1680.1025@60.25.1380.875" timestamp="1613864990659" />
-    <state width="1568" height="335" key="GridCell.Tab.0.center" timestamp="1615363688752">
-      <screen x="-1613" y="-569" width="1613" height="1025" />
+    <state width="1568" height="335" key="GridCell.Tab.0.center" timestamp="1615496113308">
+      <screen x="-1615" y="-569" width="1615" height="1025" />
     </state>
     <state width="1638" height="401" key="GridCell.Tab.0.center/0.0.1440.900/-1680.-594.1680.1050@-1680.-594.1680.1050" timestamp="1615201603158" />
     <state width="1398" height="335" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1615225375191" />
     <state width="784" height="335" key="GridCell.Tab.0.center/0.25.1440.875/-1610.-569.1610.1025@-1610.-569.1610.1025" timestamp="1615296122121" />
     <state width="1568" height="335" key="GridCell.Tab.0.center/0.25.1440.875/-1613.-569.1613.1025@-1613.-569.1613.1025" timestamp="1615363688752" />
-    <state width="1568" height="335" key="GridCell.Tab.0.center/0.25.1440.875/-1615.-569.1615.1025@-1615.-569.1615.1025" timestamp="1615327127890" />
+    <state width="1568" height="335" key="GridCell.Tab.0.center/0.25.1440.875/-1615.-569.1615.1025@-1615.-569.1615.1025" timestamp="1615496113308" />
     <state width="1568" height="335" key="GridCell.Tab.0.center/0.25.1440.875/-1619.-569.1619.1025@-1619.-569.1619.1025" timestamp="1615327205113" />
     <state width="1338" height="152" key="GridCell.Tab.0.center/56.25.1384.875/1440.-493.1680.1025@56.25.1384.875" timestamp="1613478950361" />
     <state width="1336" height="152" key="GridCell.Tab.0.center/60.25.1380.875/1440.-493.1680.1025@60.25.1380.875" timestamp="1613864990657" />
-    <state width="1568" height="335" key="GridCell.Tab.0.left" timestamp="1615363688751">
-      <screen x="-1613" y="-569" width="1613" height="1025" />
+    <state width="1568" height="335" key="GridCell.Tab.0.left" timestamp="1615496113308">
+      <screen x="-1615" y="-569" width="1615" height="1025" />
     </state>
     <state width="1638" height="401" key="GridCell.Tab.0.left/0.0.1440.900/-1680.-594.1680.1050@-1680.-594.1680.1050" timestamp="1615201603156" />
     <state width="1398" height="335" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1615225375102" />
     <state width="784" height="335" key="GridCell.Tab.0.left/0.25.1440.875/-1610.-569.1610.1025@-1610.-569.1610.1025" timestamp="1615296122120" />
     <state width="1568" height="335" key="GridCell.Tab.0.left/0.25.1440.875/-1613.-569.1613.1025@-1613.-569.1613.1025" timestamp="1615363688751" />
-    <state width="1568" height="335" key="GridCell.Tab.0.left/0.25.1440.875/-1615.-569.1615.1025@-1615.-569.1615.1025" timestamp="1615327127889" />
+    <state width="1568" height="335" key="GridCell.Tab.0.left/0.25.1440.875/-1615.-569.1615.1025@-1615.-569.1615.1025" timestamp="1615496113308" />
     <state width="1568" height="335" key="GridCell.Tab.0.left/0.25.1440.875/-1619.-569.1619.1025@-1619.-569.1619.1025" timestamp="1615327205112" />
     <state width="1338" height="152" key="GridCell.Tab.0.left/56.25.1384.875/1440.-493.1680.1025@56.25.1384.875" timestamp="1613478950360" />
     <state width="1336" height="152" key="GridCell.Tab.0.left/60.25.1380.875/1440.-493.1680.1025@60.25.1380.875" timestamp="1613864990656" />
-    <state width="1568" height="335" key="GridCell.Tab.0.right" timestamp="1615363688753">
-      <screen x="-1613" y="-569" width="1613" height="1025" />
+    <state width="1568" height="335" key="GridCell.Tab.0.right" timestamp="1615496113309">
+      <screen x="-1615" y="-569" width="1615" height="1025" />
     </state>
     <state width="1638" height="401" key="GridCell.Tab.0.right/0.0.1440.900/-1680.-594.1680.1050@-1680.-594.1680.1050" timestamp="1615201603160" />
     <state width="1398" height="335" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1615225375197" />
     <state width="784" height="335" key="GridCell.Tab.0.right/0.25.1440.875/-1610.-569.1610.1025@-1610.-569.1610.1025" timestamp="1615296122121" />
     <state width="1568" height="335" key="GridCell.Tab.0.right/0.25.1440.875/-1613.-569.1613.1025@-1613.-569.1613.1025" timestamp="1615363688753" />
-    <state width="1568" height="335" key="GridCell.Tab.0.right/0.25.1440.875/-1615.-569.1615.1025@-1615.-569.1615.1025" timestamp="1615327127890" />
+    <state width="1568" height="335" key="GridCell.Tab.0.right/0.25.1440.875/-1615.-569.1615.1025@-1615.-569.1615.1025" timestamp="1615496113309" />
     <state width="1568" height="335" key="GridCell.Tab.0.right/0.25.1440.875/-1619.-569.1619.1025@-1619.-569.1619.1025" timestamp="1615327205114" />
     <state width="1338" height="152" key="GridCell.Tab.0.right/56.25.1384.875/1440.-493.1680.1025@56.25.1384.875" timestamp="1613478950361" />
     <state width="1336" height="152" key="GridCell.Tab.0.right/60.25.1380.875/1440.-493.1680.1025@60.25.1380.875" timestamp="1613864990658" />
@@ -403,26 +456,26 @@
     </state>
     <state x="-1377" y="-483" key="SettingsEditor/0.25.1440.875/-1610.-569.1610.1025@-1610.-569.1610.1025" timestamp="1615238129071" />
     <state x="260" y="98" key="SettingsEditor/60.25.1380.875/1440.-493.1680.1025@60.25.1380.875" timestamp="1613598360172" />
-    <state x="-953" y="-136" key="VCS.ChangelistChooser" timestamp="1615483923218">
+    <state x="-953" y="-136" key="VCS.ChangelistChooser" timestamp="1615497473720">
       <screen x="-1615" y="-569" width="1615" height="1025" />
     </state>
-    <state x="-953" y="-136" key="VCS.ChangelistChooser/0.25.1440.875/-1615.-569.1615.1025@-1615.-569.1615.1025" timestamp="1615483923218" />
-    <state x="-1192" y="-312" key="Vcs.Push.Dialog.v2" timestamp="1615480957592">
+    <state x="-953" y="-136" key="VCS.ChangelistChooser/0.25.1440.875/-1615.-569.1615.1025@-1615.-569.1615.1025" timestamp="1615497473720" />
+    <state x="-1192" y="-312" key="Vcs.Push.Dialog.v2" timestamp="1615489060868">
       <screen x="-1615" y="-569" width="1615" height="1025" />
     </state>
     <state x="-1240" y="-331" key="Vcs.Push.Dialog.v2/0.0.1440.900/-1680.-594.1680.1050@-1680.-594.1680.1050" timestamp="1615201445097" />
-    <state x="-1192" y="-312" key="Vcs.Push.Dialog.v2/0.25.1440.875/-1615.-569.1615.1025@-1615.-569.1615.1025" timestamp="1615480957592" />
+    <state x="-1192" y="-312" key="Vcs.Push.Dialog.v2/0.25.1440.875/-1615.-569.1615.1025@-1615.-569.1615.1025" timestamp="1615489060868" />
     <state x="-1186" y="-449" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1615144883905">
       <screen x="-1680" y="-594" width="1680" height="1050" />
     </state>
     <state x="-1186" y="-449" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1440.900/-1680.-594.1680.1050@-1680.-594.1680.1050" timestamp="1615144883905" />
-    <state x="-1411" y="-489" width="1411" height="836" key="find.popup" timestamp="1615487023684">
+    <state x="-1411" y="-489" width="1411" height="836" key="find.popup" timestamp="1615499989756">
       <screen x="-1615" y="-569" width="1615" height="1025" />
     </state>
     <state x="-1615" y="-572" width="1467" height="856" key="find.popup/0.0.1440.900/-1680.-594.1680.1050@-1680.-594.1680.1050" timestamp="1615200879257" />
     <state x="-1406" y="-489" width="1406" height="836" key="find.popup/0.25.1440.875/-1610.-569.1610.1025@-1610.-569.1610.1025" timestamp="1615300363901" />
     <state x="-1410" y="-489" width="1410" height="836" key="find.popup/0.25.1440.875/-1613.-569.1613.1025@-1613.-569.1613.1025" timestamp="1615362672390" />
-    <state x="-1411" y="-489" width="1411" height="836" key="find.popup/0.25.1440.875/-1615.-569.1615.1025@-1615.-569.1615.1025" timestamp="1615487023684" />
+    <state x="-1411" y="-489" width="1411" height="836" key="find.popup/0.25.1440.875/-1615.-569.1615.1025@-1615.-569.1615.1025" timestamp="1615499989756" />
     <state x="141" y="68" width="1207" height="713" key="find.popup/56.25.1384.875/1440.-493.1680.1025@56.25.1384.875" timestamp="1613425621074" />
     <state x="143" y="68" width="1206" height="713" key="find.popup/58.25.1382.875/1440.-493.1680.1025@58.25.1382.875" timestamp="1613848609067" />
     <state x="147" y="68" width="1202" height="713" key="find.popup/62.25.1378.875/1440.-493.1680.1025@62.25.1378.875" timestamp="1613513432995" />
