@@ -25,7 +25,7 @@ const useWorkList = (initWorkList = [], preloadImages) => {
       }
       setLoading(false);
     })();
-  }, []);
+  }, [preloadImages]);
 
   return [workList, setWorkList, loading];
 };
