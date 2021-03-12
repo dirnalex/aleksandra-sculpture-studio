@@ -2,10 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09cedebb-8053-44cd-bdf6-6a50c19777b3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img /work/0018/thumb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img /work/0030/thumb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img /work/0043/thumb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img /work/0066/thumb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img /work/0069/thumb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img /work/0086/thumb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img /work/0106/thumb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img /work/0112/thumb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img /work/0129/thumb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img /work/0147/thumb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img /work/0159/thumb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img /work/0166/thumb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img /work/0170/thumb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img /work/0173/thumb.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AppStyles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppStyles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/data/work/list.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/data/work/list.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/hooks/useWorkList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/useWorkList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/work/WorkSelectPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/work/WorkSelectPage.js" afterDir="false" />
     </list>
     <list id="1b7b4eec-f492-4e2f-be3a-449e18930034" name="3d" comment="">
       <change afterPath="$PROJECT_DIR$/src/components/ThreeD.js" afterDir="false" />
@@ -77,6 +92,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTTP Request" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -112,7 +128,134 @@
       <recent name="$PROJECT_DIR$/public/data/work" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.npm start">
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:3000/img/work/0159/1.jpg" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Connection" />
+                <option name="value" value="keep-alive" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Pragma" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="sec-ch-ua" />
+                <option name="value" value="&quot;Google Chrome&quot;;v=&quot;89&quot;, &quot;Chromium&quot;;v=&quot;89&quot;, &quot;;Not A Brand&quot;;v=&quot;99&quot;" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="sec-ch-ua-mobile" />
+                <option name="value" value="?0" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="User-Agent" />
+                <option name="value" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 11_2_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Sec-Fetch-Site" />
+                <option name="value" value="same-origin" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Sec-Fetch-Mode" />
+                <option name="value" value="no-cors" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Sec-Fetch-Dest" />
+                <option name="value" value="image" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Referer" />
+                <option name="value" value="http://localhost:3000/en/work" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Accept-Language" />
+                <option name="value" value="en,pl;q=0.9,ru;q=0.8" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:3000/img/work/0159/thumb.jpg" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Connection" />
+                <option name="value" value="keep-alive" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Pragma" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="sec-ch-ua" />
+                <option name="value" value="&quot;Google Chrome&quot;;v=&quot;89&quot;, &quot;Chromium&quot;;v=&quot;89&quot;, &quot;;Not A Brand&quot;;v=&quot;99&quot;" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="sec-ch-ua-mobile" />
+                <option name="value" value="?0" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="User-Agent" />
+                <option name="value" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 11_2_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Sec-Fetch-Site" />
+                <option name="value" value="same-origin" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Sec-Fetch-Mode" />
+                <option name="value" value="no-cors" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Sec-Fetch-Dest" />
+                <option name="value" value="image" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Referer" />
+                <option name="value" value="http://localhost:3000/en/work" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Accept-Language" />
+                <option name="value" value="en,pl;q=0.9,ru;q=0.8" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="HTTP Request.scratch_1#1">
+    <configuration name="scratch_1#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/scratch_1.http" runType="Run single request">
+      <method v="2" />
+    </configuration>
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
@@ -148,6 +291,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="HTTP Request.scratch_1#1" />
         <item itemvalue="npm.build" />
         <item itemvalue="npm.test" />
       </list>
@@ -321,7 +465,28 @@
       <option name="project" value="LOCAL" />
       <updated>1615497783173</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Work list redesign">
+      <created>1615501684851</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1615501684853</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Init body height">
+      <created>1615501704316</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1615501704316</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Idea">
+      <created>1615501714639</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1615501714639</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -356,22 +521,25 @@
     <MESSAGE value="Restrict text content width" />
     <MESSAGE value="Return initial margins" />
     <MESSAGE value="Fixes" />
-    <MESSAGE value="Idea" />
     <MESSAGE value="Remove 3d" />
     <MESSAGE value="Loading" />
     <MESSAGE value="Resize" />
     <MESSAGE value="Name fix" />
     <MESSAGE value="Revert &quot;Return initial margins&quot;&#10;&#10;This reverts commit 4ef148be" />
-    <option name="LAST_COMMIT_MESSAGE" value="Revert &quot;Return initial margins&quot;&#10;&#10;This reverts commit 4ef148be" />
+    <MESSAGE value="Work list redesign" />
+    <MESSAGE value="Init body height" />
+    <MESSAGE value="Idea" />
+    <option name="LAST_COMMIT_MESSAGE" value="Idea" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="320" y="114" key="#Deployment" timestamp="1615222816451">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="-1256" y="-439" key="#Deployment" timestamp="1615501962940">
+      <screen x="-1615" y="-569" width="1615" height="1025" />
     </state>
     <state x="320" y="114" key="#Deployment/0.0.1440.900@0.0.1440.900" timestamp="1615222816451" />
+    <state x="-1256" y="-439" key="#Deployment/0.25.1440.875/-1615.-569.1615.1025@-1615.-569.1615.1025" timestamp="1615501962940" />
     <state x="184" y="110" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1615222718710">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -389,68 +557,74 @@
       <screen x="-1680" y="-594" width="1680" height="1050" />
     </state>
     <state x="-1102" y="-317" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900/-1680.-594.1680.1050@-1680.-594.1680.1050" timestamp="1614692923579" />
-    <state x="-1265" y="-445" key="CommitChangelistDialog2" timestamp="1615501703935">
-      <screen x="-1615" y="-569" width="1615" height="1025" />
+    <state x="-1067" y="-191" key="#com.intellij.ws.actions.HttpClientConvertFromCurlDialog" timestamp="1615567049867">
+      <screen x="-1619" y="-569" width="1619" height="1025" />
+    </state>
+    <state x="-1067" y="-191" key="#com.intellij.ws.actions.HttpClientConvertFromCurlDialog/0.25.1440.875/-1619.-569.1619.1025@-1619.-569.1619.1025" timestamp="1615567049867" />
+    <state x="-1268" y="-445" key="CommitChangelistDialog2" timestamp="1615574612035">
+      <screen x="-1619" y="-569" width="1619" height="1025" />
     </state>
     <state x="-1316" y="-467" key="CommitChangelistDialog2/0.0.1440.900/-1680.-594.1680.1050@-1680.-594.1680.1050" timestamp="1615201443089" />
-    <state x="-1265" y="-445" key="CommitChangelistDialog2/0.25.1440.875/-1615.-569.1615.1025@-1615.-569.1615.1025" timestamp="1615501703935" />
+    <state x="-1265" y="-445" key="CommitChangelistDialog2/0.25.1440.875/-1615.-569.1615.1025@-1615.-569.1615.1025" timestamp="1615501714355" />
+    <state x="-1268" y="-445" key="CommitChangelistDialog2/0.25.1440.875/-1619.-569.1619.1025@-1619.-569.1619.1025" timestamp="1615574612035" />
     <state x="-1378" y="-411" width="1152" height="700" key="DiffContextDialog" timestamp="1615497788461">
       <screen x="-1615" y="-569" width="1615" height="1025" />
     </state>
     <state x="-1378" y="-411" width="1152" height="700" key="DiffContextDialog/0.25.1440.875/-1615.-569.1615.1025@-1615.-569.1615.1025" timestamp="1615497788461" />
-    <state x="-1561" y="-481" width="1445" height="820" key="DirDiffDialog" timestamp="1615320508884">
+    <state x="-1561" y="-481" width="1445" height="820" key="DirDiffDialog" timestamp="1615502550407">
       <screen x="-1615" y="-569" width="1615" height="1025" />
     </state>
-    <state x="-1561" y="-481" width="1445" height="820" key="DirDiffDialog/0.25.1440.875/-1615.-569.1615.1025@-1615.-569.1615.1025" timestamp="1615320508884" />
+    <state x="-1561" y="-481" width="1445" height="820" key="DirDiffDialog/0.25.1440.875/-1615.-569.1615.1025@-1615.-569.1615.1025" timestamp="1615502550407" />
     <state x="100" y="100" width="1240" height="700" key="DirDiffDialog/54.25.1386.875@54.25.1386.875" timestamp="1615222899851" />
-    <state width="1568" height="335" key="GridCell.Tab.0.bottom" timestamp="1615496113310">
-      <screen x="-1615" y="-569" width="1615" height="1025" />
+    <state width="1568" height="335" key="GridCell.Tab.0.bottom" timestamp="1615574330442">
+      <screen x="-1619" y="-569" width="1619" height="1025" />
     </state>
     <state width="1638" height="401" key="GridCell.Tab.0.bottom/0.0.1440.900/-1680.-594.1680.1050@-1680.-594.1680.1050" timestamp="1615201603162" />
     <state width="1398" height="335" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1615225375199" />
     <state width="784" height="335" key="GridCell.Tab.0.bottom/0.25.1440.875/-1610.-569.1610.1025@-1610.-569.1610.1025" timestamp="1615296122122" />
     <state width="1568" height="335" key="GridCell.Tab.0.bottom/0.25.1440.875/-1613.-569.1613.1025@-1613.-569.1613.1025" timestamp="1615363688753" />
-    <state width="1568" height="335" key="GridCell.Tab.0.bottom/0.25.1440.875/-1615.-569.1615.1025@-1615.-569.1615.1025" timestamp="1615496113310" />
-    <state width="1568" height="335" key="GridCell.Tab.0.bottom/0.25.1440.875/-1619.-569.1619.1025@-1619.-569.1619.1025" timestamp="1615327205117" />
+    <state width="1568" height="335" key="GridCell.Tab.0.bottom/0.25.1440.875/-1615.-569.1615.1025@-1615.-569.1615.1025" timestamp="1615566267663" />
+    <state width="1568" height="335" key="GridCell.Tab.0.bottom/0.25.1440.875/-1619.-569.1619.1025@-1619.-569.1619.1025" timestamp="1615574330442" />
     <state width="1338" height="152" key="GridCell.Tab.0.bottom/56.25.1384.875/1440.-493.1680.1025@56.25.1384.875" timestamp="1613478950362" />
     <state width="1336" height="152" key="GridCell.Tab.0.bottom/60.25.1380.875/1440.-493.1680.1025@60.25.1380.875" timestamp="1613864990659" />
-    <state width="1568" height="335" key="GridCell.Tab.0.center" timestamp="1615496113308">
-      <screen x="-1615" y="-569" width="1615" height="1025" />
+    <state width="1568" height="335" key="GridCell.Tab.0.center" timestamp="1615574330440">
+      <screen x="-1619" y="-569" width="1619" height="1025" />
     </state>
     <state width="1638" height="401" key="GridCell.Tab.0.center/0.0.1440.900/-1680.-594.1680.1050@-1680.-594.1680.1050" timestamp="1615201603158" />
     <state width="1398" height="335" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1615225375191" />
     <state width="784" height="335" key="GridCell.Tab.0.center/0.25.1440.875/-1610.-569.1610.1025@-1610.-569.1610.1025" timestamp="1615296122121" />
     <state width="1568" height="335" key="GridCell.Tab.0.center/0.25.1440.875/-1613.-569.1613.1025@-1613.-569.1613.1025" timestamp="1615363688752" />
-    <state width="1568" height="335" key="GridCell.Tab.0.center/0.25.1440.875/-1615.-569.1615.1025@-1615.-569.1615.1025" timestamp="1615496113308" />
-    <state width="1568" height="335" key="GridCell.Tab.0.center/0.25.1440.875/-1619.-569.1619.1025@-1619.-569.1619.1025" timestamp="1615327205113" />
+    <state width="1568" height="335" key="GridCell.Tab.0.center/0.25.1440.875/-1615.-569.1615.1025@-1615.-569.1615.1025" timestamp="1615566267661" />
+    <state width="1568" height="335" key="GridCell.Tab.0.center/0.25.1440.875/-1619.-569.1619.1025@-1619.-569.1619.1025" timestamp="1615574330440" />
     <state width="1338" height="152" key="GridCell.Tab.0.center/56.25.1384.875/1440.-493.1680.1025@56.25.1384.875" timestamp="1613478950361" />
     <state width="1336" height="152" key="GridCell.Tab.0.center/60.25.1380.875/1440.-493.1680.1025@60.25.1380.875" timestamp="1613864990657" />
-    <state width="1568" height="335" key="GridCell.Tab.0.left" timestamp="1615496113308">
-      <screen x="-1615" y="-569" width="1615" height="1025" />
+    <state width="1568" height="335" key="GridCell.Tab.0.left" timestamp="1615574330436">
+      <screen x="-1619" y="-569" width="1619" height="1025" />
     </state>
     <state width="1638" height="401" key="GridCell.Tab.0.left/0.0.1440.900/-1680.-594.1680.1050@-1680.-594.1680.1050" timestamp="1615201603156" />
     <state width="1398" height="335" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1615225375102" />
     <state width="784" height="335" key="GridCell.Tab.0.left/0.25.1440.875/-1610.-569.1610.1025@-1610.-569.1610.1025" timestamp="1615296122120" />
     <state width="1568" height="335" key="GridCell.Tab.0.left/0.25.1440.875/-1613.-569.1613.1025@-1613.-569.1613.1025" timestamp="1615363688751" />
-    <state width="1568" height="335" key="GridCell.Tab.0.left/0.25.1440.875/-1615.-569.1615.1025@-1615.-569.1615.1025" timestamp="1615496113308" />
-    <state width="1568" height="335" key="GridCell.Tab.0.left/0.25.1440.875/-1619.-569.1619.1025@-1619.-569.1619.1025" timestamp="1615327205112" />
+    <state width="1568" height="335" key="GridCell.Tab.0.left/0.25.1440.875/-1615.-569.1615.1025@-1615.-569.1615.1025" timestamp="1615566267659" />
+    <state width="1568" height="335" key="GridCell.Tab.0.left/0.25.1440.875/-1619.-569.1619.1025@-1619.-569.1619.1025" timestamp="1615574330436" />
     <state width="1338" height="152" key="GridCell.Tab.0.left/56.25.1384.875/1440.-493.1680.1025@56.25.1384.875" timestamp="1613478950360" />
     <state width="1336" height="152" key="GridCell.Tab.0.left/60.25.1380.875/1440.-493.1680.1025@60.25.1380.875" timestamp="1613864990656" />
-    <state width="1568" height="335" key="GridCell.Tab.0.right" timestamp="1615496113309">
-      <screen x="-1615" y="-569" width="1615" height="1025" />
+    <state width="1568" height="335" key="GridCell.Tab.0.right" timestamp="1615574330441">
+      <screen x="-1619" y="-569" width="1619" height="1025" />
     </state>
     <state width="1638" height="401" key="GridCell.Tab.0.right/0.0.1440.900/-1680.-594.1680.1050@-1680.-594.1680.1050" timestamp="1615201603160" />
     <state width="1398" height="335" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1615225375197" />
     <state width="784" height="335" key="GridCell.Tab.0.right/0.25.1440.875/-1610.-569.1610.1025@-1610.-569.1610.1025" timestamp="1615296122121" />
     <state width="1568" height="335" key="GridCell.Tab.0.right/0.25.1440.875/-1613.-569.1613.1025@-1613.-569.1613.1025" timestamp="1615363688753" />
-    <state width="1568" height="335" key="GridCell.Tab.0.right/0.25.1440.875/-1615.-569.1615.1025@-1615.-569.1615.1025" timestamp="1615496113309" />
-    <state width="1568" height="335" key="GridCell.Tab.0.right/0.25.1440.875/-1619.-569.1619.1025@-1619.-569.1619.1025" timestamp="1615327205114" />
+    <state width="1568" height="335" key="GridCell.Tab.0.right/0.25.1440.875/-1615.-569.1615.1025@-1615.-569.1615.1025" timestamp="1615566267662" />
+    <state width="1568" height="335" key="GridCell.Tab.0.right/0.25.1440.875/-1619.-569.1619.1025@-1619.-569.1619.1025" timestamp="1615574330441" />
     <state width="1338" height="152" key="GridCell.Tab.0.right/56.25.1384.875/1440.-493.1680.1025@56.25.1384.875" timestamp="1613478950361" />
     <state width="1336" height="152" key="GridCell.Tab.0.right/60.25.1380.875/1440.-493.1680.1025@60.25.1380.875" timestamp="1613864990658" />
-    <state x="-1105" y="-342" key="RollbackChangesDialog" timestamp="1615484191042">
-      <screen x="-1615" y="-569" width="1615" height="1025" />
+    <state x="-1108" y="-342" key="RollbackChangesDialog" timestamp="1615574548675">
+      <screen x="-1619" y="-569" width="1619" height="1025" />
     </state>
     <state x="-1105" y="-342" key="RollbackChangesDialog/0.25.1440.875/-1615.-569.1615.1025@-1615.-569.1615.1025" timestamp="1615484191042" />
+    <state x="-1108" y="-342" key="RollbackChangesDialog/0.25.1440.875/-1619.-569.1619.1025@-1619.-569.1619.1025" timestamp="1615574548675" />
     <state x="-1377" y="-483" key="SettingsEditor" timestamp="1615238129071">
       <screen x="-1610" y="-569" width="1610" height="1025" />
     </state>
@@ -460,11 +634,11 @@
       <screen x="-1615" y="-569" width="1615" height="1025" />
     </state>
     <state x="-953" y="-136" key="VCS.ChangelistChooser/0.25.1440.875/-1615.-569.1615.1025@-1615.-569.1615.1025" timestamp="1615497473720" />
-    <state x="-1192" y="-312" key="Vcs.Push.Dialog.v2" timestamp="1615489060868">
+    <state x="-1192" y="-312" key="Vcs.Push.Dialog.v2" timestamp="1615501722341">
       <screen x="-1615" y="-569" width="1615" height="1025" />
     </state>
     <state x="-1240" y="-331" key="Vcs.Push.Dialog.v2/0.0.1440.900/-1680.-594.1680.1050@-1680.-594.1680.1050" timestamp="1615201445097" />
-    <state x="-1192" y="-312" key="Vcs.Push.Dialog.v2/0.25.1440.875/-1615.-569.1615.1025@-1615.-569.1615.1025" timestamp="1615489060868" />
+    <state x="-1192" y="-312" key="Vcs.Push.Dialog.v2/0.25.1440.875/-1615.-569.1615.1025@-1615.-569.1615.1025" timestamp="1615501722341" />
     <state x="-1186" y="-449" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1615144883905">
       <screen x="-1680" y="-594" width="1680" height="1050" />
     </state>
@@ -491,13 +665,13 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="593" y="351" key="publish.login/0.0.1440.900@0.0.1440.900" timestamp="1615225984866" />
-    <state x="-1199" y="-347" width="785" height="793" key="search.everywhere.popup" timestamp="1615486564167">
+    <state x="-1199" y="-347" width="785" height="793" key="search.everywhere.popup" timestamp="1615566375563">
       <screen x="-1615" y="-569" width="1615" height="1025" />
     </state>
     <state x="-1248" y="-367" width="816" height="812" key="search.everywhere.popup/0.0.1440.900/-1680.-594.1680.1050@-1680.-594.1680.1050" timestamp="1615201112622" />
     <state x="-1196" y="-347" width="782" height="793" key="search.everywhere.popup/0.25.1440.875/-1610.-569.1610.1025@-1610.-569.1610.1025" timestamp="1615297409588" />
     <state x="-1198" y="-347" width="784" height="793" key="search.everywhere.popup/0.25.1440.875/-1613.-569.1613.1025@-1613.-569.1613.1025" timestamp="1615313795447" />
-    <state x="-1199" y="-347" width="785" height="793" key="search.everywhere.popup/0.25.1440.875/-1615.-569.1615.1025@-1615.-569.1615.1025" timestamp="1615486564167" />
+    <state x="-1199" y="-347" width="785" height="793" key="search.everywhere.popup/0.25.1440.875/-1615.-569.1615.1025@-1615.-569.1615.1025" timestamp="1615566375563" />
     <state x="412" y="214" width="672" height="676" key="search.everywhere.popup/56.25.1384.875/1440.-493.1680.1025@56.25.1384.875" timestamp="1613425630653" />
     <state x="415" y="214" width="670" height="676" key="search.everywhere.popup/60.25.1380.875/1440.-493.1680.1025@60.25.1380.875" timestamp="1613341913391" />
   </component>
