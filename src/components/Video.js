@@ -8,6 +8,8 @@ const Video = ({title, link, isYouTube, className}) => {
   const [playing, setPlaying] = useState(false);
   let loadingRef = useRef(false);
 
+  const canHover = window.matchMedia("(any-hover: hover)").matches;
+
   const handleLoadStart = () => {
     loadingRef.current = true;
   };
@@ -27,26 +29,26 @@ const Video = ({title, link, isYouTube, className}) => {
   };
 
   const handleVideoMouseMove = ({currentTarget: video}) => {
-    if (!video.controls) {
+    if (!video.controls && canHover) {
       changeCursor({text: playing ? 'pause' : 'play'});
     }
   };
 
   const handleVideoPlay = ({currentTarget: video}) => {
     setPlaying(true);
-    if (!video.controls) {
+    if (!video.controls && canHover) {
       changeCursor({text: 'pause'});
     }
   };
 
   const handleVideoPause = ({currentTarget: video}) => {
     setPlaying(false);
-    if (!video.controls) {
+    if (!video.controls && canHover) {
       changeCursor({text: 'play'});
     }
   };
 
-  if (loadingRef.current) return <Loading/>;
+  if (link && loadingRef.current) return <Loading/>;
   return (
     <StyledWrapper className={className}>
       {!isYouTube && title && !playing && <StyledTitle>{title}</StyledTitle>}

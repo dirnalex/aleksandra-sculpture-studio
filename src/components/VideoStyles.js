@@ -13,6 +13,7 @@ export const StyledWrapper = styled.div`
 export const StyledVideo = styled.video` 
   width: 100%;
   max-height: 100%;
+  background-color: black;
   cursor: pointer;
 `;
 
