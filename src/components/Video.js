@@ -1,13 +1,23 @@
-import React, {useContext, useState} from 'react';
+import React, {useContext, useRef, useState} from 'react';
 import {StyledTitle, StyledVideo, StyledWrapper, StyledYoutubeVideo} from './VideoStyles';
 import CursorChangeContext from '../contexts/CursorChangeContext';
+import Loading from './Loading';
 
 const Video = ({title, link, isYouTube, className}) => {
   const changeCursor = useContext(CursorChangeContext);
   const [playing, setPlaying] = useState(false);
+  let loadingRef = useRef(false);
+
+  const handleLoadStart = () => {
+    loadingRef.current = true;
+  };
+
+  const handleCanPlay = () => {
+    loadingRef.current = false;
+  };
 
   const handleVideoClick = ({currentTarget: video}) => {
-    if (!video.controls) {
+    if (!loadingRef.current && !video.controls) {
       if (video.paused) {
         video.play();
       } else {
@@ -16,14 +26,10 @@ const Video = ({title, link, isYouTube, className}) => {
     }
   };
 
-  const handleVideoMouseEnter = ({currentTarget: video}) => {
+  const handleVideoMouseMove = ({currentTarget: video}) => {
     if (!video.controls) {
       changeCursor({text: playing ? 'pause' : 'play'});
     }
-  };
-
-  const handleVideoMouseOut = () => {
-    changeCursor();
   };
 
   const handleVideoPlay = ({currentTarget: video}) => {
@@ -40,6 +46,7 @@ const Video = ({title, link, isYouTube, className}) => {
     }
   };
 
+  if (loadingRef.current) return <Loading/>;
   return (
     <StyledWrapper className={className}>
       {!isYouTube && title && !playing && <StyledTitle>{title}</StyledTitle>}
@@ -48,8 +55,14 @@ const Video = ({title, link, isYouTube, className}) => {
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen/>
         :
-        <StyledVideo onClick={handleVideoClick} onMouseEnter={handleVideoMouseEnter} onMouseOut={handleVideoMouseOut}
-                     onMouseLeave={() => changeCursor()} onPlay={handleVideoPlay} onPause={handleVideoPause}>
+        <StyledVideo onClick={handleVideoClick}
+                     onMouseMove={handleVideoMouseMove}
+                     onMouseLeave={() => changeCursor()}
+                     onPlay={handleVideoPlay}
+                     onPause={handleVideoPause}
+                     onLoadStart={handleLoadStart}
+                     onCanPlay={handleCanPlay}
+        >
           <source src={link}/>
           Sorry, your browser doesn't support embedded videos.
         </StyledVideo>
