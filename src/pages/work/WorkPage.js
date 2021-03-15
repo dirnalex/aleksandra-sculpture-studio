@@ -91,8 +91,8 @@ const NextWorkContainer = styled.div`
 const WorkPage = ({id}) => {
   const {locale} = useIntl();
 
-  const {width} = useWindowResize();
-  const mini = useIsMini(width);
+  const {windowWidth} = useWindowResize();
+  const mini = useIsMini(windowWidth);
 
   const [workList] = useWorkList([]);
 

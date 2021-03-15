@@ -20,18 +20,18 @@ const Slider = styled.div.attrs(props => ({
 `;
 
 const PageSlider = ({scrollLeftRatio = 0, amountOfPages = 0}) => {
-  const {width} = useWindowResize();
+  const {windowWidth} = useWindowResize();
 
   const [sliderWidth, setSliderWidth] = useState(0);
   useEffect(() => {
     if (amountOfPages > 0) {
-      setSliderWidth(width / amountOfPages);
+      setSliderWidth(windowWidth / amountOfPages);
     }
-  }, [width, amountOfPages]);
+  }, [windowWidth, amountOfPages]);
 
   return (
     <SliderContainer>
-      <Slider sliderLeft={scrollLeftRatio * width} sliderWidth={sliderWidth}/>
+      <Slider sliderLeft={scrollLeftRatio * windowWidth} sliderWidth={sliderWidth}/>
     </SliderContainer>
   );
 };

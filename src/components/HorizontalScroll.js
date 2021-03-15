@@ -26,13 +26,13 @@ const HorizontalScroll = ({children, className}) => {
     }
   };
 
-  const {width} = useWindowResize();
+  const {windowWidth} = useWindowResize();
 
   const {page, incrementPage, decrementPage, isFirstPage, isLastPage} = usePagination(0, amountOfPages);
 
   useEffect(() => {
     handlePageChange(page);
-  }, [width, page]);
+  }, [windowWidth, page]);
 
   const [handleScroll, scrollLeftRatio] = useScroll();
 
