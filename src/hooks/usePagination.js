@@ -10,10 +10,7 @@ const getSafePage = (page, size) => {
   return safePage;
 };
 
-const noop = () => {
-};
-
-export default (pageFromOutside = 0, size = 0, onPageChange = noop) => {
+export default (pageFromOutside = 0, size = 0) => {
   const [page, setPage] = useState(getSafePage(pageFromOutside, size));
   const prevPage = usePrevious(page);
 
@@ -24,11 +21,6 @@ export default (pageFromOutside = 0, size = 0, onPageChange = noop) => {
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [pageFromOutside, size]);
-
-  useEffect(() => {
-    onPageChange(page, prevPage);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [page]);
 
   const safeSetPage = (pageToSet) => {
     const safePageToSet = getSafePage(pageToSet, size);
