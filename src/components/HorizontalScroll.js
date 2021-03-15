@@ -1,8 +1,5 @@
 import React, {createRef, useContext, useEffect, useRef} from 'react';
-import {useSwipeable} from 'react-swipeable';
 import usePagination from '../hooks/usePagination';
-import useHorizontalScroll from '../hooks/useHorizontalScroll';
-import useNoScrollOnWheel from '../hooks/useNoScrollOnWheel';
 import useScroll from '../hooks/useScroll';
 import {generateArrayFillingWith} from '../utils/array';
 import {StyledArrowLeft, StyledArrowRight, StyledHorizontalScroll, StyledPage} from './HorizontalScrollStyles';
@@ -28,42 +25,37 @@ const HorizontalScroll = ({children, className}) => {
 
   const {windowWidth} = useWindowResize();
 
-  const {page, incrementPage, decrementPage, isFirstPage, isLastPage} = usePagination(0, amountOfPages);
+  const {page, incrementPage, decrementPage, setPage, isFirstPage, isLastPage} = usePagination(0, amountOfPages);
 
   useEffect(() => {
-    handlePageChange(page, "smooth");
+    handlePageChange(page.current, "smooth");
   }, [page]);
 
   useEffect(() => {
-    handlePageChange(page);
+    handlePageChange(page.current);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [windowWidth]);
 
-  const [handleScroll, scrollLeftRatio] = useScroll();
+  const handleScrollStop = (ratio) => {
+    const newPage = Math.round(ratio * amountOfPages);
+    setPage(newPage);
+  };
 
-  const handleWheel = useHorizontalScroll(incrementPage, decrementPage);
-
-  const handlers = useSwipeable({
-    onSwipedRight: decrementPage,
-    onSwipedLeft: incrementPage,
-    preventDefaultTouchmoveEvent: true
-  });
-
-  useNoScrollOnWheel(containerRef);
+  const [handleScroll, scrollLeftRatio] = useScroll(handleScrollStop);
 
   const theme = useContext(ThemeContext);
   useEffect(() => {
-    if (children[page] && children[page].props && children[page].props.theme) {
-      theme.setTheme(children[page].props.theme);
+    if (children[page.current] && children[page.current].props && children[page.current].props.theme) {
+      theme.setTheme(children[page.current].props.theme);
     } else {
       theme.setDefaultTheme();
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [children[page]]);
+  }, [children[page.current]]);
 
   return (amountOfPages === 0) ? null : (
     <StyledHorizontalScroll ref={containerRef} className={className}
-                            onScroll={handleScroll} onWheel={handleWheel} {...handlers}>
+                            onScroll={handleScroll}>
       {amountOfPages > 1 && <PageSlider scrollLeftRatio={scrollLeftRatio} amountOfPages={amountOfPages}/>}
       {!isFirstPage && <StyledArrowLeft onClick={decrementPage}/>}
       {!isLastPage && <StyledArrowRight onClick={incrementPage}/>}
