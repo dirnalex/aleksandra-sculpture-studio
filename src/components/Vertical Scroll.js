@@ -43,10 +43,10 @@ const ScrollContainer = styled.div`
   }
 `;
 
-const VerticalScroll = ({className, children}) => {
+const VerticalScroll = ({className, children, scrollRef}) => {
   return (
     <BlurContainer>
-      <ScrollContainer className={className}>
+      <ScrollContainer ref={scrollRef} className={className}>
         {children}
       </ScrollContainer>
     </BlurContainer>

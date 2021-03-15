@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useLayoutEffect, useRef, useState} from 'react';
 import styled from 'styled-components';
 import {useIntl} from 'react-intl';
 import VerticalScroll from '../../components/Vertical Scroll';
@@ -31,12 +31,10 @@ const Text = styled.div`
 const More = styled.div`
   font-family: NeueMontrealRegular, sans-serif;
   cursor: pointer;
-  display: inline-block;
+  display: table;
   font-size: 0.43em;
   line-height: 100%;
-  position: relative;
-  top: 6px;
-  left: 5px;
+  margin-top: 1em;
 `;
 
 const MoreText = styled.div`
@@ -51,8 +49,19 @@ const MoreText = styled.div`
 const TextWithMorePage = ({text, moreText}) => {
   const intl = useIntl();
   const {locale} = intl;
+  const moreTextRef = useRef(null);
+  const scrollContainerRef = useRef(null);
 
   const [showingMore, setShowingMore] = useState(false);
+
+  useLayoutEffect(() => {
+    if (showingMore && scrollContainerRef.current) {
+      scrollContainerRef.current.scrollTo({
+        top: moreTextRef.current.offsetTop - 100,
+        behavior: "smooth"
+      });
+    }
+  }, [showingMore]);
 
   const toggleMore = () => {
     setShowingMore(prevMore => !prevMore);
@@ -60,7 +69,7 @@ const TextWithMorePage = ({text, moreText}) => {
 
   return text && text[locale] ?
     <PageContainer>
-      <VerticalScroll>
+      <VerticalScroll scrollRef={scrollContainerRef}>
         <ContentContainer>
           <Text>
             {text[locale]}
@@ -71,7 +80,7 @@ const TextWithMorePage = ({text, moreText}) => {
             }
           </Text>
           {moreText && moreText[locale] && showingMore &&
-          <MoreText>{moreText[locale]}</MoreText>
+          <MoreText ref={moreTextRef}>{moreText[locale]}</MoreText>
           }
         </ContentContainer>
       </VerticalScroll>
