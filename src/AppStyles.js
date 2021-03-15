@@ -27,6 +27,7 @@ export default createGlobalStyle`
   body {
     height: 100vh;
     background: #E5E5E5;
+    overscroll-behavior: contain;
     color: #000000;
     font-family: NeueMontrealRegular, sans-serif;
     font-style: normal;
