@@ -20,9 +20,9 @@ const HorizontalScroll = ({children, className}) => {
     pageRefs.current = generateArrayFillingWith({size: amountOfPages, generateFunc: createRef});
   }, [amountOfPages]);
 
-  const handlePageChange = (page) => {
+  const handlePageChange = (page, behavior) => {
     if (pageRefs.current[page] && pageRefs.current[page].current) {
-      pageRefs.current[page].current.scrollIntoView({behavior: "smooth", inline: "start"});
+      pageRefs.current[page].current.scrollIntoView({behavior, inline: "start"});
     }
   };
 
@@ -31,8 +31,13 @@ const HorizontalScroll = ({children, className}) => {
   const {page, incrementPage, decrementPage, isFirstPage, isLastPage} = usePagination(0, amountOfPages);
 
   useEffect(() => {
+    handlePageChange(page, "smooth");
+  }, [page]);
+
+  useEffect(() => {
     handlePageChange(page);
-  }, [windowWidth, page]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [windowWidth]);
 
   const [handleScroll, scrollLeftRatio] = useScroll();
 
