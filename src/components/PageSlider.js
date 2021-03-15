@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import useResize from '../hooks/useResize';
+import useWindowResize from '../hooks/useWindowResize';
 import styled from 'styled-components';
 
 const SliderContainer = styled.div`
@@ -20,7 +20,7 @@ const Slider = styled.div.attrs(props => ({
 `;
 
 const PageSlider = ({scrollLeftRatio = 0, amountOfPages = 0}) => {
-  const {width} = useResize();
+  const {width} = useWindowResize();
 
   const [sliderWidth, setSliderWidth] = useState(0);
   useEffect(() => {

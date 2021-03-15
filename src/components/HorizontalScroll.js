@@ -8,6 +8,7 @@ import {generateArrayFillingWith} from '../utils/array';
 import {StyledArrowLeft, StyledArrowRight, StyledHorizontalScroll, StyledPage} from './HorizontalScrollStyles';
 import {ThemeContext} from 'styled-components';
 import PageSlider from './PageSlider';
+import useWindowResize from '../hooks/useWindowResize';
 
 const HorizontalScroll = ({children, className}) => {
   const amountOfPages = children.length;
@@ -25,7 +26,7 @@ const HorizontalScroll = ({children, className}) => {
     }
   };
 
-  const {width} = useResize();
+  const {width} = useWindowResize();
 
   const {page, incrementPage, decrementPage, isFirstPage, isLastPage} = usePagination(0, amountOfPages);
 

@@ -5,7 +5,7 @@ import HorizontalScroll from '../../components/HorizontalScroll';
 import useWorkList from '../../hooks/useWorkList';
 import usePageDescriptions from '../../hooks/usePageDescriptions';
 import {getProps, renderPage} from '../../utils/pageDescription';
-import useResize from '../../hooks/useResize';
+import useWindowResize from '../../hooks/useWindowResize';
 import useIsMini from '../../hooks/useIsMini';
 import WorkDescription from '../../components/work/WorkDescription';
 import {Blinking, HideScrollbar, StandardTopBottomMargin} from '../../ReuseStyles';
@@ -91,7 +91,7 @@ const NextWorkContainer = styled.div`
 const WorkPage = ({id}) => {
   const {locale} = useIntl();
 
-  const {width} = useResize();
+  const {width} = useWindowResize();
   const mini = useIsMini(width);
 
   const [workList] = useWorkList([]);
