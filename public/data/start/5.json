@@ -1,0 +1,19 @@
+{
+  "WorkVideoPage": {
+    "link": "https://jozefow-art.s3.eu-central-1.amazonaws.com/video/work/0116/1.mp4",
+    "title": {
+      "pl": "Volumen",
+      "en": "Volumen"
+    },
+    "workLink": {
+      "text": {
+        "pl": "Więcej o ”Volumen”",
+        "en": "More about ”Volumen”"
+      },
+      "link": {
+        "pl": "/pl/work/0116",
+        "en": "/en/work/0116"
+      }
+    }
+  }
+}

@@ -1,18 +1,18 @@
 {
   "WorkVideoPage": {
-    "link": "/video/work/0116/1.mp4",
+    "link": "https://jozefow-art.s3.eu-central-1.amazonaws.com/video/work/0166/1.mov",
     "title": {
-      "pl": "Volumen",
-      "en": "Volumen"
+      "pl": "Pokoj nie pokoj II",
+      "en": "Room - Anxiety II"
     },
     "workLink": {
       "text": {
-        "pl": "Więcej o ”Volumen”",
-        "en": "More about ”Volumen”"
+        "pl": "Więcej o ”Pokoj nie pokoj II”",
+        "en": "More about ”Room - Anxiety II”"
       },
       "link": {
-        "pl": "/pl/work/0116",
-        "en": "/en/work/0116"
+        "pl": "/pl/work/0166",
+        "en": "/en/work/0166"
       }
     }
   }

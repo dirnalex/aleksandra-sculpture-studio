@@ -1,6 +1,9 @@
 {
   "VideoPage": {
-    "link": "https://www.youtube.com/embed/wuaR7dFere8",
-    "isYouTube": true
+    "link": "https://jozefow-art.s3.eu-central-1.amazonaws.com/video/work/0106/1.mp4",
+    "title": {
+      "pl": "odtwórz",
+      "en": "play"
+    }
   }
 }
