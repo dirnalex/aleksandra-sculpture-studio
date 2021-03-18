@@ -6,6 +6,7 @@ import VerticalScroll from '../../components/Vertical Scroll';
 
 const PageContainer = styled.div`
   ${StandardTopBottomMargin};
+  max-width: 930px;
 `;
 
 const ContentContainer = styled.div`
