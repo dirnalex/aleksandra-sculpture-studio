@@ -31,13 +31,17 @@ export const CursorText = styled.p`
 
 const Cursor = ({children}) => {
   const cursorRef = useRef(null);
-  const [cursor, setCursor] = useState({});
+  const [cursorText, setCursorText] = useState();
 
-  const changeCursor = (changes) => {
-    if (changes) {
-      setCursor({...cursor, ...changes});
+  const changeCursorText = (newText) => {
+    if (newText) {
+      if (cursorText !== newText) {
+        setCursorText(newText);
+      }
     } else {
-      setCursor({});
+      if (cursorText) {
+        setCursorText();
+      }
     }
   };
 
@@ -59,9 +63,9 @@ const Cursor = ({children}) => {
   }, [cursorRef]);
 
   return (
-    <CursorChangeContext.Provider value={changeCursor}>
-      <StyledCursor {...cursor} ref={cursorRef}>
-        {cursor.text && <CursorText>{cursor.text}</CursorText>}
+    <CursorChangeContext.Provider value={changeCursorText}>
+      <StyledCursor text={cursorText} ref={cursorRef}>
+        {cursorText && <CursorText>{cursorText}</CursorText>}
       </StyledCursor>
       {children}
     </CursorChangeContext.Provider>

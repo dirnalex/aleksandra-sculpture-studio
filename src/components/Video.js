@@ -4,7 +4,7 @@ import CursorChangeContext from '../contexts/CursorChangeContext';
 import Loading from './Loading';
 
 const Video = ({title, link, isYouTube, className}) => {
-  const changeCursor = useContext(CursorChangeContext);
+  const changeCursorText = useContext(CursorChangeContext);
   const [playing, setPlaying] = useState(false);
   let loadingRef = useRef(false);
 
@@ -30,21 +30,21 @@ const Video = ({title, link, isYouTube, className}) => {
 
   const handleVideoMouseMove = ({currentTarget: video}) => {
     if (!video.controls && canHover) {
-      changeCursor({text: playing ? 'pause' : 'play'});
+      changeCursorText(playing ? 'pause' : 'play');
     }
   };
 
   const handleVideoPlay = ({currentTarget: video}) => {
     setPlaying(true);
     if (!video.controls && canHover) {
-      changeCursor({text: 'pause'});
+      changeCursorText('pause');
     }
   };
 
   const handleVideoPause = ({currentTarget: video}) => {
     setPlaying(false);
     if (!video.controls && canHover) {
-      changeCursor({text: 'play'});
+      changeCursorText('play');
     }
   };
 
@@ -59,7 +59,7 @@ const Video = ({title, link, isYouTube, className}) => {
         :
         <StyledVideo onClick={handleVideoClick}
                      onMouseMove={handleVideoMouseMove}
-                     onMouseLeave={() => changeCursor()}
+                     onMouseLeave={() => changeCursorText()}
                      onPlay={handleVideoPlay}
                      onPause={handleVideoPause}
                      onLoadStart={handleLoadStart}
