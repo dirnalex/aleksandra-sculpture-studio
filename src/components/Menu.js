@@ -1,12 +1,21 @@
 import React from 'react';
-import {NavLink} from 'react-router-dom';
+import {Link, NavLink, useLocation} from 'react-router-dom';
 import {FormattedMessage, useIntl} from 'react-intl';
-import {About, Contact, MenuList, Start, Work} from './MenuStyles';
+import {About, Contact, LanguageSwitch, MenuList, Start, Work} from './MenuStyles';
 
 const Menu = () => {
   const {locale} = useIntl();
+  const {pathname} = useLocation();
+  const otherLocale = locale === 'en' ? 'pl' : (locale === 'pl' && 'en');
   return (
     <MenuList>
+      {otherLocale && pathname &&
+      <LanguageSwitch>
+        <Link to={pathname.replace(`/${locale}/`, `/${otherLocale}/`)}>
+          {otherLocale}
+        </Link>
+      </LanguageSwitch>
+      }
       <Start>
         <NavLink exact to={`/${locale}/start`} activeClassName="selected">
           <FormattedMessage id="menu.start"/>

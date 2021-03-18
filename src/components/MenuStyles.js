@@ -19,6 +19,13 @@ const MenuItem = styled.li`
   }
 `;
 
+export const LanguageSwitch = styled(MenuItem)`
+  font-size: 0.75em;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 5px;
+`;
+
 export const Start = styled(MenuItem)`
   bottom: 30px;
   right: 30px;
