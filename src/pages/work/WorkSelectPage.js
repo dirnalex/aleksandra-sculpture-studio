@@ -100,15 +100,15 @@ const WorkSelectPage = props => {
     }
   };
 
-    const imageWidth = Math.round(window.innerWidth / 7);
-    const imageHeight = Math.round(window.innerHeight / 4);
+  const imageWidth = Math.round(window.innerWidth / 7);
+  const imageHeight = Math.round(window.innerHeight / 4);
 
-    if (loading) return <Loading/>;
-    return (
-      <Page>
-        <WorkList onWheel={handleWorkListScroll} {...handlers}>
-          {workList
-            .filter(work => work.id && work.name && work.name[locale])
+  if (loading) return <Loading/>;
+  return (
+    <Page>
+      <WorkList onWheel={handleWorkListScroll} {...handlers}>
+        {workList
+          .filter(work => work.id && work.name && work.name[locale])
             .map(work =>
               <WorkItem disabled={!work.imageLink} key={work.id}>
                 {canHover && work.imageLink &&
