@@ -13,8 +13,13 @@ export const StyledWrapper = styled.div`
 export const StyledVideo = styled.video` 
   width: 100%;
   max-height: 100%;
-  background-color: black;
   cursor: pointer;
+`;
+
+export const BlackScreen = styled.div` 
+  width: 100%;
+  height: 100%;
+  background-color: black;
 `;
 
 export const StyledYoutubeVideo = styled.iframe` 

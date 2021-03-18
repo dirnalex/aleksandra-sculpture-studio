@@ -1,5 +1,5 @@
 import React, {useContext, useRef, useState} from 'react';
-import {StyledTitle, StyledVideo, StyledWrapper, StyledYoutubeVideo} from './VideoStyles';
+import {BlackScreen, StyledTitle, StyledVideo, StyledWrapper, StyledYoutubeVideo} from './VideoStyles';
 import CursorChangeContext from '../contexts/CursorChangeContext';
 import Loading from './Loading';
 
@@ -52,22 +52,25 @@ const Video = ({title, link, isYouTube, className}) => {
   return (
     <StyledWrapper className={className}>
       {!isYouTube && title && !playing && <StyledTitle>{title}</StyledTitle>}
-      {isYouTube ?
-        <StyledYoutubeVideo src={link} frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen/>
+      {!link ?
+        <BlackScreen onMouseMove={handleVideoMouseMove} onMouseLeave={() => changeCursorText()}/>
         :
-        <StyledVideo onClick={handleVideoClick}
-                     onMouseMove={handleVideoMouseMove}
-                     onMouseLeave={() => changeCursorText()}
-                     onPlay={handleVideoPlay}
-                     onPause={handleVideoPause}
-                     onLoadStart={handleLoadStart}
-                     onCanPlay={handleCanPlay}
-        >
-          <source src={link}/>
-          Sorry, your browser doesn't support embedded videos.
-        </StyledVideo>
+        isYouTube ?
+          <StyledYoutubeVideo src={link} frameborder="0"
+                              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                              allowfullscreen/>
+          :
+          <StyledVideo onClick={handleVideoClick}
+                       onMouseMove={handleVideoMouseMove}
+                       onMouseLeave={() => changeCursorText()}
+                       onPlay={handleVideoPlay}
+                       onPause={handleVideoPause}
+                       onLoadStart={handleLoadStart}
+                       onCanPlay={handleCanPlay}
+          >
+            <source src={link}/>
+            Sorry, your browser doesn't support embedded videos.
+          </StyledVideo>
       }
     </StyledWrapper>
   );
