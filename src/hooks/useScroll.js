@@ -1,18 +1,18 @@
-import {useRef, useState} from 'react';
+import {useEffect} from 'react';
 
-export default (onScrollStop) => {
-  const [scrollLeftRatio, setScrollLeftRatio] = useState(0);
-  const scrollingTimerRef = useRef(null);
+const noop = () => {
+};
 
-  const handleScroll = ({currentTarget: scrollable}) => {
-    if (scrollingTimerRef.current) {
-      clearTimeout(scrollingTimerRef.current)
+export default (scrollerRef, onScroll = noop) => {
+  useEffect(() => {
+    const scrollerEl = scrollerRef.current;
+    if (scrollerEl) {
+      scrollerEl.addEventListener('scroll', onScroll);
     }
-    scrollingTimerRef.current = setTimeout(() => {
-      onScrollStop(scrollLeftRatio);
-    }, 150);
-    setScrollLeftRatio(scrollable.scrollLeft / scrollable.scrollWidth);
-  };
-
-  return [handleScroll, scrollLeftRatio];
+    return () => {
+      if (scrollerEl) {
+        scrollerEl.removeEventListener('scroll', onScroll);
+      }
+    };
+  }, [scrollerRef.current]);
 };

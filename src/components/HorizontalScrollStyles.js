@@ -4,7 +4,8 @@ import ArrowRight from './icons/ArrowRight';
 import {HideScrollbar} from '../ReuseStyles';
 
 export const StyledHorizontalScroll = styled.div`
-  overflow: scroll;
+  overflow-x: scroll;
+  overflow-y: hidden;
   width: 100%;
   height: 100%;
   display: flex;

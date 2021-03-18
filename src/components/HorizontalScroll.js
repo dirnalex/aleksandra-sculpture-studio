@@ -36,12 +36,15 @@ const HorizontalScroll = ({children, className}) => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [windowWidth]);
 
-  const handleScrollStop = (ratio) => {
-    const newPage = Math.round(ratio * amountOfPages);
-    setPage(newPage);
-  };
-
-  const [handleScroll, scrollLeftRatio] = useScroll(handleScrollStop);
+  const scrollingTimerRef = useRef(null);
+  useScroll(containerRef, ({currentTarget: scrollable}) => {
+    if (scrollingTimerRef.current) {
+      clearTimeout(scrollingTimerRef.current)
+    }
+    scrollingTimerRef.current = setTimeout(() => {
+      setPage(Math.round((scrollable.scrollLeft / scrollable.scrollWidth) * amountOfPages));
+    }, 50);
+  });
 
   const theme = useContext(ThemeContext);
   useEffect(() => {
@@ -54,9 +57,8 @@ const HorizontalScroll = ({children, className}) => {
   }, [children[page.current]]);
 
   return (amountOfPages === 0) ? null : (
-    <StyledHorizontalScroll ref={containerRef} className={className}
-                            onScroll={handleScroll}>
-      {amountOfPages > 1 && <PageSlider scrollLeftRatio={scrollLeftRatio} amountOfPages={amountOfPages}/>}
+    <StyledHorizontalScroll ref={containerRef} className={className}>
+      {amountOfPages > 1 && <PageSlider scrollerRef={containerRef} amountOfPages={amountOfPages}/>}
       {!isFirstPage && <StyledArrowLeft onClick={decrementPage}/>}
       {!isLastPage && <StyledArrowRight onClick={incrementPage}/>}
       {children.map((child, index) => <StyledPage key={index} id={index}

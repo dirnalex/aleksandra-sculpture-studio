@@ -1,6 +1,6 @@
-import React, {useEffect, useState} from 'react';
-import useWindowResize from '../hooks/useWindowResize';
+import React, {useRef} from 'react';
 import styled from 'styled-components';
+import useScroll from '../hooks/useScroll';
 
 const SliderContainer = styled.div`
   position: absolute;
@@ -8,30 +8,31 @@ const SliderContainer = styled.div`
   z-index: 100;
 `;
 
-const Slider = styled.div.attrs(props => ({
-  style: {
-    left: `${props.sliderLeft}px`,
-    width: `${props.sliderWidth}px`,
-  }
-}))`
+const Slider = styled.div`
+  width: ${props => props.sliderWidthPercent}%;
   position: absolute;
   height: 10px;
   background-color: #00EED1;
 `;
 
-const PageSlider = ({scrollLeftRatio = 0, amountOfPages = 0}) => {
-  const {windowWidth} = useWindowResize();
+const PageSlider = ({scrollerRef, amountOfPages = 0}) => {
+  const sliderRef = useRef(null);
 
-  const [sliderWidth, setSliderWidth] = useState(0);
-  useEffect(() => {
-    if (amountOfPages > 0) {
-      setSliderWidth(windowWidth / amountOfPages);
-    }
-  }, [windowWidth, amountOfPages]);
+  const handleScroll = ({currentTarget: scrollable}) => {
+    requestAnimationFrame(() => {
+      const sliderEl = sliderRef.current;
+      if (sliderEl) {
+        sliderEl.style.left = (scrollable.scrollLeft * 100 / scrollable.scrollWidth) + '%';
+      }
+    });
+  };
 
+  useScroll(scrollerRef, handleScroll);
+
+  if (!amountOfPages) return null;
   return (
     <SliderContainer>
-      <Slider sliderLeft={scrollLeftRatio * windowWidth} sliderWidth={sliderWidth}/>
+      <Slider ref={sliderRef} sliderWidthPercent={100 / amountOfPages}/>
     </SliderContainer>
   );
 };
