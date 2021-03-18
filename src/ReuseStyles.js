@@ -27,12 +27,14 @@ export const Blinking = (delayMs = 0) => css`
 `;
 
 export const StandardTopBottomMargin = css`
-  margin-top: ${({theme}) => theme.app.topMargin * 2 + theme.menu.itemHeight}px;
-  margin-bottom: ${({theme}) => theme.app.bottomMargin * 2 + theme.menu.itemHeight}px;
-  @media only screen and 
-    (max-width: ${({theme}) => theme.mobileBreakpoint()}px) {
-    margin-top: ${({theme}) => theme.app.topMarginMobile * 2 + theme.menu.itemHeight}px;
-    margin-bottom: ${({theme}) => theme.app.bottomMarginMobile * 2 + theme.menu.itemHeight}px;
+  &&{
+    margin-top: ${({theme}) => theme.app.topMargin * 2 + theme.menu.itemHeight}px;
+    margin-bottom: ${({theme}) => theme.app.bottomMargin * 2 + theme.menu.itemHeight}px;
+    @media only screen and 
+      (max-width: ${({theme}) => theme.mobileBreakpoint()}px) {
+      margin-top: ${({theme}) => theme.app.topMarginMobile * 2 + theme.menu.itemHeight}px;
+      margin-bottom: ${({theme}) => theme.app.bottomMarginMobile * 2 + theme.menu.itemHeight}px;
+    }
   }
 `;
 
