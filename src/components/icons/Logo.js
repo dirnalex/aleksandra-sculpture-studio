@@ -1,6 +1,22 @@
 import React from 'react';
+import styled from 'styled-components';
 
-import {Diagonal, StyledLogo, Vertical} from './LogoStyles';
+const StyledLogo = styled.svg`
+  width: 27px; 
+  height: 40px;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+`;
+
+const Diagonal = styled.path`
+  fill: #1E1D1D;
+`;
+
+const Vertical = styled.path`
+  fill: #303535
+`;
 
 const Logo = () => {
   return (

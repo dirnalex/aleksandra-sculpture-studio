@@ -1,9 +1,23 @@
 import React, {Fragment} from 'react';
 import {Link} from 'react-router-dom';
 
-import {LanguageSelectBox} from './LanguageSelectPageStyles';
 import Logo from '../components/icons/Logo';
 import useExtendedRouteMatch from '../hooks/useExtendedRouteMatch';
+import styled from 'styled-components';
+
+const LanguageSelectBox = styled.div`
+  position: fixed;
+  left: 50%;
+  bottom: 70px;
+  transform: translateX(-50%);
+  
+  &>*:nth-child(n+2) {
+    margin-left: 40px;
+  }
+  &>*:hover {
+    color: #00EED1;
+  }
+`;
 
 const LanguageSelectPage = () => {
   const {urlWithoutSlash} = useExtendedRouteMatch();
