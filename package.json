@@ -18,8 +18,7 @@
     "react-transition-group": "^4.4.1",
     "smoothscroll-polyfill": "^0.4.4",
     "styled-components": "^5.2.0",
-    "three": "^0.126.1",
-    "react-swipeable": "latest"
+    "three": "^0.126.1"
   },
   "scripts": {
     "start": "react-scripts start",
