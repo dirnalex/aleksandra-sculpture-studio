@@ -27,6 +27,7 @@ const Text = styled.p`
   font-weight: 300;
   font-size: 1.75em;
   line-height: 129%;
+  white-space: pre-line;
 `;
 
 const LinksContainer = styled.div`

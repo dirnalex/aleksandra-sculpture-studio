@@ -26,6 +26,7 @@ const Text = styled.div`
   font-weight: 300;
   font-size: 1.75em;
   line-height: 129%;
+  white-space: pre-line;
 `;
 
 const More = styled.div`

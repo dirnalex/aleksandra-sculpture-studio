@@ -25,10 +25,7 @@ const Text = styled.p`
   font-weight: 300;
   font-size: 1.75em;
   line-height: 129%;
-  /*text-indent: 10%;
-  @media only screen and (max-width : 800px) {
-    text-indent: 0;
-  }*/
+  white-space: pre-line;
 `;
 
 const TextPage = ({text}) => {
