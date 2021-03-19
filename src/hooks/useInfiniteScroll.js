@@ -37,7 +37,7 @@ export default () => {
         scrollerEl.addEventListener('scroll', handleWorkListScroll);
 
         let start = Date.now();
-        const delay = 100;
+        const delay = 150;
 
         function scrollOneDown() {
           if (Date.now() - start > delay) {
