@@ -1,5 +1,8 @@
 {
-  "ImagePage": {
-    "imageLink": "https://jozefow-art.s3.eu-central-1.amazonaws.com/img/work/0129/3.jpg"
+  "FullscreenImagePage": {
+    "imageLink": "https://jozefow-art.s3.eu-central-1.amazonaws.com/img/work/0129/3.jpg",
+    "theme": {
+      "textColor": "white"
+    }
   }
 }

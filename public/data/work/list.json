@@ -212,20 +212,20 @@
     },
     "materials": [
       {
-        "pl": "",
-        "en": ""
+        "pl": "Muzyka: Szymon Burnos",
+        "en": "Music: Szymon Burnos"
       },
       {
-        "pl": "",
-        "en": ""
+        "pl": "Wideo: Aleksandra Józefów",
+        "en": "Video: Aleksandra Józefów"
       }
     ],
     "notes": {
-      "pl": "",
-      "en": ""
+      "pl": "4x3m",
+      "en": "4x3m"
     },
-    "year": "",
-    "imageLink": ""
+    "year": "2018",
+    "imageLink": "https://jozefow-art.s3.eu-central-1.amazonaws.com/img/work/0132/thumb.jpg"
   },
   {
     "id": "0145",
@@ -492,6 +492,105 @@
     "imageLink": "https://jozefow-art.s3.eu-central-1.amazonaws.com/img/work/0129/thumb.jpg"
   },
   {
+    "id": "0151",
+    "name": {
+      "pl": "Próby",
+      "en": "Attempts"
+    },
+    "materials": [
+      {
+        "pl": "szkło",
+        "en": "glass"
+      },
+      {
+        "pl": "MDF",
+        "en": "MDF"
+      }
+    ],
+    "notes": {
+      "pl": "rozm: 6x90x108, 6x79x66",
+      "en": "size: 6x90x108; 6x79x66"
+    },
+    "year": "2016 – 2018",
+    "imageLink": "https://jozefow-art.s3.eu-central-1.amazonaws.com/img/work/0151/thumb.jpg"
+  },
+  {
+    "id": "0120",
+    "name": {
+      "pl": "Ramii",
+      "en": "Ramii"
+    },
+    "materials": [
+      {
+        "pl": "Żeliwo",
+        "en": "Cast iron"
+      }
+    ],
+    "notes": {
+      "pl": "wys. 17cm",
+      "en": "height 17cm"
+    },
+    "year": "2014",
+    "imageLink": "https://jozefow-art.s3.eu-central-1.amazonaws.com/img/work/0120/thumb.jpg"
+  },
+  {
+    "id": "0121",
+    "name": {
+      "pl": "Ramii I",
+      "en": "Ramii I"
+    },
+    "materials": [
+      {
+        "pl": "Aluminium",
+        "en": "Aluminium"
+      }
+    ],
+    "notes": {
+      "pl": "wys. 22cm",
+      "en": "height 22cm"
+    },
+    "year": "2016",
+    "imageLink": "https://jozefow-art.s3.eu-central-1.amazonaws.com/img/work/0121/thumb.jpg"
+  },
+  {
+    "id": "0122",
+    "name": {
+      "pl": "Ramii II",
+      "en": "Ramii II"
+    },
+    "materials": [
+      {
+        "pl": "Aluminium",
+        "en": "Aluminium"
+      }
+    ],
+    "notes": {
+      "pl": "wys. 32cm",
+      "en": "height 32cm"
+    },
+    "year": "2016",
+    "imageLink": "https://jozefow-art.s3.eu-central-1.amazonaws.com/img/work/0122/thumb.jpg"
+  },
+  {
+    "id": "0123",
+    "name": {
+      "pl": "Ramii III",
+      "en": "Ramii III"
+    },
+    "materials": [
+      {
+        "pl": "Aluminium",
+        "en": "Aluminium"
+      }
+    ],
+    "notes": {
+      "pl": "wys. 39cm",
+      "en": "height 39cm"
+    },
+    "year": "2016",
+    "imageLink": "https://jozefow-art.s3.eu-central-1.amazonaws.com/img/work/0123/thumb.jpg"
+  },
+  {
     "id": "0170",
     "name": {
       "pl": "7 lekcji geometrii",
@@ -507,26 +606,22 @@
     "imageLink": "https://jozefow-art.s3.eu-central-1.amazonaws.com/img/work/0170/thumb.jpg"
   },
   {
-    "id": "",
+    "id": "0171",
     "name": {
-      "pl": "",
-      "en": ""
+      "pl": "Amber",
+      "en": "Amber"
     },
     "materials": [
       {
-        "pl": "",
-        "en": ""
-      },
-      {
-        "pl": "",
-        "en": ""
+        "pl": "Technika własna",
+        "en": "Own technique"
       }
     ],
     "notes": {
-      "pl": "",
-      "en": ""
+      "pl": "wys. 4,70m",
+      "en": "height 4.70m"
     },
-    "year": "",
-    "imageLink": ""
+    "year": "2019",
+    "imageLink": "https://jozefow-art.s3.eu-central-1.amazonaws.com/img/work/0171/thumb.jpg"
   }
 ]

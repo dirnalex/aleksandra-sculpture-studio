@@ -1,5 +1,9 @@
 {
-  "ImagePage": {
-    "imageLink": "https://jozefow-art.s3.eu-central-1.amazonaws.com/img/work/0166/1.jpg"
+  "VideoPage": {
+    "link": "https://jozefow-art.s3.eu-central-1.amazonaws.com/video/work/0166/2.mov",
+    "title": {
+      "pl": "odtwórz",
+      "en": "play"
+    }
   }
 }
