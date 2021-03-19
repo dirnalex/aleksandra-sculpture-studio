@@ -42,7 +42,7 @@ const OnPageWorkDescription = styled(WorkDescription)`
   color: ${props => props.theme.textColor || 'black'};
   z-index: 999;
   bottom: ${({theme}) => theme.app.bottomMargin * 2 + theme.menu.itemHeight}px;
-  top: calc(50% + ${({theme}) => theme.scroller.arrow.height + 10}px);
+  top: calc(60% + ${({theme}) => theme.scroller.arrow.height + 10}px);
   left: ${({theme}) => theme.app.leftMargin}px;
   overflow-y: scroll;
   display: flex;
