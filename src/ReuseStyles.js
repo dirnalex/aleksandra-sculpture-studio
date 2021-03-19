@@ -3,7 +3,10 @@ import {css} from 'styled-components';
 export const HideScrollbar = css`
   /* Hide scrollbar for Chrome, Safari and Opera */
   &::-webkit-scrollbar {
+    -webkit-appearance: none;
     display: none;
+    width: 0;
+    background: transparent
   }
 
   /* Hide scrollbar for IE, Edge and Firefox */
