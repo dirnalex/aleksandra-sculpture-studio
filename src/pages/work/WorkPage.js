@@ -94,7 +94,7 @@ const WorkPage = ({id}) => {
   const {windowWidth} = useWindowResize();
   const mini = useIsMini(windowWidth);
 
-  const [workList] = useWorkList([]);
+  const {workList} = useWorkList([]);
 
   const [work, setWork] = useState({});
   const [prevWork, setPrevWork] = useState({});

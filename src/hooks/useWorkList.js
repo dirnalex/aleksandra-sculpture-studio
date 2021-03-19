@@ -27,7 +27,7 @@ const useWorkList = (initWorkList = [], preloadImages) => {
     })();
   }, [preloadImages]);
 
-  return [workList, setWorkList, loading];
+  return {workList, setWorkList, loading};
 };
 
 export default useWorkList;

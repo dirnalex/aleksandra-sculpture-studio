@@ -24,10 +24,15 @@ export default createGlobalStyle`
     vertical-align: baseline;
   }
   
+  html {
+    overflow: hidden;
+  }
+  
   body {
     height: 100vh;
     background: #E5E5E5;
     overscroll-behavior: contain;
+    overflow: hidden;
     color: #000000;
     font-family: NeueMontrealRegular, sans-serif;
     font-style: normal;
