@@ -43,7 +43,7 @@ const HorizontalScroll = ({children, className}) => {
     }
     scrollingTimerRef.current = setTimeout(() => {
       setPage(Math.round((scrollable.scrollLeft / scrollable.scrollWidth) * amountOfPages));
-    }, 50);
+    }, 100);
   });
 
   const theme = useContext(ThemeContext);
