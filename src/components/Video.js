@@ -60,13 +60,15 @@ const Video = ({title, link, isYouTube, className}) => {
                               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                               allowfullscreen/>
           :
-          <StyledVideo onClick={handleVideoClick}
+          <StyledVideo poster={/iPad|iPhone|iPod/.test(navigator.platform) && '/black-image.png'}
+                       onClick={handleVideoClick}
                        onMouseMove={handleVideoMouseMove}
                        onMouseLeave={() => changeCursorText()}
                        onPlay={handleVideoPlay}
                        onPause={handleVideoPause}
                        onLoadStart={handleLoadStart}
                        onCanPlay={handleCanPlay}
+                       onLoadedMetadata={handleCanPlay}
           >
             <source src={link}/>
             Sorry, your browser doesn't support embedded videos.
