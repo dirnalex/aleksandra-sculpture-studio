@@ -49,8 +49,10 @@ export const WorkItem = styled.li`
 export const WorkId = styled.div`
   visibility: hidden;
   position: absolute;
-  left: -55px;
+  width: 60px;
   top: 4px;
+  left: -70px;
+  text-align: right;
   font-size: 0.6em;
   line-height: 133%;
 `;

@@ -1,8 +1,9 @@
 {
   "VideoPage": {
+    "link": "https://jozefow-art.s3.eu-central-1.amazonaws.com/video/AJ_SculptureStudio_Rough_v8_Sound.mp4",
     "title": {
-      "pl": "Wkrótce",
-      "en": "Coming soon"
+      "pl": "odtwórz",
+      "en": "play"
     }
   }
 }

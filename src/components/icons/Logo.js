@@ -8,6 +8,16 @@ const StyledLogo = styled.svg`
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+  animation: 500ms ease-in-out infinite alternate pulse;
+  
+  @keyframes pulse {
+    from {
+      transform: translate(-50%, -50%) scale(1);
+    }
+    to {
+      transform: translate(-50%, -50%) scale(1.3);
+    }
+  }
 `;
 
 const Diagonal = styled.path`

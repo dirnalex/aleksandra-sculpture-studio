@@ -85,7 +85,7 @@ const PrevWorkContainer = styled.div`
 
 const NextWorkContainer = styled.div`
   ${PrevNextWorkContainer};
-  bottom: 30px;
+  bottom: 50px;
 `;
 
 const WorkPage = ({id}) => {

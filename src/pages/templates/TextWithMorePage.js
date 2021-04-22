@@ -45,6 +45,19 @@ const MoreText = styled.div`
   padding-top: 1em;
   text-transform: none;
   white-space: pre-line;
+  
+  animation: 1s cubic-bezier(0.22, 1, 0.36, 1) goDown;
+  
+  @keyframes goDown {
+    from {
+      transform: translateY(-50%);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
 `;
 
 const TextWithMorePage = ({text, moreText}) => {

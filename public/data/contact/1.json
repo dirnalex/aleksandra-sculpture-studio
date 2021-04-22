@@ -7,6 +7,20 @@
     "mail": "hi@jozefow.art",
     "instagramLink": "https://www.instagram.com/ajozefow_sculpturestudio",
     "facebookLink": "https://www.facebook.com/Aleksandra.Jozefow.Sculpture",
-    "phone": "+48 509 528 741"
+    "phone": "+48 509 528 741",
+    "authorship": {
+      "designBy": {
+        "en": "design by",
+        "pl": "zaprojektowane przez"
+      },
+      "codeBy": {
+        "en": "code by",
+        "pl": "zaprogramowane przez"
+      },
+      "joannaName": "Joanna Kurowska",
+      "alekseiName": "Aleksei Dyrnaev",
+      "joannaMail": "yoanna.kurowska@gmail.com",
+      "alekseiMail": "dirnalex@gmail.com"
+    }
   }
 }

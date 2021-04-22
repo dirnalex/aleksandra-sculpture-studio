@@ -17,6 +17,7 @@ const ContentContainer = styled.div`
   flex-wrap: wrap;
   justify-content: center;
   align-content: center;
+  position: relative;
 `;
 
 const Text = styled.p`
@@ -53,26 +54,69 @@ const LinkStyle = css`
   &&:hover {
     color: ${({theme}) => theme.app.emphasisedTextColor};
   }
-  display: block;
 `;
 
 const Mail = styled.a`
   ${Blinking()};
   ${LinkStyle};
+  display: block;
 `;
 
 const Instagram = styled.a`
-  ${Blinking(333)};
+  ${Blinking(200)};
   ${LinkStyle};
+  display: block;
 `;
 
 const Facebook = styled.a`
-  ${Blinking(666)};
+  ${Blinking(400)};
+  ${LinkStyle};
+  display: block;
+`;
+
+const Authorship = styled.p`
+  z-index: 999;
+  font-size: 0.6em;
+  line-height: 125%;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: ${({theme}) => theme.app.bottomMargin * 2}px;
+  @media only screen and 
+    (max-width: ${({theme}) => theme.mobileBreakpoint()}px) {
+    bottom: ${({theme}) => theme.app.bottomMarginMobile * 2}px;
+  }
+`;
+
+const Unbreakable = styled.span`
+  white-space: nowrap;
+`;
+
+const Asia = styled.a`
+  ${Blinking(600)};
   ${LinkStyle};
 `;
 
+const Alex = styled.a`
+  ${Blinking(800)};
+  ${LinkStyle};
+`;
 
-const ContactPage = ({text = {}, mail, instagramLink, facebookLink, phone}) => {
+const ContactPage = ({
+                       text = {},
+                       mail,
+                       instagramLink,
+                       facebookLink,
+                       phone,
+                       authorship: {
+                         designBy = {},
+                         codeBy = {},
+                         joannaName,
+                         alekseiName,
+                         joannaMail,
+                         alekseiMail
+                       }
+                     }) => {
   const {locale} = useIntl();
   return (
     <PageContainer>
@@ -82,12 +126,31 @@ const ContactPage = ({text = {}, mail, instagramLink, facebookLink, phone}) => {
           <Text>{text[locale]}</Text>}
           <LinksContainer>
             <LinksInnerContainer>
-              {mail && <Mail href={`mailto:${mail}`} target="_blank">{mail}</Mail>}
-              {instagramLink && <Instagram href={instagramLink} target="_blank">Instagram</Instagram>}
-              {facebookLink && <Facebook href={facebookLink} target="_blank">Facebook</Facebook>}
+              {mail &&
+              <Mail href={`mailto:${mail}`} target="_blank" rel="noopener noreferrer">{mail}</Mail>
+              }
+              {instagramLink &&
+              <Instagram href={instagramLink} target="_blank" rel="noopener noreferrer">Instagram</Instagram>
+              }
+              {facebookLink &&
+              <Facebook href={facebookLink} target="_blank" rel="noopener noreferrer">Facebook</Facebook>
+              }
               {phone}
             </LinksInnerContainer>
           </LinksContainer>
+          {designBy[locale] && joannaName && codeBy[locale] && alekseiName &&
+          <Authorship>
+            <Unbreakable>
+              <span>{designBy[locale]} </span>
+              <Asia href={`mailto:${joannaMail}`} target="_blank" rel="noopener noreferrer">{joannaName}</Asia>
+            </Unbreakable>
+            <span> </span>
+            <Unbreakable>
+              <span>{codeBy[locale]} </span>
+              <Alex href={`mailto:${alekseiMail}`} target="_blank" rel="noopener noreferrer">{alekseiName}</Alex>
+            </Unbreakable>
+          </Authorship>
+          }
         </ContentContainer>
       </VerticalScroll>
     </PageContainer>
